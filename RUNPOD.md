@@ -164,6 +164,7 @@ cd /home/cnos/Documents/ECHO
 
 | Model | Size | Quality | Speed |
 |-------|------|---------|-------|
+| qwen3.8:latest | ~16GB | Excellent | Medium (~5s/response) |
 | qwen2.5:32b | 32B | Excellent | Slow (~10s/response) |
 | qwen2.5:14b | 14B | Very good | Medium (~5s/response) |
 | qwen2.5:7b | 7B | Good | Fast (~2s/response) |

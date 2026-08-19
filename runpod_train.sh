@@ -20,7 +20,7 @@ set -e
 
 # --- Configuration ---
 ECHO_REPO="https://github.com/smartgh0/ECHO.git"
-TEACHER_MODEL="qwen2.5:32b"  # Qwen 2.5 32B (closest to 27B)
+TEACHER_MODEL="qwen3.8:latest"  # Qwen 3.8 (latest)
 TRAIN_PROFILE="echo-2b"
 TRAIN_STEPS=800000            # ~78 hours on A6000
 SEQ_LEN=512
