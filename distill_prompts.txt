@@ -1,0 +1,3799 @@
+What is a neural network?
+Explain how gravity works.
+What is the capital of France?
+How do you make a cup of tea?
+What is photosynthesis?
+Explain the water cycle.
+What is machine learning?
+How does the internet work?
+What is the difference between a star and a planet?
+Explain the concept of time.
+What is artificial intelligence?
+How do computers store memory?
+What is the solar system?
+Explain how a battery works.
+What is the meaning of life?
+How do birds fly?
+What is electricity?
+Explain the food chain.
+What is a black hole?
+How does the human heart work?
+What is DNA?
+Explain how rainbows form.
+What is the speed of light?
+How do volcanoes erupt?
+What is climate change?
+Explain how vaccines work.
+What is the periodic table?
+How do plants grow?
+What is evolution?
+Explain how the brain processes information.
+What is quantum physics?
+How do magnets work?
+What is the difference between weather and climate?
+Explain how earthquakes happen.
+What is the immune system?
+How do lungs work?
+What is a gene?
+Explain how sound travels.
+What is the theory of relativity?
+How do computers process information?
+What is a database?
+Explain how encryption works.
+What is cloud computing?
+How do search engines work?
+What is an API?
+Explain the difference between HTTP and HTTPS.
+What is a firewall?
+How do operating systems work?
+What is object-oriented programming?
+Explain what a compiler does.
+What is recursion in programming?
+How do neural networks learn?
+What is backpropagation?
+Explain gradient descent.
+What is overfitting in machine learning?
+How does natural language processing work?
+What is a convolutional neural network?
+Explain what a transformer model is.
+What is reinforcement learning?
+How do recommendation systems work?
+What is the difference between supervised and unsupervised learning?
+Explain what a decision tree is.
+What is clustering in machine learning?
+How does image recognition work?
+What is a chatbot?
+Explain how voice assistants work.
+What is deep learning?
+How do self-driving cars work?
+What is the Turing test?
+Explain what artificial general intelligence means.
+What is a large language model?
+How do generative AI models work?
+What is the difference between AI and machine learning?
+Explain what a neural network layer does.
+What is dropout in neural networks?
+How does transfer learning work?
+What is fine-tuning in machine learning?
+Explain what embeddings are.
+What is attention mechanism in transformers?
+How do tokens work in language models?
+What is temperature in language model generation?
+Explain what a prompt is in AI.
+What is the difference between a model and an algorithm?
+How do GPUs help with AI training?
+What is parallel computing?
+Explain what distributed training means.
+What is model quantization?
+How do you evaluate a machine learning model?
+What is accuracy versus precision?
+Explain what a confusion matrix is.
+What is cross-validation?
+How do you handle missing data in machine learning?
+What is feature engineering?
+Explain what normalization means in data processing.
+What is a hash function?
+How do digital signatures work?
+What is blockchain technology?
+Explain how cryptocurrency works.
+What is a smart contract?
+How do peer-to-peer networks work?
+What is the difference between TCP and UDP?
+Explain what DNS does.
+What is an IP address?
+How do routers work?
+What is a VPN?
+Explain what a proxy server is.
+What is load balancing?
+How do content delivery networks work?
+What is microservices architecture?
+Explain what containerization is.
+What is Docker?
+How does Kubernetes work?
+What is continuous integration?
+Explain what DevOps means.
+What is agile development?
+How do you write clean code?
+What is the SOLID principles?
+Explain what design patterns are.
+What is the singleton pattern?
+How does dependency injection work?
+What is unit testing?
+Explain what test-driven development is.
+What is code refactoring?
+How do you debug a program?
+What is version control?
+Explain how Git works.
+What is a pull request?
+How do you handle merge conflicts?
+What is technical debt?
+Explain what code review is.
+What is the difference between frontend and backend?
+How do REST APIs work?
+What is GraphQL?
+Explain what a web framework is.
+What is the difference between SQL and NoSQL?
+How do you optimize a database query?
+What is database indexing?
+Explain what ACID properties are.
+What is a transaction in databases?
+How do you secure a web application?
+What is cross-site scripting?
+Explain what SQL injection is.
+What is authentication versus authorization?
+How do JSON Web Tokens work?
+What is OAuth?
+Explain what HTTPS does.
+What is a man-in-the-middle attack?
+How do you prevent brute force attacks?
+What is a zero-day vulnerability?
+Explain what penetration testing is.
+What is the difference between a virus and a worm?
+How does antivirus software work?
+What is social engineering?
+Explain what phishing is.
+What is two-factor authentication?
+How do password managers work?
+What is biometric authentication?
+Explain what encryption at rest means.
+What is end-to-end encryption?
+How do firewalls inspect traffic?
+What is a VPN tunnel?
+Explain what intrusion detection means.
+What is the principle of least privilege?
+How do you write a good function?
+What is the difference between a loop and recursion?
+Explain what a pointer is.
+What is memory management?
+How does garbage collection work?
+What is a memory leak?
+Explain what a stack overflow is.
+What is the difference between a process and a thread?
+How does multithreading work?
+What is a deadlock?
+Explain what a race condition is.
+What is asynchronous programming?
+How do callbacks work?
+What is a promise in JavaScript?
+Explain what async/await does.
+What is event-driven programming?
+How do message queues work?
+What is the publisher-subscriber pattern?
+Explain what a semaphore is.
+What is a mutex?
+How do you design a scalable system?
+What is the CAP theorem?
+Explain what eventual consistency means.
+What is sharding in databases?
+How does data replication work?
+What is a cache?
+Explain what Redis is.
+How does CDN caching work?
+What is browser caching?
+Explain what a cookie is.
+What is local storage versus session storage?
+How do you optimize website performance?
+What is lazy loading?
+Explain what code splitting means.
+What is server-side rendering?
+How do you make a website accessible?
+What is responsive web design?
+Explain what CSS flexbox is.
+What is CSS grid?
+How do media queries work?
+What is the box model in CSS?
+Explain what a DOM is.
+How does event bubbling work?
+What is the virtual DOM?
+Explain what React is.
+What is state management?
+How do you handle forms in web development?
+What is WebSocket?
+Explain what Server-Sent Events are.
+What is the difference between SOAP and REST?
+How do you handle errors in an API?
+What is idempotency?
+Explain what a webhook is.
+What is rate limiting?
+How do you paginate API results?
+What is a cursor in pagination?
+Explain what GraphQL subscriptions are.
+What is the difference between a library and a framework?
+How do you choose the right data structure?
+What is a hash table?
+Explain what a binary tree is.
+What is a graph data structure?
+How does breadth-first search work?
+What is depth-first search?
+Explain what dynamic programming is.
+What is a greedy algorithm?
+How does binary search work?
+What is the time complexity of an algorithm?
+Explain what Big O notation is.
+What is space complexity?
+How do you sort an array?
+What is merge sort?
+Explain what quicksort is.
+What is a heap data structure?
+How does a priority queue work?
+What is a linked list?
+Explain what a stack is.
+What is a queue?
+How does a circular buffer work?
+What is a bloom filter?
+Explain what a trie is.
+What is the difference between a list and a tuple?
+How do dictionaries work in Python?
+What is a set data structure?
+Explain what a generator is in Python.
+What is a decorator in Python?
+How does exception handling work?
+What is the difference between a class and an object?
+Explain what inheritance means.
+What is polymorphism?
+How does encapsulation work?
+What is an abstract class?
+Explain what an interface is.
+What is method overloading?
+What is method overriding?
+How do you handle concurrency in Python?
+What is the GIL in Python?
+Explain what a coroutine is.
+What is multiprocessing in Python?
+How do you profile Python code?
+What is the difference between Python 2 and Python 3?
+Explain what list comprehension is.
+What is a lambda function?
+How do you read a file in Python?
+What is context manager in Python?
+Explain what a module is.
+What is a package in Python?
+How do you install Python packages?
+What is pip?
+Explain what a virtual environment is.
+What is the difference between pip and conda?
+How do you create a REST API in Python?
+What is Flask?
+Explain what Django is.
+What is FastAPI?
+How do you connect to a database in Python?
+What is SQLAlchemy?
+Explain what an ORM is.
+How do you handle authentication in a web app?
+What is session management?
+How do you deploy a Python application?
+What is Docker used for in Python?
+Explain what a requirements.txt file is.
+What is the difference between a tuple and a namedtuple?
+How do you work with JSON in Python?
+What is the requests library?
+Explain what asyncio is.
+What is aiohttp?
+How do you test a Python application?
+What is pytest?
+Explain what mocking is in testing.
+What is a fixture in pytest?
+How do you measure code coverage?
+What is the difference between unit tests and integration tests?
+Explain what end-to-end testing is.
+What is a test suite?
+How do you do load testing?
+What is stress testing?
+Explain what fuzzing is.
+What is the difference between testing and debugging?
+How do you log errors in Python?
+What is the logging module?
+Explain what a stack trace is.
+What is a breakpoint?
+How do you use a debugger?
+What is the difference between a syntax error and a runtime error?
+Explain what an exception is.
+What is a try-except block?
+How do you raise an exception?
+What is a custom exception?
+Explain what finally does in exception handling.
+What is the difference between an error and an exception?
+How do you handle file not found errors?
+What is a type error?
+Explain what a value error is.
+What is a key error?
+How do you handle index errors?
+What is an attribute error?
+Explain what a name error is.
+What is a zero division error?
+How do you handle connection errors?
+What is a timeout error?
+Explain what a permission error is.
+What is an import error?
+How do you handle memory errors?
+What is a recursion error?
+Explain what a not implemented error is.
+What is the difference between a warning and an error?
+How do you suppress warnings in Python?
+What is the warnings module?
+Explain what deprecation means.
+What is backward compatibility?
+How do you migrate from Python 2 to Python 3?
+What is the future module?
+Explain what type hints are.
+What is mypy?
+How do you use type annotations?
+What is the typing module?
+Explain what Optional means in type hints.
+What is Union in type hints?
+How do you type hint a list?
+What is the difference between Any and object?
+Explain what Callable means in type hints.
+What is a Protocol in Python?
+How do you use generics in Python?
+What is the dataclasses module?
+Explain what a frozen dataclass is.
+What is the difference between a dataclass and a namedtuple?
+How do you create a custom container type?
+What is the collections module?
+Explain what a defaultdict is.
+What is a Counter in Python?
+How does OrderedDict work?
+What is a deque?
+Explain what namedtuple is.
+What is the itertools module?
+How do you use chain in itertools?
+What is groupby in itertools?
+Explain what product does in itertools.
+What is combinations in itertools?
+How do you use permutations?
+What is the functools module?
+Explain what lru_cache does.
+What is partial in functools?
+How does reduce work?
+What is the operator module?
+Explain what itemgetter does.
+What is the math module?
+How do you use the random module?
+What is the statistics module?
+Explain what the datetime module does.
+How do you work with timezones?
+What is the os module?
+Explain what the sys module does.
+What is the subprocess module?
+How do you run a shell command from Python?
+What is the pathlib module?
+Explain what the re module does.
+How do you use regular expressions?
+What is the socket module?
+Explain what the threading module does.
+What is the multiprocessing module?
+How do you share data between processes?
+What is a shared memory object?
+Explain what a manager does in multiprocessing.
+What is the queue module?
+How do you use a pipe in multiprocessing?
+What is the asyncio event loop?
+Explain what a task is in asyncio.
+What is a future in asyncio?
+How do you cancel a task in asyncio?
+What is the difference between a thread and a coroutine?
+Explain what a semaphore does in asyncio.
+What is an asyncio lock?
+How do you handle timeouts in asyncio?
+What is the difference between async and await?
+Explain what a context manager does in asyncio.
+What is an async generator?
+How do you use async for?
+What is the difference between yield and yield from?
+Explain what a send method does on a generator.
+What is a coroutine object?
+How do you close a generator?
+What is the throw method on a generator?
+Explain what a return value in a generator is.
+What is the walrus operator in Python?
+How do you use the assignment expression?
+What is structural pattern matching in Python?
+Explain what match-case does.
+What is the difference between is and ==?
+How does Python handle integer caching?
+What is string interning?
+Explain what a shallow copy is.
+What is a deep copy?
+How do you copy a list?
+What is the copy module?
+Explain what pickle does.
+What is the json module?
+How do you serialize an object?
+What is the difference between pickle and json?
+Explain what shelve is.
+What is the csv module?
+How do you read a CSV file?
+What is the sqlite3 module?
+Explain how to create a table in SQLite.
+How do you execute a query in SQLite?
+What is the difference between SQLite and PostgreSQL?
+Explain what a connection pool is.
+What is the difference between a connection and a cursor?
+How do you handle transactions in SQLite?
+What is a commit in databases?
+Explain what rollback does.
+What is a savepoint?
+How do you use prepared statements?
+What is SQL injection and how to prevent it?
+Explain what parameterized queries are.
+What is the difference between a primary key and a foreign key?
+What is a join in SQL?
+Explain what an inner join does.
+What is a left join?
+What is a right join?
+Explain what a full outer join is.
+What is a cross join?
+How do you group data in SQL?
+What is the HAVING clause?
+Explain what a subquery is.
+What is a correlated subquery?
+How do you use EXISTS in SQL?
+What is the difference between UNION and UNION ALL?
+Explain what a view is in SQL.
+What is a materialized view?
+How do you create an index in SQL?
+What is a unique index?
+Explain what a composite index is.
+What is a clustered index?
+What is a non-clustered index?
+How do you optimize a slow query?
+What is query execution plan?
+Explain what a full table scan is.
+What is the difference between OLTP and OLAP?
+What is a data warehouse?
+Explain what ETL means.
+What is a data lake?
+What is the difference between a data warehouse and a data lake?
+How do you handle big data?
+What is Hadoop?
+Explain what Spark is.
+What is MapReduce?
+How does distributed computing work?
+What is the difference between parallel and distributed computing?
+Explain what a cluster is.
+What is a node in a cluster?
+How do you achieve high availability?
+What is fault tolerance?
+Explain what redundancy means.
+What is a backup strategy?
+How do you do disaster recovery?
+What is an RPO?
+Explain what RTO means.
+What is a hot site?
+What is a cold site?
+How do you monitor a system?
+What is the difference between metrics and logs?
+Explain what a dashboard is.
+What is alerting?
+How do you set up health checks?
+What is a circuit breaker pattern?
+Explain what a retry pattern is.
+What is exponential backoff?
+How do you handle cascading failures?
+What is the bulkhead pattern?
+Explain what rate limiting is.
+How do you implement a rate limiter?
+What is the token bucket algorithm?
+Explain what the leaky bucket algorithm is.
+What is a sliding window rate limiter?
+How do you handle distributed rate limiting?
+What is the difference between throttling and rate limiting?
+Explain what a queue helps with in a system.
+What is backpressure?
+How do you handle slow consumers?
+What is a dead letter queue?
+Explain what idempotency means in API design.
+What is the difference between idempotent and safe methods?
+How do you make a POST request idempotent?
+What is an idempotency key?
+Explain how to handle duplicate requests.
+What is the difference between at-least-once and at-most-once delivery?
+How do you achieve exactly-once delivery?
+What is a saga pattern?
+Explain what event sourcing is.
+What is CQRS?
+How do you handle distributed transactions?
+What is a two-phase commit?
+Explain what a compensation transaction is.
+What is eventual consistency?
+How do you handle conflicts in distributed systems?
+What is a vector clock?
+Explain what a logical clock is.
+What is the CAP theorem?
+Explain what consistency means in CAP.
+What is availability in CAP?
+What is partition tolerance?
+How do you choose between CP and AP systems?
+What is a consensus algorithm?
+Explain what Raft is.
+What is Paxos?
+How does leader election work?
+What is a split brain?
+Explain what a quorum is.
+What is the difference between strong and weak consistency?
+How do you achieve linearizability?
+What is serializability?
+Explain what snapshot isolation is.
+What is read committed isolation?
+What is the difference between optimistic and pessimistic locking?
+How do you handle concurrent updates?
+What is a version number in optimistic locking?
+Explain what a CAS operation is.
+What is a compare-and-swap?
+How do you implement a lock-free data structure?
+What is an atomic operation?
+Explain what a memory barrier is.
+What is volatile in the context of memory?
+How do you test concurrent code?
+What is a race condition?
+Explain how to prevent race conditions.
+What is a data race?
+How do you use locks effectively?
+What is a reentrant lock?
+Explain what a read-write lock is.
+What is a spin lock?
+How do you avoid deadlocks?
+What is lock ordering?
+Explain what a timeout on a lock does.
+What is a monitor in concurrency?
+How do you signal threads?
+What is a condition variable?
+Explain what wait and notify do.
+What is a countdown latch?
+What is a cyclic barrier?
+How do you use a semaphore?
+What is the difference between a binary and counting semaphore?
+Explain what a barrier is in parallel computing.
+What is fork-join parallelism?
+How do you parallelize a for loop?
+What is a parallel stream?
+Explain what map-reduce does at a high level.
+What is the difference between concurrency and parallelism?
+How do you measure parallel performance?
+What is speedup?
+Explain what Amdahl's law is.
+What is Gustafson's law?
+How do you measure throughput?
+What is latency?
+Explain the difference between latency and throughput.
+What is a percentile in performance?
+What is p99 latency?
+How do you reduce latency?
+What is a cache hit ratio?
+Explain what cache invalidation is.
+What is the difference between write-through and write-back caches?
+How do you handle cache stampede?
+What is a circuit breaker in caching?
+Explain what memoization is.
+What is the difference between caching and memoization?
+How do you implement a TTL cache?
+What is an LRU cache?
+Explain what cache eviction means.
+What is a write-around cache?
+What is a write-through cache?
+How do you handle cache consistency?
+What is the difference between a write buffer and a cache?
+Explain what a buffer pool is.
+What is a page in database storage?
+How does a B-tree index work?
+What is a B+ tree?
+Explain what a hash index is.
+What is a bitmap index?
+How does a spatial index work?
+What is a full-text search index?
+Explain what an inverted index is.
+What is Elasticsearch?
+How does search ranking work?
+What is TF-IDF?
+Explain what BM25 is.
+What is PageRank?
+How do search engines crawl the web?
+What is a web scraper?
+Explain what robots.txt does.
+What is the difference between crawling and scraping?
+How do you handle rate limiting when scraping?
+What is a headless browser?
+Explain what Selenium does.
+What is Puppeteer?
+How do you extract data from HTML?
+What is BeautifulSoup?
+Explain what XPath is.
+What is CSS selectors?
+How do you parse JSON?
+What is the difference between JSON and XML?
+Explain what YAML is.
+What is TOML?
+What is the difference between CSV and TSV?
+How do you handle large files?
+What is streaming file processing?
+Explain what a memory-mapped file is.
+What is the difference between reading a file line by line and all at once?
+How do you handle binary files?
+What is the struct module?
+Explain what a byte order is.
+What is the difference between big-endian and little-endian?
+How do you encode a string?
+What is UTF-8?
+Explain what ASCII is.
+What is the difference between Unicode and ASCII?
+How do you handle encoding errors?
+What is a BOM?
+Explain what base64 encoding is.
+What is URL encoding?
+How do you handle special characters in URLs?
+What is the difference between a URI and a URL?
+Explain what a URN is.
+What is a query string?
+How do you parse a URL in Python?
+What is the urllib module?
+Explain what the http module does.
+What is the difference between http and https?
+How does SSL/TLS work?
+What is a certificate authority?
+Explain what a digital certificate is.
+What is a public key infrastructure?
+How do you generate a key pair?
+What is the difference between symmetric and asymmetric encryption?
+Explain what AES is.
+What is RSA?
+How does a hash function work?
+What is SHA-256?
+Explain what a MAC is.
+What is the difference between a hash and a MAC?
+How do you verify data integrity?
+What is a checksum?
+Explain what a digital signature is.
+How do you sign a message?
+What is a certificate pinning?
+Explain what HSTS is.
+What is CSP in web security?
+What is the difference between XSS and CSRF?
+How do you prevent CSRF?
+Explain what a same-origin policy is.
+What is CORS?
+How do you configure CORS?
+What is a preflight request?
+Explain what a cookie's secure flag does.
+What is HttpOnly in cookies?
+What is SameSite in cookies?
+How do you handle session fixation?
+What is a session hijacking attack?
+Explain what a replay attack is.
+How do you prevent replay attacks?
+What is a nonce?
+Explain what a salt is in password hashing.
+What is bcrypt?
+How does Argon2 work?
+What is the difference between hashing and encrypting passwords?
+How do you store passwords securely?
+Explain what a pepper is in password security.
+What is multi-factor authentication?
+How does TOTP work?
+Explain what HOTP is.
+What is the difference between TOTP and HOTP?
+How do you implement OAuth2?
+What is an authorization code flow?
+Explain what the implicit flow is.
+What is the client credentials flow?
+How does PKCE work?
+What is a refresh token?
+Explain what a token endpoint is.
+What is an introspection endpoint?
+How do you revoke a token?
+What is the difference between a JWT and an opaque token?
+Explain what a JWT payload contains.
+How do you validate a JWT?
+What is a JWKS?
+Explain what token rotation is.
+What is the difference between authentication and authorization?
+How do you implement role-based access control?
+What is attribute-based access control?
+Explain what ABAC means.
+What is the principle of least privilege?
+How do you audit access logs?
+What is a security information and event management system?
+Explain what SIEM means.
+What is intrusion detection?
+How do you detect anomalies in network traffic?
+What is a honeypot?
+Explain what a zero-trust architecture is.
+What is defense in depth?
+How do you secure a microservice?
+What is a service mesh?
+Explain what mTLS is.
+What is the difference between east-west and north-south traffic?
+How do you secure service-to-service communication?
+What is a secrets manager?
+Explain what Vault is.
+How do you rotate secrets?
+What is the difference between a secret and a configuration?
+How do you manage environment variables?
+Explain what a .env file is.
+What is the difference between development and production configuration?
+How do you handle secrets in containers?
+Explain what a secret volume is in Kubernetes.
+What is a ConfigMap?
+How do you manage configuration in microservices?
+What is feature flagging?
+Explain what a canary release is.
+What is a blue-green deployment?
+How do you do a rolling update?
+What is the difference between a rolling update and a recreate deployment?
+Explain what a shadow deployment is.
+What is A/B testing?
+How do you measure the success of a feature?
+What is a conversion rate?
+Explain what a funnel is in analytics.
+What is a cohort analysis?
+How do you track user engagement?
+What is the difference between a metric and a KPI?
+Explain what a north star metric is.
+What is retention?
+How do you measure churn?
+What is the difference between churn rate and retention rate?
+Explain what customer lifetime value is.
+What is a net promoter score?
+How do you calculate NPS?
+What is the difference between quantitative and qualitative data?
+Explain what A/B testing is.
+What is statistical significance?
+How do you calculate a sample size?
+What is a confidence interval?
+Explain what a p-value is.
+What is the difference between correlation and causation?
+How do you avoid selection bias?
+What is a confounding variable?
+Explain what a randomized controlled trial is.
+What is the difference between mean and median?
+What is standard deviation?
+Explain what a normal distribution is.
+What is the central limit theorem?
+How do you calculate probability?
+What is Bayes' theorem?
+Explain what conditional probability is.
+What is the law of large numbers?
+What is the gambler's fallacy?
+Explain what regression to the mean is.
+What is the difference between descriptive and inferential statistics?
+How do you fit a line to data?
+What is linear regression?
+Explain what logistic regression is.
+What is the difference between regression and classification?
+How do you evaluate a classifier?
+What is an ROC curve?
+Explain what AUC means.
+What is precision and recall?
+What is the F1 score?
+How do you handle imbalanced datasets?
+What is oversampling?
+Explain what undersampling is.
+What is SMOTE?
+How do you handle outliers?
+What is an anomaly detection algorithm?
+Explain what isolation forest is.
+What is a one-class SVM?
+How do you detect fraud?
+What is the difference between a rule-based system and a machine learning system?
+Explain what an expert system is.
+What is a knowledge graph?
+How do you build a recommendation engine?
+What is collaborative filtering?
+Explain what content-based filtering is.
+What is the cold start problem in recommendations?
+How do you handle a cold start?
+What is matrix factorization?
+Explain what SVD is in recommendations.
+What is the difference between user-based and item-based collaborative filtering?
+How do you measure recommendation quality?
+What is the difference between precision@k and recall@k?
+Explain what NDCG is.
+What is a hit rate in recommendations?
+How do you handle diversity in recommendations?
+What is the exploration versus exploitation tradeoff?
+Explain what a multi-armed bandit is.
+What is Thompson sampling?
+How do you do online learning?
+What is the difference between online and batch learning?
+Explain what incremental learning is.
+What is concept drift?
+How do you detect concept drift?
+What is model degradation?
+Explain what retraining means.
+How do you version a machine learning model?
+What is MLflow?
+Explain what a model registry is.
+What is the difference between a model and a model artifact?
+How do you deploy a machine learning model?
+What is the difference between batch and real-time inference?
+Explain what a model server is.
+What is TorchServe?
+What is TF Serving?
+How do you scale model inference?
+What is model quantization?
+Explain what INT8 quantization is.
+What is the difference between FP16 and INT8?
+How do you compress a neural network?
+What is pruning in neural networks?
+Explain what knowledge distillation is.
+What is a teacher-student model?
+How do you transfer knowledge from a large model to a small model?
+What is the difference between distillation and fine-tuning?
+Explain what a soft label is.
+What is the temperature in knowledge distillation?
+How do you train a student model?
+What is the difference between a student and a teacher in distillation?
+Explain what self-distillation is.
+What is the difference between distillation and transfer learning?
+How do you evaluate a distilled model?
+What is the tradeoff between model size and accuracy?
+Explain what model compression is.
+What is the difference between pruning and quantization?
+How do you accelerate inference on edge devices?
+What is TensorFlow Lite?
+Explain what ONNX is.
+What is the difference between PyTorch and TensorFlow?
+How do you export a PyTorch model?
+Explain what TorchScript is.
+What is the difference between eager and graph execution?
+How does PyTorch autograd work?
+What is a computational graph?
+Explain what a gradient is.
+How do you compute gradients automatically?
+What is the chain rule in calculus?
+Explain what partial derivatives are.
+What is the Jacobian matrix?
+What is the Hessian matrix?
+How do you optimize a function?
+What is gradient descent?
+Explain what stochastic gradient descent is.
+What is the difference between batch and mini-batch gradient descent?
+What is momentum in optimization?
+Explain what Adam optimizer is.
+What is the difference between Adam and SGD?
+How do you choose a learning rate?
+What is learning rate scheduling?
+Explain what warmup means in training.
+What is cosine annealing?
+How do you prevent overfitting?
+What is regularization?
+Explain what L1 regularization is.
+What is L2 regularization?
+What is the difference between L1 and L2?
+How does dropout prevent overfitting?
+Explain what early stopping is.
+What is data augmentation?
+How do you augment image data?
+What is text augmentation?
+Explain what mixup is.
+What is cutmix?
+How do you handle class imbalance?
+What is focal loss?
+Explain what label smoothing is.
+What is the difference between hard and soft labels?
+How do you train on noisy labels?
+What is the difference between a loss function and a metric?
+Explain what cross-entropy loss is.
+What is mean squared error?
+What is the difference between MSE and MAE?
+What is huber loss?
+Explain what contrastive loss is.
+What is triplet loss?
+How do you train a siamese network?
+What is the difference between metric learning and classification?
+Explain what embedding learning is.
+What is a siamese network?
+How do you learn embeddings?
+What is word2vec?
+Explain what GloVe is.
+What is the difference between word2vec and GloVe?
+How do contextual embeddings differ from static embeddings?
+What is BERT?
+Explain what GPT is.
+What is the difference between BERT and GPT?
+How does a transformer work?
+What is self-attention?
+Explain what multi-head attention is.
+What is the difference between attention and self-attention?
+How does positional encoding work?
+Explain what sinusoidal positional encoding is.
+What is learned positional encoding?
+What is RoPE?
+Explain what ALiBi is.
+What is the difference between absolute and relative positional encoding?
+How do you handle long sequences in transformers?
+What is a sliding window attention?
+Explain what flash attention is.
+What is sparse attention?
+What is the difference between dense and sparse attention?
+How do you reduce the memory of attention?
+What is linear attention?
+Explain what Performer is.
+What is the difference between a transformer and an RNN?
+How do you handle variable-length sequences?
+What is padding?
+Explain what masking is.
+What is a causal mask?
+How do you handle batch padding?
+What is the difference between packing and padding?
+Explain what a sequence packing is.
+How do you train efficiently on packed sequences?
+What is the difference between pre-training and fine-tuning?
+Explain what pre-training objective is used in GPT.
+What is next-token prediction?
+What is masked language modeling?
+Explain the difference between autoregressive and masked language models.
+What is a decoder-only transformer?
+What is an encoder-only transformer?
+Explain what an encoder-decoder transformer is.
+What is the difference between T5 and GPT?
+How do you fine-tune a pre-trained model?
+What is instruction tuning?
+Explain what RLHF is.
+What is the difference between RLHF and instruction tuning?
+How do you align a language model?
+What is a reward model?
+Explain what PPO is in RLHF.
+What is DPO?
+How do you evaluate a language model?
+What is perplexity?
+Explain what BLEU score is.
+What is ROUGE?
+What is the difference between BLEU and ROUGE?
+How do you measure the quality of generated text?
+What is human evaluation?
+Explain what a leaderboard is in NLP.
+What is the difference between zero-shot and few-shot learning?
+How do you prompt a language model?
+What is chain-of-thought prompting?
+Explain what in-context learning is.
+What is the difference between fine-tuning and in-context learning?
+How do you handle hallucinations in language models?
+What is grounding in language models?
+Explain what retrieval-augmented generation is.
+What is the difference between RAG and fine-tuning?
+How do you build a RAG system?
+What is a vector database?
+Explain what embedding similarity is.
+What is cosine similarity?
+How do you retrieve relevant documents?
+What is the difference between dense and sparse retrieval?
+Explain what BM25 is in retrieval.
+What is a hybrid retrieval system?
+How do you chunk documents for RAG?
+What is the difference between chunking and splitting?
+How do you handle context length in RAG?
+What is the difference between a knowledge base and a database?
+Explain what a document store is.
+What is the difference between structured and unstructured data?
+How do you process unstructured text?
+What is NLP?
+Explain what tokenization is.
+What is the difference between word and subword tokenization?
+What is BPE?
+Explain what WordPiece is.
+What is SentencePiece?
+How do you handle out-of-vocabulary words?
+What is the difference between a vocabulary and a tokenizer?
+How do you build a vocabulary?
+Explain what a special token is.
+What is the difference between a BOS and EOS token?
+What is a padding token?
+How do you handle multiple languages in a tokenizer?
+What is a multilingual model?
+Explain what cross-lingual transfer is.
+How do you translate between languages?
+What is machine translation?
+Explain what attention is in translation.
+What is the difference between statistical and neural machine translation?
+How do you evaluate translation quality?
+What is the difference between summarization and translation?
+Explain what abstractive summarization is.
+What is extractive summarization?
+How do you summarize a long document?
+What is the difference between a summary and a paraphrase?
+Explain what question answering is.
+What is the difference between extractive and generative QA?
+How do you build a question answering system?
+What is a reading comprehension task?
+Explain what SQuAD is.
+What is the difference between open-domain and closed-domain QA?
+How do you handle multiple questions about the same document?
+What is a conversational AI?
+Explain what a dialogue system is.
+What is the difference between a chatbot and a virtual assistant?
+How do you build a chatbot?
+What is intent classification?
+Explain what entity extraction is.
+What is the difference between rule-based and learning-based chatbots?
+How do you handle context in a conversation?
+What is dialogue management?
+Explain what a dialogue state tracker is.
+What is the difference between task-oriented and open-domain dialogue?
+How do you evaluate a dialogue system?
+What is the difference between a goal-oriented and a chitchat system?
+Explain what natural language generation is.
+What is the difference between NLG and NLU?
+How do you generate natural-sounding text?
+What is the difference between templated and neural text generation?
+Explain what controllable text generation is.
+What is the difference between sampling and beam search?
+How do you control the style of generated text?
+What is the difference between greedy and beam search decoding?
+Explain what nucleus sampling is.
+What is top-k sampling?
+What is top-p sampling?
+How do you handle repetition in text generation?
+What is the difference between temperature and top-p?
+How do you evaluate text generation quality?
+What is the difference between diversity and coherence in generation?
+Explain what a language model is.
+What is the difference between a language model and a text classifier?
+How do you train a language model from scratch?
+What is the difference between pre-training and training from scratch?
+Explain what a foundation model is.
+What is the difference between a foundation model and a fine-tuned model?
+How do you build a foundation model?
+What is the difference between a general-purpose and a domain-specific model?
+Explain what domain adaptation is.
+How do you adapt a model to a new domain?
+What is the difference between domain adaptation and fine-tuning?
+Explain what continual learning is.
+What is the difference between continual learning and transfer learning?
+How do you prevent catastrophic forgetting?
+What is elastic weight consolidation?
+Explain what replay-based learning is.
+What is the difference between rehearsal and pseudo-rehearsal?
+How do you evaluate continual learning?
+What is the difference between forward and backward transfer?
+Explain what a task boundary is.
+How do you detect task boundaries in continual learning?
+What is the difference between task-incremental and class-incremental learning?
+Explain what a meta-learning algorithm is.
+What is the difference between meta-learning and transfer learning?
+How do you learn to learn?
+What is the difference between few-shot and meta-learning?
+Explain what MAML is.
+What is the difference between model-agnostic and model-specific meta-learning?
+How do you evaluate meta-learning?
+What is the difference between a support set and a query set?
+Explain what an episode is in meta-learning.
+What is the difference between a task and a dataset?
+How do you sample tasks for meta-learning?
+What is the difference between a task distribution and a task instance?
+Explain what a hyperparameter is.
+What is the difference between a parameter and a hyperparameter?
+How do you tune hyperparameters?
+What is grid search?
+Explain what random search is.
+What is Bayesian optimization?
+How do you do hyperparameter optimization at scale?
+What is the difference between a validation set and a test set?
+Explain what cross-validation is.
+What is k-fold cross-validation?
+How do you handle time series in cross-validation?
+What is the difference between a time series and a cross-sectional dataset?
+Explain what stationarity means.
+What is a trend in time series?
+What is seasonality?
+How do you decompose a time series?
+What is the difference between additive and multiplicative decomposition?
+Explain what autocorrelation is.
+What is a lag in time series?
+How do you forecast a time series?
+What is the difference between ARIMA and exponential smoothing?
+Explain what a recurrent neural network is.
+What is the difference between an RNN and an LSTM?
+How does an LSTM work?
+What is a GRU?
+Explain what the vanishing gradient problem is.
+How do you handle long sequences in RNNs?
+What is the difference between a sequence-to-sequence model and a language model?
+Explain what an encoder-decoder architecture is.
+How do you handle variable-length input and output?
+What is the difference between a decoder and an encoder?
+Explain what a hidden state is.
+What is the difference between a hidden state and a cell state?
+How do you initialize a hidden state?
+What is the difference between a stateful and stateless RNN?
+Explain what bidirectional RNN is.
+What is the difference between a forward and backward pass in an RNN?
+How do you stack RNN layers?
+What is the difference between a deep and shallow RNN?
+Explain what residual connections are.
+What is the difference between a residual connection and a skip connection?
+How do you handle gradient flow in deep networks?
+What is the difference between batch normalization and layer normalization?
+Explain what group normalization is.
+What is instance normalization?
+How do you normalize activations?
+What is the difference between normalization and regularization?
+Explain what weight initialization is.
+What is Xavier initialization?
+What is He initialization?
+How do you choose an initialization scheme?
+What is the difference between random and orthogonal initialization?
+Explain what orthogonal initialization is.
+How do you initialize weights for ReLU?
+What is the difference between ReLU and sigmoid?
+Explain what the dying ReLU problem is.
+What is leaky ReLU?
+What is the difference between ELU and ReLU?
+How do you choose an activation function?
+What is the difference between a linear and nonlinear activation?
+Explain what a softmax function is.
+What is the difference between softmax and sigmoid?
+How do you handle multi-class classification?
+What is the difference between binary and multi-class cross-entropy?
+Explain what one-hot encoding is.
+What is the difference between one-hot and label encoding?
+How do you handle categorical variables?
+What is the difference between ordinal and nominal variables?
+Explain what feature scaling is.
+What is the difference between standardization and normalization?
+How do you handle skewed features?
+What is the difference between a log transform and a box-cox transform?
+Explain what a power transform is.
+How do you handle missing values?
+What is the difference between imputation and deletion?
+Explain what mean imputation is.
+What is the difference between mean and median imputation?
+How do you handle categorical missing values?
+What is the difference between mode imputation and KNN imputation?
+Explain what a KNN imputer is.
+How do you detect outliers?
+What is the difference between a z-score and an IQR method?
+Explain what a box plot is.
+What is the difference between an outlier and an anomaly?
+How do you handle duplicate data?
+What is the difference between deduplication and data cleaning?
+Explain what data preprocessing is.
+What is the difference between preprocessing and postprocessing?
+How do you handle data leakage?
+What is the difference between train-test contamination and data leakage?
+Explain what a data pipeline is.
+What is the difference between ETL and ELT?
+How do you build a data pipeline?
+What is the difference between batch and stream processing?
+Explain what Apache Kafka is.
+What is the difference between a queue and a topic?
+How do you handle backpressure in a stream?
+What is the difference between at-least-once and exactly-once processing?
+Explain what a watermark is in stream processing.
+What is a window in stream processing?
+What is the difference between a tumbling and a sliding window?
+How do you handle late data in a stream?
+What is the difference between a session window and a time window?
+Explain what a trigger is in stream processing.
+How do you aggregate data in a stream?
+What is the difference between a stateful and stateless operation?
+Explain what a state backend is.
+What is the difference between a keyed and non-keyed stream?
+How do you handle state in a distributed stream?
+What is the difference between a checkpoint and a savepoint?
+Explain what exactly-once semantics means in streaming.
+How do you handle fault tolerance in a stream?
+What is the difference between a replay and a reprocessing?
+Explain what an idempotent operation is in streaming.
+How do you handle ordering in a distributed stream?
+What is the difference between event time and processing time?
+Explain what a watermark delay is.
+How do you handle out-of-order events?
+What is the difference between a bounded and unbounded stream?
+Explain what a bounded stream is.
+What is the difference between a batch and a stream?
+How do you process a bounded stream?
+What is the difference between a finite and infinite dataset?
+Explain what a dataflow model is.
+What is the difference between a record and an event?
+How do you handle schema evolution?
+What is the difference between a schema and a data type?
+Explain what Avro is.
+What is Protobuf?
+What is the difference between Avro and Protobuf?
+How do you handle backward compatibility in schemas?
+Explain what a schema registry is.
+What is the difference between a schema and a contract?
+How do you version a schema?
+What is the difference between a major and minor version change?
+Explain what semantic versioning is.
+What is the difference between a tag and a release?
+How do you manage dependencies?
+What is the difference between a dependency and a devDependency?
+Explain what a lock file is.
+What is the difference between a package and a module?
+How do you handle transitive dependencies?
+What is the difference between a direct and transitive dependency?
+Explain what dependency hell is.
+What is the difference between a conflict and a duplicate dependency?
+How do you resolve dependency conflicts?
+What is the difference between a flat and nested dependency tree?
+Explain what a monorepo is.
+What is the difference between a monorepo and a polyrepo?
+How do you manage a monorepo?
+What is the difference between a workspace and a package?
+Explain what Lerna is.
+What is the difference between Yarn workspaces and npm workspaces?
+How do you handle shared dependencies in a monorepo?
+What is the difference between a library and an application?
+Explain what a framework is.
+What is the difference between a framework and a platform?
+How do you choose a technology stack?
+What is the difference between a stack and a layer?
+Explain what a technology radar is.
+What is the difference between adopt and trial in a tech radar?
+How do you evaluate a new technology?
+What is the difference between a prototype and a production system?
+Explain what a proof of concept is.
+What is the difference between a POC and an MVP?
+How do you build an MVP?
+What is the difference between an MVP and a beta?
+Explain what a beta release is.
+What is the difference between alpha and beta testing?
+How do you do user testing?
+What is the difference between usability testing and A/B testing?
+Explain what a user journey is.
+What is the difference between a user story and a use case?
+How do you write a user story?
+What is the difference between a requirement and a specification?
+Explain what a functional requirement is.
+What is the difference between functional and non-functional requirements?
+How do you write a technical specification?
+What is the difference between a spec and a design doc?
+Explain what an RFC is.
+What is the difference between an RFC and a proposal?
+How do you review a technical document?
+What is the difference between a review and an approval?
+Explain what a code review is.
+What is the difference between a pull request and a merge request?
+How do you handle feedback in a code review?
+What is the difference between a comment and a suggestion?
+Explain what a nitpick is in code review.
+How do you handle disagreements in code review?
+What is the difference between a blocker and a non-blocker?
+Explain what a technical debt is.
+What is the difference between intentional and unintentional tech debt?
+How do you manage technical debt?
+What is the difference between refactoring and rewriting?
+Explain what a rewrite is.
+What is the difference between a rewrite and a migration?
+How do you migrate a system?
+What is the difference between a migration and an upgrade?
+Explain what a backward-compatible change is.
+What is the difference between a breaking and non-breaking change?
+How do you handle breaking changes?
+What is the difference between a deprecation and a removal?
+Explain what a sunset policy is.
+How do you communicate a breaking change?
+What is the difference between a changelog and a release note?
+Explain what semantic versioning is.
+What is the difference between a major, minor, and patch version?
+How do you version an API?
+What is the difference between API versioning and URL versioning?
+Explain what header versioning is.
+What is the difference between versioning and version control?
+How do you handle multiple API versions?
+What is the difference between a legacy and a modern API?
+Explain what a deprecation policy is.
+How do you sunset an API?
+What is the difference between a sunset and a shutdown?
+How do you migrate users to a new API?
+What is the difference between a migration guide and a changelog?
+Explain what a compatibility layer is.
+What is the difference between a shim and a wrapper?
+How do you handle legacy code?
+What is the difference between a legacy system and a deprecated system?
+Explain what a strangler pattern is.
+What is the difference between a strangler and a rewrite?
+How do you incrementally migrate a monolith?
+What is the difference between a monolith and a microservice?
+Explain what a monolith is.
+What is the difference between a modular monolith and a traditional monolith?
+How do you split a monolith into microservices?
+What is the difference between a service and a microservice?
+Explain what a bounded context is.
+What is the difference between a domain and a subdomain?
+How do you identify service boundaries?
+What is the difference between a service boundary and a data boundary?
+Explain what a shared database is.
+What is the difference between a shared database and a database per service?
+How do you handle data consistency across services?
+What is the difference between a saga and a distributed transaction?
+Explain what eventual consistency means in microservices.
+What is the difference between a synchronous and asynchronous service call?
+How do you handle service failures?
+What is the difference between a timeout and a retry?
+Explain what a circuit breaker is.
+What is the difference between a circuit breaker and a retry?
+How do you handle cascading failures?
+What is the difference between a failure and an error?
+Explain what a fault is.
+What is the difference between a fault and a failure?
+How do you handle faults in a distributed system?
+What is the difference between a fault and a bug?
+Explain what a bug is.
+What is the difference between a bug and a feature?
+How do you report a bug?
+What is the difference between a bug report and an issue?
+Explain what an issue tracker is.
+What is the difference between an issue and a ticket?
+How do you prioritize bugs?
+What is the difference between a critical and a minor bug?
+Explain what severity means.
+What is the difference between severity and priority?
+How do you triage bugs?
+What is the difference between a triage and a review?
+Explain what a backlog is.
+What is the difference between a backlog and a roadmap?
+How do you prioritize a backlog?
+What is the difference between a priority and a weight?
+Explain what a weighted scoring model is.
+What is the difference between a score and a rank?
+How do you rank items?
+What is the difference between a rank and a rating?
+Explain what a rating scale is.
+What is the difference between a Likert scale and a numeric scale?
+How do you design a survey?
+What is the difference between a survey and a questionnaire?
+Explain what a questionnaire is.
+What is the difference between open-ended and closed-ended questions?
+How do you analyze survey results?
+What is the difference between qualitative and quantitative analysis?
+Explain what thematic analysis is.
+What is the difference between a theme and a category?
+How do you code qualitative data?
+What is the difference between coding and tagging?
+Explain what grounded theory is.
+What is the difference between inductive and deductive reasoning?
+How do you build a theory from data?
+What is the difference between a hypothesis and a theory?
+Explain what the scientific method is.
+What is the difference between a hypothesis and a prediction?
+How do you test a hypothesis?
+What is the difference between a null and alternative hypothesis?
+Explain what a p-value is.
+What is the difference between statistical and practical significance?
+How do you calculate a p-value?
+What is the difference between a one-tailed and two-tailed test?
+Explain what a t-test is.
+What is the difference between a t-test and an ANOVA?
+How do you compare two groups?
+What is the difference between a paired and unpaired test?
+Explain what a chi-square test is.
+What is the difference between a parametric and non-parametric test?
+How do you choose a statistical test?
+What is the difference between a test and an experiment?
+Explain what an experiment is.
+What is the difference between an experiment and an observational study?
+How do you design an experiment?
+What is the difference between a control and a treatment group?
+Explain what randomization is.
+What is the difference between random and systematic sampling?
+How do you select a sample?
+What is the difference between a sample and a population?
+Explain what sampling bias is.
+What is the difference between a biased and an unbiased sample?
+How do you avoid sampling bias?
+What is the difference between a probability and non-probability sample?
+Explain what stratified sampling is.
+What is the difference between a stratum and a cluster?
+How do you do cluster sampling?
+What is the difference between a cluster and a stratum?
+Explain what multistage sampling is.
+What is the difference between a single-stage and multistage sample?
+How do you calculate a sample size?
+What is the difference between a margin of error and a confidence interval?
+Explain what a confidence level is.
+What is the difference between a confidence interval and a prediction interval?
+How do you interpret a confidence interval?
+What is the difference between a point estimate and an interval estimate?
+Explain what a standard error is.
+What is the difference between a standard error and a standard deviation?
+How do you calculate a standard error?
+What is the difference between a sampling distribution and a population distribution?
+Explain what the bootstrap method is.
+What is the difference between a bootstrap and a permutation test?
+How do you resample data?
+What is the difference between a permutation test and a randomization test?
+Explain what cross-validation is.
+What is the difference between a holdout and a cross-validation set?
+How do you do k-fold cross-validation?
+What is the difference between a fold and a split?
+Explain what stratified k-fold is.
+What is the difference between a group and a fold in cross-validation?
+How do you handle time series in cross-validation?
+What is the difference between a time series split and a random split?
+Explain what a rolling window is.
+What is the difference between a rolling and an expanding window?
+How do you evaluate a time series model?
+What is the difference between a forecast and a prediction?
+Explain what a backtest is.
+What is the difference between a backtest and a forward test?
+How do you handle seasonality in forecasting?
+What is the difference between a seasonal and a non-seasonal model?
+Explain what a seasonal decomposition is.
+What is the difference between a trend and a cycle?
+How do you detrend a time series?
+What is the difference between a detrended and a raw series?
+Explain what differencing is.
+What is the difference between a first and second difference?
+How do you make a series stationary?
+What is the difference between a stationary and a non-stationary series?
+Explain what the Dickey-Fuller test is.
+What is the difference between a unit root and a trend?
+How do you test for stationarity?
+What is the difference between a KPSS test and an ADF test?
+Explain what a unit root test is.
+What is the difference between a unit root and a stationary process?
+How do you handle non-stationarity?
+What is the difference between a difference and a log transform?
+Explain what a Box-Cox transform is.
+What is the difference between a Box-Cox and a Yeo-Johnson transform?
+How do you handle heteroscedasticity?
+What is the difference between homoscedasticity and heteroscedasticity?
+Explain what a variance-stabilizing transform is.
+What is the difference between a log and a square root transform?
+How do you handle multicollinearity?
+What is the difference between a correlation and a collinearity?
+Explain what a VIF is.
+What is the difference between a VIF and a condition number?
+How do you detect multicollinearity?
+What is the difference between a pairwise correlation and a VIF?
+Explain what a principal component analysis is.
+What is the difference between a PCA and a factor analysis?
+How do you reduce dimensionality?
+What is the difference between a feature selection and a feature extraction?
+Explain what a feature selection is.
+What is the difference between a filter and a wrapper method?
+How do you select features?
+What is the difference between a forward and backward selection?
+Explain what recursive feature elimination is.
+What is the difference between a RFE and a sequential feature selection?
+How do you handle high-dimensional data?
+What is the difference between a high-dimensional and a low-dimensional dataset?
+Explain what the curse of dimensionality is.
+What is the difference between a distance and a similarity measure?
+How do you handle the curse of dimensionality?
+What is the difference between a feature and a dimension?
+Explain what a manifold is.
+What is the difference between a manifold and a subspace?
+How do you learn a manifold?
+What is the difference between a linear and a nonlinear dimensionality reduction?
+Explain what t-SNE is.
+What is the difference between a t-SNE and a UMAP?
+How do you visualize high-dimensional data?
+What is the difference between a t-SNE and a PCA?
+Explain what an embedding is.
+What is the difference between an embedding and a feature?
+How do you learn embeddings?
+What is the difference between a learned and a hand-crafted feature?
+Explain what representation learning is.
+What is the difference between a representation and a feature?
+How do you evaluate a representation?
+What is the difference between a good and a bad representation?
+Explain what a disentangled representation is.
+What is the difference between a disentangled and an entangled representation?
+How do you learn a disentangled representation?
+What is the difference between a VAE and a GAN?
+Explain what a variational autoencoder is.
+What is the difference between an encoder and a decoder?
+How do you train a VAE?
+What is the difference between a VAE and a standard autoencoder?
+Explain what a reconstruction loss is.
+What is the difference between a reconstruction and a KL divergence loss?
+How do you balance reconstruction and KL divergence?
+What is the difference between a beta-VAE and a standard VAE?
+Explain what a GAN is.
+What is the difference between a generator and a discriminator?
+How do you train a GAN?
+What is the difference between a GAN and a VAE?
+Explain what a mode collapse is.
+What is the difference between a mode collapse and a mode dropping?
+How do you prevent mode collapse?
+What is the difference between a DCGAN and a WGAN?
+Explain what a Wasserstein GAN is.
+What is the difference between a WGAN and a standard GAN?
+How do you evaluate a GAN?
+What is the difference between an Inception Score and an FID?
+Explain what a Fréchet Inception Distance is.
+What is the difference between a FID and an IS?
+How do you generate realistic images?
+What is the difference between a GAN and a diffusion model?
+Explain what a diffusion model is.
+What is the difference between a forward and a reverse diffusion process?
+How do you train a diffusion model?
+What is the difference between a DDPM and a DDIM?
+Explain what a denoising diffusion model is.
+What is the difference between a score-based and a diffusion model?
+How do you sample from a diffusion model?
+What is the difference between a deterministic and a stochastic sampler?
+Explain what classifier-free guidance is.
+What is the difference between a conditional and an unconditional generation?
+How do you condition a diffusion model?
+What is the difference between a text and an image condition?
+Explain what a prompt is in image generation.
+What is the difference between a CLIP and a text encoder?
+How do you align text and images?
+What is the difference between a CLIP and a BLIP?
+Explain what contrastive learning is.
+What is the difference between a contrastive and a supervised loss?
+How do you learn without labels?
+What is the difference between a self-supervised and an unsupervised method?
+Explain what self-supervised learning is.
+What is the difference between a pretext task and a downstream task?
+How do you design a pretext task?
+What is the difference between a masked image modeling and a contrastive task?
+Explain what SimCLR is.
+What is the difference between a SimCLR and a MoCo?
+How do you learn representations from augmentations?
+What is the difference between a positive and a negative pair?
+Explain what a momentum encoder is.
+What is the difference between a MoCo and a BYOL?
+How do you learn without negative pairs?
+What is the difference between a BYOL and a SimSiam?
+Explain what a stop-gradient is.
+What is the difference between a stop-gradient and a detach?
+How do you prevent collapse in self-supervised learning?
+What is the difference between a collapse and a mode collapse?
+Explain what an EMA is.
+What is the difference between an EMA and a moving average?
+How do you update an EMA?
+What is the difference between an EMA and a momentum?
+Explain what a momentum update is.
+What is the difference between a momentum and a gradient?
+How do you use momentum in optimization?
+What is the difference between a heavy-ball and a Nesterov momentum?
+Explain what Nesterov accelerated gradient is.
+What is the difference between a Nesterov and a standard momentum?
+How do you accelerate convergence?
+What is the difference between a first-order and a second-order method?
+Explain what a second-order method is.
+What is the difference between a Newton and a quasi-Newton method?
+How do you approximate the Hessian?
+What is the difference between a BFGS and an L-BFGS?
+Explain what L-BFGS is.
+What is the difference between an L-BFGS and a conjugate gradient?
+How do you optimize non-convex functions?
+What is the difference between a convex and a non-convex optimization?
+Explain what a convex function is.
+What is the difference between a local and a global minimum?
+How do you escape local minima?
+What is the difference between a saddle point and a local minimum?
+Explain what a saddle point is.
+What is the difference between a gradient and a Hessian?
+How do you check if a point is a minimum?
+What is the difference between a necessary and a sufficient condition?
+Explain what the KKT conditions are.
+What is the difference between a KKT and a Lagrange condition?
+How do you handle constraints in optimization?
+What is the difference between an equality and an inequality constraint?
+Explain what a Lagrange multiplier is.
+What is the difference between a primal and a dual problem?
+How do you solve a dual problem?
+What is the difference between a strong and a weak duality?
+Explain what duality gap is.
+What is the difference between a feasible and an infeasible solution?
+How do you handle infeasibility?
+What is the difference between a constraint and a penalty?
+Explain what a penalty method is.
+What is the difference between a penalty and a barrier method?
+How do you handle constraints with penalties?
+What is the difference between an interior and an exterior point method?
+Explain what an interior point method is.
+What is the difference between a simplex and an interior point method?
+How do you solve a linear program?
+What is the difference between a linear and a nonlinear program?
+Explain what linear programming is.
+What is the difference between an LP and an ILP?
+How do you solve an integer linear program?
+What is the difference between a branch and bound and a cutting plane?
+Explain what branch and bound is.
+What is the difference between an exact and a heuristic method?
+How do you solve a combinatorial optimization problem?
+What is the difference between a TSP and a knapsack problem?
+Explain what the traveling salesman problem is.
+What is the difference between a P and an NP problem?
+How do you handle NP-hard problems?
+What is the difference between a heuristic and an approximation algorithm?
+Explain what an approximation ratio is.
+What is the difference between a greedy and a dynamic programming approach?
+How do you design a greedy algorithm?
+What is the difference between a local and a global optimum?
+Explain what a local search is.
+What is the difference between a hill climbing and a simulated annealing?
+How do you escape local optima in combinatorial optimization?
+What is the difference between a genetic algorithm and a simulated annealing?
+Explain what a genetic algorithm is.
+What is the difference between a crossover and a mutation?
+How do you design a fitness function?
+What is the difference between a population and a generation?
+Explain what an evolutionary algorithm is.
+What is the difference between an evolutionary and a swarm algorithm?
+How do you optimize with swarm intelligence?
+What is the difference between a particle swarm and an ant colony?
+Explain what particle swarm optimization is.
+What is the difference between a swarm and a genetic algorithm?
+How do you handle multi-objective optimization?
+What is the difference between a single and a multi-objective problem?
+Explain what a Pareto front is.
+What is the difference between a dominated and a non-dominated solution?
+How do you find a Pareto front?
+What is the difference between a weighted sum and a Pareto approach?
+Explain what NSGA-II is.
+What is the difference between a NSGA-II and a MOEA/D?
+How do you evaluate a multi-objective solution?
+What is the difference between a hypervolume and a spread metric?
+Explain what a hypervolume indicator is.
+What is the difference between a convergence and a diversity metric?
+How do you balance convergence and diversity?
+What is the difference between a scalarization and a Pareto approach?
+Explain what a scalarization function is.
+What is the difference between a weighted sum and a Chebyshev scalarization?
+How do you handle constraints in multi-objective optimization?
+What is the difference between a feasible and a Pareto-optimal solution?
+Explain what a Pareto-optimal solution is.
+What is the difference between a Pareto-optimal and a utopian solution?
+How do you visualize a Pareto front?
+What is the difference between a 2D and a 3D Pareto front?
+Explain what a parallel coordinates plot is.
+What is the difference between a parallel coordinates and a scatter plot?
+How do you visualize high-dimensional data?
+What is the difference between a heatmap and a contour plot?
+Explain what a heatmap is.
+What is the difference between a heatmap and a treemap?
+How do you visualize hierarchical data?
+What is the difference between a dendrogram and a tree map?
+Explain what a dendrogram is.
+What is the difference between a hierarchical and a flat clustering?
+How do you cluster data?
+What is the difference between a k-means and a hierarchical clustering?
+Explain what k-means clustering is.
+What is the difference between a k-means and a k-medoids?
+How do you choose the number of clusters?
+What is the difference between an elbow method and a silhouette score?
+Explain what a silhouette score is.
+What is the difference between a silhouette and a Davies-Bouldin index?
+How do you evaluate clustering quality?
+What is the difference between an internal and an external clustering metric?
+Explain what a Rand index is.
+What is the difference between a Rand index and an adjusted Rand index?
+How do you compare two clusterings?
+What is the difference between a clustering and a classification?
+Explain what a clustering is.
+What is the difference between a supervised and an unsupervised method?
+How do you discover patterns in data?
+What is the difference between a pattern and a rule?
+Explain what association rule mining is.
+What is the difference between a support and a confidence?
+How do you mine association rules?
+What is the difference between an Apriori and an FP-Growth algorithm?
+Explain what the Apriori algorithm is.
+What is the difference between a frequent itemset and an association rule?
+How do you find frequent itemsets?
+What is the difference between a support and a lift?
+Explain what lift is in association rules.
+What is the difference between a lift and a conviction?
+How do you evaluate an association rule?
+What is the difference between a rule and a model?
+Explain what a decision tree is.
+What is the difference between a decision tree and a random forest?
+How do you build a random forest?
+What is the difference between a bagging and a boosting?
+Explain what bagging is.
+What is the difference between a bagging and a pasting?
+How do you build an ensemble?
+What is the difference between a voting and a stacking ensemble?
+Explain what stacking is.
+What is the difference between a stacking and a blending?
+How do you combine models?
+What is the difference between a homogeneous and a heterogeneous ensemble?
+Explain what boosting is.
+What is the difference between an AdaBoost and a Gradient Boosting?
+How do you build a gradient boosting machine?
+What is the difference between a GBM and an XGBoost?
+Explain what XGBoost is.
+What is the difference between an XGBoost and a LightGBM?
+How do you handle categorical features in gradient boosting?
+What is the difference between a CatBoost and an XGBoost?
+Explain what CatBoost is.
+What is the difference between a CatBoost and a LightGBM?
+How do you handle missing values in gradient boosting?
+What is the difference between a histogram-based and a exact split finding?
+Explain what a histogram-based split is.
+What is the difference between a level-wise and a leaf-wise growth?
+How do you prevent overfitting in gradient boosting?
+What is the difference between a learning rate and a subsample?
+Explain what a subsample is in gradient boosting.
+What is the difference between a subsample and a column subsample?
+How do you tune a gradient boosting model?
+What is the difference between a max depth and a max leaves?
+Explain what a max depth is in a decision tree.
+What is the difference between a max depth and a min samples split?
+How do you prune a decision tree?
+What is the difference between a pre-pruning and a post-pruning?
+Explain what a min samples leaf is.
+What is the difference between a min samples leaf and a min samples split?
+How do you handle imbalanced data in tree-based models?
+What is the difference between a class weight and a sample weight?
+Explain what a class weight is.
+What is the difference between a class weight and a a cost-sensitive learning?
+How do you handle class imbalance?
+What is the difference between a resampling and a cost-sensitive approach?
+Explain what SMOTE is.
+What is the difference between a SMOTE and a ADASYN?
+How do you generate synthetic samples?
+What is the difference between a synthetic and a real sample?
+Explain what a data augmentation is.
+What is the difference between a data augmentation and a synthetic data?
+How do you generate synthetic data?
+What is the difference between a synthetic and an augmented dataset?
+Explain what a GAN-based data augmentation is.
+What is the difference between a GAN-based and a traditional augmentation?
+How do you evaluate synthetic data?
+What is the difference between a real and a synthetic data distribution?
+Explain what a distribution match is.
+What is the difference between a marginal and a joint distribution?
+How do you compare two distributions?
+What is the difference between a KL divergence and a JS divergence?
+Explain what a KL divergence is.
+What is the difference between a KL divergence and a cross-entropy?
+How do you measure the distance between distributions?
+What is the difference between a Wasserstein distance and a KL divergence?
+Explain what a Wasserstein distance is.
+What is the difference between a Wasserstein and an energy distance?
+How do you sample from a distribution?
+What is the difference between a sampling and a simulation?
+Explain what a Monte Carlo method is.
+What is the difference between a Monte Carlo and a Las Vegas algorithm?
+How do you estimate an expectation?
+What is the difference between a Monte Carlo and a quasi-Monte Carlo?
+Explain what importance sampling is.
+What is the difference between an importance sampling and a rejection sampling?
+How do you sample from a complex distribution?
+What is the difference between a MCMC and a rejection sampling?
+Explain what a Markov chain Monte Carlo is.
+What is the difference between a Metropolis-Hastings and a Gibbs sampler?
+How do you sample from a posterior distribution?
+What is the difference between a MCMC and a variational inference?
+Explain what variational inference is.
+What is the difference between a variational and an exact inference?
+How do you approximate a posterior?
+What is the difference between a mean-field and a full-rank variational approximation?
+Explain what a mean-field approximation is.
+What is the difference between a ELBO and a KL divergence?
+How do you optimize a variational objective?
+What is the difference between a reparameterization trick and a score function estimator?
+Explain what a reparameterization trick is.
+What is the difference between a reparameterization and a a pathwise gradient?
+How do you estimate gradients through sampling?
+What is the difference between a score function and a pathwise estimator?
+Explain what a score function estimator is.
+What is the difference between a REINFORCE and a reparameterization trick?
+How do you train a stochastic computation graph?
+What is the difference between a stochastic and a deterministic computation?
+Explain what a stochastic computation graph is.
+What is the difference between a stochastic and a differentiable program?
+How do you make a program differentiable?
+What is the difference between a differentiable and a non-differentiable function?
+Explain what automatic differentiation is.
+What is the difference between a forward and a reverse mode autodiff?
+How do you compute gradients efficiently?
+What is the difference between a symbolic and a numerical differentiation?
+Explain what a Jacobian-vector product is.
+What is the difference between a JVP and a VJP?
+How do you compute a vector-Jacobian product?
+What is the difference between a forward and a reverse pass?
+Explain what a computational graph is.
+What is the difference between a static and a dynamic computational graph?
+How do you build a computational graph?
+What is the difference between a graph and a tape?
+Explain what a gradient tape is.
+What is the difference between a tape and a tracing?
+How do you trace a computation?
+What is the difference between a tracing and a compilation?
+Explain what JIT compilation is.
+What is the difference between a JIT and an AOT compilation?
+How do you compile a neural network?
+What is the difference between a compiled and an interpreted model?
+Explain what a graph optimization is.
+What is the difference between a graph fusion and a graph pruning?
+How do you optimize a computational graph?
+What is the difference between an operator fusion and a kernel fusion?
+Explain what operator fusion is.
+What is the difference between a fused and a non-fused operation?
+How do you write a custom kernel?
+What is the difference between a kernel and an operator?
+Explain what a CUDA kernel is.
+What is the difference between a CPU and a GPU kernel?
+How do you parallelize a computation?
+What is the difference between a thread and a warp?
+Explain what a warp is in CUDA.
+What is the difference between a warp and a block?
+How do you organize threads in CUDA?
+What is the difference between a block and a grid?
+Explain what a grid is in CUDA.
+What is the difference between a grid and a stream?
+How do you handle memory in CUDA?
+What is the difference between a global and a shared memory?
+Explain what shared memory is in CUDA.
+What is the difference between a shared and a constant memory?
+How do you optimize memory access?
+What is the difference between a coalesced and a non-coalesced access?
+Explain what memory coalescing is.
+What is the difference between a coalesced and a strided access?
+How do you handle bank conflicts?
+What is the difference between a bank conflict and a cache miss?
+Explain what a cache miss is.
+What is the difference between a cache hit and a cache miss?
+How do you optimize cache usage?
+What is the difference between a spatial and a temporal locality?
+Explain what spatial locality is.
+What is the difference between a spatial and a temporal locality?
+How do you improve cache performance?
+What is the difference between a cache line and a cache block?
+Explain what a cache line is.
+What is the difference between a L1 and a L2 cache?
+How do you measure cache performance?
+What is the difference between a cache hit rate and a miss rate?
+Explain what a cache hit rate is.
+What is the difference between a hit rate and a miss penalty?
+How do you reduce cache misses?
+What is the difference between a compulsory and a capacity miss?
+Explain what a compulsory miss is.
+What is the difference between a compulsory and a conflict miss?
+How do you reduce conflict misses?
+What is the difference between a direct-mapped and a set-associative cache?
+Explain what a set-associative cache is.
+What is the difference between a set-associative and a fully-associative cache?
+How do you design a cache?
+What is the difference between a cache and a buffer?
+Explain what a buffer is.
+What is the difference between a buffer and a queue?
+How do you handle buffering?
+What is the difference between a single and a double buffer?
+Explain what double buffering is.
+What is the difference between a double and a triple buffer?
+How do you handle synchronization?
+What is the difference between a synchronous and an asynchronous operation?
+Explain what synchronization is.
+What is the difference between a lock and a barrier?
+How do you synchronize threads?
+What is the difference between a mutex and a condition variable?
+Explain what a mutex is.
+What is the difference between a mutex and a spinlock?
+How do you handle concurrent access?
+What is the difference between a lock-free and a wait-free algorithm?
+Explain what a lock-free algorithm is.
+What is the difference between a lock-free and a wait-free data structure?
+How do you design a concurrent data structure?
+What is the difference between a concurrent and a parallel data structure?
+Explain what a concurrent queue is.
+What is the difference between a blocking and a non-blocking queue?
+How do you implement a non-blocking queue?
+What is the difference between a CAS and a load-link/store-conditional?
+Explain what a CAS operation is.
+What is the difference between a CAS and a FAA?
+How do you implement atomic operations?
+What is the difference between an atomic and a volatile operation?
+Explain what an atomic operation is.
+What is the difference between an atomic and a synchronized operation?
+How do you handle memory ordering?
+What is the difference between a relaxed and a sequential consistency?
+Explain what memory ordering is.
+What is the difference between an acquire and a release semantics?
+How do you ensure visibility of writes?
+What is the difference between a memory fence and a barrier?
+Explain what a memory fence is.
+What is the difference between a fence and an atomic operation?
+How do you test concurrent code?
+What is the difference between a race condition and a data race?
+Explain what a data race is.
+What is the difference between a data race and a deadlock?
+How do you prevent data races?
+What is the difference between a synchronization and a mutual exclusion?
+Explain what mutual exclusion is.
+What is the difference between a mutex and a monitor?
+How do you handle priority inversion?
+What is the difference between a priority inversion and a priority ceiling?
+Explain what priority inversion is.
+What is the difference between a priority inversion and a deadlock?
+How do you prevent priority inversion?
+What is the difference between a priority ceiling and a priority inheritance?
+Explain what priority inheritance is.
+What is the difference between a priority inheritance and a priority ceiling?
+How do you handle real-time scheduling?
+What is the difference between a real-time and a non-real-time system?
+Explain what a real-time system is.
+What is the difference between a hard and a soft real-time system?
+How do you guarantee deadlines?
+What is the difference between a deadline and a period?
+Explain what a deadline is in real-time systems.
+What is the difference between a periodic and an aperiodic task?
+How do you schedule real-time tasks?
+What is the difference between a rate-monotonic and an EDF scheduler?
+Explain what rate-monotonic scheduling is.
+What is the difference between a rate-monotonic and a deadline-monotonic scheduler?
+How do you handle overloaded real-time systems?
+What is the difference between a hard and a soft deadline?
+Explain what a soft deadline is.
+What is the difference between a soft and a firm deadline?
+How do you handle missed deadlines?
+What is the difference between a deadline miss and a deadline violation?
+Explain what a deadline miss is.
+What is the difference between a deadline and a timing constraint?
+How do you verify timing constraints?
+What is the difference between a timing analysis and a schedulability analysis?
+Explain what schedulability analysis is.
+What is the difference between a worst-case and an average-case execution time?
+How do you measure execution time?
+What is the difference between a static and a dynamic timing analysis?
+Explain what a static timing analysis is.
+What is the difference between a static and a measurement-based analysis?
+How do you analyze a real-time system?
+What is the difference between a response time and an execution time?
+Explain what a response time is.
+What is the difference between a response time and a latency?
+How do you measure response time?
+What is the difference between a response time and a turnaround time?
+Explain what turnaround time is.
+What is the difference between a turnaround time and a waiting time?
+How do you measure waiting time?
+What is the difference between a waiting time and a queueing time?
+Explain what queueing time is.
+What is the difference between a queueing time and a service time?
+How do you model a queue?
+What is the difference between a queue and a buffer?
+Explain what a queueing model is.
+What is the difference between a M/M/1 and a M/M/c queue?
+How do you analyze a queueing system?
+What is the difference between a Little's law and a utilization law?
+Explain what Little's law is.
+What is the difference between a utilization and a throughput?
+How do you calculate throughput?
+What is the difference between a throughput and a bandwidth?
+Explain what bandwidth is.
+What is the difference between a bandwidth and a latency?
+How do you measure network performance?
+What is the difference between a bandwidth and a goodput?
+Explain what goodput is.
+What is the difference between a goodput and a throughput?
+How do you optimize network throughput?
+What is the difference between a TCP and a UDP throughput?
+Explain what TCP throughput is.
+What is the difference between a TCP and a UDP protocol?
+How do you handle network congestion?
+What is the difference between a congestion control and a flow control?
+Explain what congestion control is.
+What is the difference between a congestion control and a congestion avoidance?
+How do you detect congestion?
+What is the difference between a packet loss and a congestion?
+Explain what packet loss is.
+What is the difference between a packet loss and a bit error?
+How do you handle packet loss?
+What is the difference between a retransmission and a forward error correction?
+Explain what retransmission is.
+What is the difference between an ARQ and a FEC?
+How do you handle errors in communication?
+What is the difference between a checksum and a CRC?
+Explain what a CRC is.
+What is the difference between a CRC and a hash?
+How do you detect errors?
+What is the difference between a detection and a correction?
+Explain what error correction is.
+What is the difference between a Hamming code and a Reed-Solomon code?
+How do you correct errors?
+What is the difference between a block and a convolutional code?
+Explain what a block code is.
+What is the difference between a block and a turbo code?
+How do you encode data?
+What is the difference between an encoding and a modulation?
+Explain what modulation is.
+What is the difference between an AM and a FM modulation?
+How do you transmit data?
+What is the difference between a baseband and a passband signal?
+Explain what a baseband signal is.
+What is the difference between a baseband and a broadband?
+How do you handle signal attenuation?
+What is the difference between an attenuation and a distortion?
+Explain what attenuation is.
+What is the difference between an attenuation and a noise?
+How do you handle noise?
+What is the difference between a SNR and a BER?
+Explain what SNR is.
+What is the difference between a SNR and a SINR?
+How do you measure signal quality?
+What is the difference between a signal and a noise?
+Explain what noise is.
+What is the difference between a thermal and a shot noise?
+How do you reduce noise?
+What is the difference between a filtering and a shielding?
+Explain what filtering is.
+What is the difference between a filter and an amplifier?
+How do you design a filter?
+What is the difference between a low-pass and a high-pass filter?
+Explain what a low-pass filter is.
+What is the difference between a low-pass and a band-pass filter?
+How do you filter signals?
+What is the difference between an analog and a digital filter?
+Explain what a digital filter is.
+What is the difference between an FIR and an IIR filter?
+How do you design a digital filter?
+What is the difference between a time-domain and a frequency-domain analysis?
+Explain what a frequency domain is.
+What is the difference between a time and a frequency domain?
+How do you transform a signal?
+What is the difference between a Fourier transform and a Laplace transform?
+Explain what a Fourier transform is.
+What is the difference between a continuous and a discrete Fourier transform?
+How do you compute a DFT?
+What is the difference between a DFT and an FFT?
+Explain what an FFT is.
+What is the difference between an FFT and a DCT?
+How do you analyze a signal in the frequency domain?
+What is the difference between a spectrum and a spectrogram?
+Explain what a spectrum is.
+What is the difference between a spectrum and a periodogram?
+How do you estimate a spectrum?
+What is the difference between a parametric and a non-parametric spectrum?
+Explain what a periodogram is.
+What is the difference between a periodogram and a spectrogram?
+How do you visualize a spectrum?
+What is the difference between a 1D and a 2D spectrum?
+Explain what a spectrogram is.
+What is the difference between a spectrogram and a scalogram?
+How do you analyze a time-frequency signal?
+What is the difference between a STFT and a wavelet transform?
+Explain what a short-time Fourier transform is.
+What is the difference between a STFT and a Wigner-Ville distribution?
+How do you handle non-stationary signals?
+What is the difference between a wavelet and a Fourier transform?
+Explain what a wavelet transform is.
+What is the difference between a continuous and a discrete wavelet transform?
+How do you compute a wavelet transform?
+What is the difference between a wavelet and a a scaling function?
+Explain what a scaling function is.
+What is the difference between a wavelet and a scaling function?
+How do you design a wavelet?
+What is the difference between a Haar and a Daubechies wavelet?
+Explain what a Haar wavelet is.
+What is the difference between a Haar and a Daubechies wavelet?
+How do you use wavelets for compression?
+What is the difference between a wavelet and a DCT compression?
+Explain what wavelet compression is.
+What is the difference between a wavelet and a JPEG compression?
+How do you compress an image?
+What is the difference between a lossless and a lossy compression?
+Explain what lossless compression is.
+What is the difference between a lossless and a lossy compression?
+How do you compress data?
+What is the difference between a Huffman and an arithmetic coding?
+Explain what Huffman coding is.
+What is the difference between a Huffman and a Shannon-Fano coding?
+How do you encode data efficiently?
+What is the difference between an entropy and a redundancy?
+Explain what entropy is.
+What is the difference between an entropy and an information?
+How do you measure information?
+What is the difference between a bit and a byte?
+Explain what a bit is.
+What is the difference between a bit and a nats?
+How do you measure information content?
+What is the difference between a Shannon entropy and a Rényi entropy?
+Explain what Shannon entropy is.
+What is the difference between a Shannon and a von Neumann entropy?
+How do you measure quantum information?
+What is the difference between a classical and a quantum information?
+Explain what quantum information is.
+What is the difference between a qubit and a bit?
+How do you represent a quantum state?
+What is the difference between a pure and a mixed state?
+Explain what a qubit is.
+What is the difference between a qubit and a a qudit?
+How do you manipulate a qubit?
+What is the difference between a unitary and a measurement?
+Explain what a quantum gate is.
+What is the difference between a Hadamard and a CNOT gate?
+How do you build a quantum circuit?
+What is the difference between a quantum and a classical circuit?
+Explain what a quantum circuit is.
+What is the difference between a quantum and a reversible circuit?
+How do you simulate a quantum circuit?
+What is the difference between a quantum simulation and a quantum computation?
+Explain what quantum computation is.
+What is the difference between a quantum and a classical computation?
+How do you achieve quantum speedup?
+What is the difference between a quantum and a classical algorithm?
+Explain what Shor's algorithm is.
+What is the difference between Shor's and Grover's algorithm?
+How do you search with a quantum computer?
+What is the difference between a quantum search and a classical search?
+Explain what Grover's algorithm is.
+What is the difference between a quadratic and an exponential speedup?
+How do you achieve quantum advantage?
+What is the difference between a quantum advantage and a quantum supremacy?
+Explain what quantum supremacy is.
+What is the difference between a quantum supremacy and a quantum advantage?
+How do you build a quantum computer?
+What is the difference between a superconducting and a trapped-ion qubit?
+Explain what a superconducting qubit is.
+What is the difference between a superconducting and a topological qubit?
+How do you handle quantum noise?
+What is the difference between a quantum error correction and a classical error correction?
+Explain what quantum error correction is.
+What is the difference between a bit flip and a phase flip error?
+How do you correct a quantum error?
+What is the difference between a surface code and a stabilizer code?
+Explain what a surface code is.
+What is the difference between a surface and a color code?
+How do you build a fault-tolerant quantum computer?
+What is the difference between a fault-tolerant and a non-fault-tolerant quantum computation?
+Explain what fault tolerance is.
+What is the difference between a fault-tolerant and a reliable computation?
+How do you handle errors in quantum computation?
+What is the difference between a quantum and a classical fault tolerance?
+Explain what a quantum channel is.
+What is the difference between a quantum and a classical channel?
+How do you transmit quantum information?
+What is the difference between a quantum teleportation and a classical communication?
+Explain what quantum teleportation is.
+What is the difference between a quantum teleportation and a quantum entanglement?
+How do you create entanglement?
+What is the difference between an entangled and a separable state?
+Explain what quantum entanglement is.
+What is the difference between an entangled and a product state?
+How do you use entanglement?
+What is the difference between a Bell state and a GHZ state?
+Explain what a Bell state is.
+What is the difference between a Bell and a Werner state?
+How do you measure entanglement?
+What is the difference between an entanglement entropy and a concurrence?
+Explain what entanglement entropy is.
+What is the difference between an entanglement and a von Neumann entropy?
+How do you quantify entanglement?
+What is the difference between a bipartite and a multipartite entanglement?
+Explain what bipartite entanglement is.
+What is the difference between a bipartite and a multipartite state?
+How do you handle multipartite entanglement?
+What is the difference between a GHZ and a W state?
+Explain what a GHZ state is.
+What is the difference between a GHZ and a cluster state?
+How do you build a cluster state?
+What is the difference between a cluster and a graph state?
+Explain what a cluster state is.
+What is the difference between a cluster and a matrix product state?
+How do you simulate a quantum many-body system?
+What is the difference between a tensor network and a matrix product state?
+Explain what a tensor network is.
+What is the difference between a MPS and a PEPS?
+How do you contract a tensor network?
+What is the difference between a tensor and a matrix?
+Explain what a tensor is.
+What is the difference between a tensor and a vector?
+How do you decompose a tensor?
+What is the difference between a CP and a Tucker decomposition?
+Explain what a CP decomposition is.
+What is the difference between a CP and a Tensor Train decomposition?
+How do you compress a tensor?
+What is the difference between a tensor compression and a matrix compression?
+Explain what a tensor rank is.
+What is the difference between a tensor rank and a matrix rank?
+How do you compute a tensor decomposition?
+What is the difference between an exact and an approximate tensor decomposition?
+Explain what an approximate tensor decomposition is.
+What is the difference between an exact and a low-rank approximation?
+How do you approximate a tensor?
+What is the difference between a low-rank and a sparse approximation?
+Explain what a low-rank approximation is.
+What is the difference between a low-rank and a full-rank tensor?
+How do you use tensor methods in machine learning?
+What is the difference between a tensor and a neural network?
+Explain what a tensor network model is.
+What is the difference between a tensor network and a neural network?
+How do you train a tensor network model?
+What is the difference between a tensor network and a kernel method?
+Explain what a kernel method is.
+What is the difference between a kernel and a feature map?
+How do you design a kernel?
+What is the difference between a linear and a nonlinear kernel?
+Explain what a kernel trick is.
+What is the difference between a kernel and a distance?
+How do you compute a kernel?
+What is the difference between an RBF and a polynomial kernel?
+Explain what an RBF kernel is.
+What is the difference between an RBF and a sigmoid kernel?
+How do you choose a kernel?
+What is the difference between a kernel and a similarity function?
+Explain what a support vector machine is.
+What is the difference between a SVM and a logistic regression?
+How do you train a SVM?
+What is the difference between a hard and a soft margin SVM?
+Explain what a margin is.
+What is the difference between a margin and a decision boundary?
+How do you find a maximum margin?
+What is the difference between a linear and a kernel SVM?
+Explain what a kernel SVM is.
+What is the difference between a SVM and a neural network?
+How do you handle multiclass classification with SVM?
+What is the difference between a one-vs-rest and a one-vs-one approach?
+Explain what one-vs-rest is.
+What is the difference between a one-vs-rest and a one-vs-one classification?
+How do you handle multiclass problems?
+What is the difference between a multiclass and a multi-label classification?
+Explain what multi-label classification is.
+What is the difference between a multi-label and a multi-class problem?
+How do you handle multi-label classification?
+What is the difference between a binary relevance and a classifier chain?
+Explain what binary relevance is.
+What is the difference between a binary relevance and a label powerset?
+How do you evaluate a multi-label classifier?
+What is the difference between a micro and a macro average?
+Explain what micro-average is.
+What is the difference between a micro and a macro F1 score?
+How do you aggregate metrics across classes?
+What is the difference between a weighted and an unweighted average?
+Explain what a weighted average is.
+What is the difference between a weighted and a macro average?
+How do you handle class imbalance in evaluation?
+What is the difference between a balanced accuracy and a regular accuracy?
+Explain what balanced accuracy is.
+What is the difference between a balanced and a regular accuracy?
+How do you evaluate on imbalanced data?
+What is the difference between a precision-recall curve and an ROC curve?
+Explain what a precision-recall curve is.
+What is the difference between a PR and an ROC curve?
+How do you choose between PR and ROC?
+What is the difference between an AUC-PR and an AUC-ROC?
+Explain what AUC-PR is.
+What is the difference between an AUC-PR and an AUC-ROC?
+How do you evaluate a model on imbalanced data?
+What is the difference between a threshold and a decision boundary?
+Explain what a threshold is.
+What is the difference between a threshold and a cutoff?
+How do you choose a threshold?
+What is the difference between a fixed and an adaptive threshold?
+Explain what an adaptive threshold is.
+What is the difference between an adaptive and a fixed threshold?
+How do you handle varying thresholds?
+What is the difference between a local and a global threshold?
+Explain what a global threshold is.
+What is the difference between a global and a local threshold?
+How do you handle non-uniform data?
+What is the difference between a uniform and a non-uniform distribution?
+Explain what a uniform distribution is.
+What is the difference between a uniform and a normal distribution?
+How do you sample from a distribution?
+What is the difference between a discrete and a continuous distribution?
+Explain what a discrete distribution is.
+What is the difference between a discrete and a continuous random variable?
+How do you model a random variable?
+What is the difference between a PMF and a PDF?
+Explain what a PMF is.
+What is the difference between a PMF and a CDF?
+How do you compute a CDF?
+What is the difference between a CDF and an inverse CDF?
+Explain what a CDF is.
+What is the difference between a CDF and a quantile function?
+How do you sample using the inverse CDF?
+What is the difference between an inverse CDF and a rejection sampling?
+Explain what the inverse CDF method is.
+What is the difference between an inverse CDF and a Box-Muller transform?
+How do you generate normal random variables?
+What is the difference between a Box-Muller and a Ziggurat algorithm?
+Explain what the Box-Muller transform is.
+What is the difference between a Box-Muller and a Marsaglia polar method?
+How do you generate random numbers?
+What is the difference between a PRNG and a TRNG?
+Explain what a PRNG is.
+What is the difference between a PRNG and a CSPRNG?
+How do you generate cryptographically secure random numbers?
+What is the difference between a linear congruential and a Mersenne Twister?
+Explain what a Mersenne Twister is.
+What is the difference between a Mersenne Twister and a PCG?
+How do you seed a random number generator?
+What is the difference between a seed and a state?
+Explain what a seed is.
+What is the difference between a seed and an initial state?
+How do you reproduce random results?
+What is the difference between a deterministic and a stochastic process?
+Explain what a stochastic process is.
+What is the difference between a stochastic and a deterministic process?
+How do you model a stochastic process?
+What is the difference between a Markov and a non-Markov process?
+Explain what a Markov process is.
+What is the difference between a Markov and a hidden Markov model?
+How do you train a hidden Markov model?
+What is the difference between a HMM and a CRF?
+Explain what a hidden Markov model is.
+What is the difference between a HMM and a Kalman filter?
+How do you do state estimation?
+What is the difference between a Kalman and a particle filter?
+Explain what a Kalman filter is.
+What is the difference between a Kalman and an extended Kalman filter?
+How do you handle nonlinear state estimation?
+What is the difference between an EKF and an UKF?
+Explain what an unscented Kalman filter is.
+What is the difference between a UKF and a particle filter?
+How do you track a moving object?
+What is the difference between a tracking and a detection?
+Explain what object tracking is.
+What is the difference between a tracking and a localization?
+How do you estimate position?
+What is the difference between a GPS and an indoor positioning?
+Explain what GPS is.
+What is the difference between a GPS and a GLONASS?
+How do you navigate?
+What is the difference between a dead reckoning and a celestial navigation?
+Explain what dead reckoning is.
+What is the difference between a dead reckoning and an inertial navigation?
+How do you handle sensor fusion?
+What is the difference between a Kalman filter and a complementary filter?
+Explain what sensor fusion is.
+What is the difference between a sensor fusion and a data fusion?
+How do you combine multiple sensors?
+What is the difference between a camera and a LiDAR?
+Explain what LiDAR is.
+What is the difference between a LiDAR and a radar?
+How do you detect objects?
+What is the difference between a detection and a classification?
+Explain what object detection is.
+What is the difference between a detection and a segmentation?
+How do you segment an image?
+What is the difference between a semantic and an instance segmentation?
+Explain what semantic segmentation is.
+What is the difference between a semantic and a panoptic segmentation?
+How do you build a segmentation model?
+What is the difference between a U-Net and a Mask R-CNN?
+Explain what U-Net is.
+What is the difference between a U-Net and a DeepLab?
+How do you handle multi-scale features?
+What is the difference between a pyramid and a multi-scale feature?
+Explain what a feature pyramid is.
+What is the difference between a FPN and an ASPP?
+How do you detect objects at different scales?
+What is the difference between an anchor and a anchor-free detector?
+Explain what an anchor box is.
+What is the difference between an anchor-based and a keypoint-based detector?
+How do you detect keypoints?
+What is the difference between a keypoint and a landmark?
+Explain what keypoint detection is.
+What is the difference between a keypoint and a corner?
+How do you detect faces?
+What is the difference between a face detection and a face recognition?
+Explain what face recognition is.
+What is the difference between a face recognition and a face verification?
+How do you recognize a face?
+What is the difference between a face and an emotion recognition?
+Explain what emotion recognition is.
+What is the difference between an emotion and a gesture recognition?
+How do you recognize gestures?
+What is the difference between a gesture and a pose estimation?
+Explain what pose estimation is.
+What is the difference between a 2D and a 3D pose?
+How do you estimate 3D pose?
+What is the difference between a pose and a motion estimation?
+Explain what motion estimation is.
+What is the difference between a motion and an optical flow?
+How do you compute optical flow?
+What is the difference between a sparse and a dense optical flow?
+Explain what optical flow is.
+What is the difference between an optical flow and a scene flow?
+How do you estimate depth?
+What is the difference between a stereo and a monocular depth?
+Explain what stereo vision is.
+What is the difference between a stereo and a structured light?
+How do you reconstruct a 3D scene?
+What is the difference between a structure from motion and a multi-view stereo?
+Explain what structure from motion is.
+What is the difference between an SfM and a SLAM?
+How do you build a map?
+What is the difference between a SLAM and a visual odometry?
+Explain what SLAM is.
+What is the difference between a SLAM and a bundle adjustment?
+How do you optimize a 3D reconstruction?
+What is the difference between a bundle adjustment and a pose graph optimization?
+Explain what bundle adjustment is.
+What is the difference between a bundle adjustment and a factor graph?
+How do you represent constraints in SLAM?
+What is the difference between a factor graph and a pose graph?
+Explain what a factor graph is.
+What is the difference between a factor and a constraint?
+How do you solve a factor graph?
+What is the difference between a linear and a nonlinear factor graph?
+Explain what a nonlinear least squares is.
+What is the difference between a Gauss-Newton and a Levenberg-Marquardt?
+How do you solve a nonlinear optimization?
+What is the difference between a trust region and a line search?
+Explain what a trust region is.
+What is the difference between a trust region and a line search method?
+How do you choose a step size?
+What is the difference between a fixed and an adaptive step size?
+Explain what a line search is.
+What is the difference between a backtracking and a golden section line search?
+How do you converge to a minimum?
+What is the difference between a linear and a superlinear convergence?
+Explain what convergence rate is.
+What is the difference between a linear and a quadratic convergence?
+How do you measure convergence?
+What is the difference between a absolute and a relative convergence?
+Explain what absolute convergence is.
+What is the difference between an absolute and a relative error?
+How do you measure error?
+What is the difference between an error and a residual?
+Explain what a residual is.
+What is the difference between a residual and a deviation?
+How do you minimize residuals?
+What is the difference between a least squares and a least absolute deviations?
+Explain what least squares is.
+What is the difference between a least squares and a robust regression?
+How do you handle outliers in regression?
+What is the difference between a robust and a regular regression?
+Explain what robust regression is.
+What is the difference between a Huber and a Tukey loss?
+How do you choose a robust loss?
+What is the difference between a hard and a soft threshold?
+Explain what a soft threshold is.
+What is the difference between a soft and a hard threshold?
+How do you denoise a signal?
+What is the difference between a denoising and a smoothing?
+Explain what denoising is.
+What is the difference between a denoising and a deblurring?
+How do you restore an image?
+What is the difference between a restoration and an enhancement?
+Explain what image restoration is.
+What is the difference between a restoration and a super-resolution?
+How do you enhance an image?
+What is the difference between an enhancement and a synthesis?
+Explain what image enhancement is.
+What is the difference between an enhancement and a generation?
+How do you generate an image?
+What is the difference between a generation and a synthesis?
+Explain what image generation is.
+What is the difference between a generation and a transformation?
+How do you transform an image?
+What is the difference between a transformation and a deformation?
+Explain what image transformation is.
+What is the difference between a geometric and a photometric transformation?
+How do you warp an image?
+What is the difference between a warp and a morph?
+Explain what image warping is.
+What is the difference between a warp and a registration?
+How do you register two images?
+What is the difference between a registration and an alignment?
+Explain what image registration is.
+What is the difference between a registration and a stitching?
+How do you stitch images?
+What is the difference between a stitching and a panorama?
+Explain what image stitching is.
+What is the difference between a panorama and a mosaic?
+How do you create a panorama?
+What is the difference between a panorama and a 360-degree image?
+Explain what a 360-degree image is.
+What is the difference between a 360 and a spherical image?
+How do you capture a spherical image?
+What is the difference between a spherical and a fisheye image?
+Explain what a fisheye image is.
+What is the difference between a fisheye and a wide-angle image?
+How do you handle lens distortion?
+What is the difference between a radial and a tangential distortion?
+Explain what lens distortion is.
+What is the difference between a distortion and an aberration?
+How do you calibrate a camera?
+What is the difference between a calibration and a correction?
+Explain what camera calibration is.
+What is the difference between an intrinsic and an extrinsic parameter?
+How do you estimate camera parameters?
+What is the difference between a calibration pattern and a self-calibration?
+Explain what a calibration pattern is.
+What is the difference between a checkerboard and a circle grid?
+How do you detect a calibration pattern?
+What is the difference between a corner and a circle detection?
+Explain what corner detection is.
+What is the difference between a Harris and a FAST corner?
+How do you detect features?
+What is the difference between a feature and a keypoint?
+Explain what a feature detector is.
+What is the difference between a detector and a descriptor?
+How do you describe a feature?
+What is the difference between a SIFT and a SURF descriptor?
+Explain what SIFT is.
+What is the difference between a SIFT and an ORB?
+How do you match features?
+What is the difference between a brute-force and a FLANN matching?
+Explain what feature matching is.
+What is the difference between a matching and a tracking?
+How do you track features across frames?
+What is the difference between a tracking and a detection?
+Explain what feature tracking is.
+What is the difference between a Lucas-Kanade and a Kanade-Lucas-Tomasi?
+How do you track features with optical flow?
+What is the difference between a forward and a backward tracking?
+Explain what the Lucas-Kanade method is.
+What is the difference between a Lucas-Kanade and a Horn-Schunck?
+How do you compute optical flow?
+What is the difference between a variational and a local method?
+Explain what a variational method is.
+What is the difference between a variational and a differential approach?
+How do you solve a variational problem?
+What is the difference between a variational and an optimization problem?
+Explain what a variational problem is.
+What is the difference between a functional and a function?
+How do you minimize a functional?
+What is the difference between a calculus of variations and an optimization?
+Explain what the calculus of variations is.
+What is the difference between an Euler-Lagrange and a Hamilton equation?
+How do you derive the Euler-Lagrange equation?
+What is the difference between a Lagrangian and a Hamiltonian?
+Explain what a Lagrangian is.
+What is the difference between a Lagrangian and a Hamiltonian mechanics?
+How do you formulate a physical problem?
+What is the difference between a classical and a quantum mechanics?
+Explain what classical mechanics is.
+What is the difference between a Newtonian and a Lagrangian mechanics?
+How do you describe motion?
+What is the difference between a force and an energy?
+Explain what Newton's laws are.
+What is the difference between a force and a momentum?
+How do you conserve momentum?
+What is the difference between a momentum and an angular momentum?
+Explain what momentum is.
+What is the difference between a linear and an angular momentum?
+How do you handle collisions?
+What is the difference between an elastic and an inelastic collision?
+Explain what an elastic collision is.
+What is the difference between an elastic and a perfectly inelastic collision?
+How do you calculate energy in a collision?
+What is the difference between a kinetic and a potential energy?
+Explain what kinetic energy is.
+What is the difference between a kinetic and a potential energy?
+How do you conserve energy?
+What is the difference between a conservative and a non-conservative force?
+Explain what a conservative force is.
+What is the difference between a conservative and a dissipative force?
+How do you handle friction?
+What is the difference between a static and a kinetic friction?
+Explain what friction is.
+What is the difference between a friction and a drag?
+How do you handle air resistance?
+What is the difference between a linear and a quadratic drag?
+Explain what drag is.
+What is the difference between a drag and a lift?
+How do you generate lift?
+What is the difference between a lift and a thrust?
+Explain what lift is.
+What is the difference between a lift and a buoyancy?
+How do you handle buoyancy?
+What is the difference between a buoyancy and a pressure?
+Explain what buoyancy is.
+What is the difference between a pressure and a density?
+How do you measure pressure?
+What is the difference between an absolute and a gauge pressure?
+Explain what pressure is.
+What is the difference between a pressure and a stress?
+How do you handle stress?
+What is the difference between a stress and a strain?
+Explain what stress is.
+What is the difference between a stress and a tension?
+How do you handle deformation?
+What is the difference between an elastic and a plastic deformation?
+Explain what elastic deformation is.
+What is the difference between an elastic and a plastic deformation?
+How do you handle material properties?
+What is the difference between a Young's modulus and a shear modulus?
+Explain what Young's modulus is.
+What is the difference between a Young's modulus and a bulk modulus?
+How do you measure stiffness?
+What is the difference between a stiffness and a damping?
+Explain what stiffness is.
+What is the difference between a stiffness and a flexibility?
+How do you handle vibrations?
+What is the difference between a free and a forced vibration?
+Explain what vibration is.
+What is the difference between a vibration and an oscillation?
+How do you model an oscillator?
+What is the difference between a simple and a damped harmonic oscillator?
+Explain what a harmonic oscillator is.
+What is the difference between a harmonic and an anharmonic oscillator?
+How do you handle resonance?
+What is the difference between a resonance and a natural frequency?
+Explain what resonance is.
+What is the difference between a resonance and a damping?
+How do you prevent resonance?
+What is the difference between a resonance and a beat?
+Explain what a beat is.
+What is the difference between a beat and an interference?
+How do you handle wave interference?
+What is the difference between a constructive and a destructive interference?
+Explain what interference is.
+What is the difference between an interference and a diffraction?
+How do you handle diffraction?
+What is the difference between a single-slit and a double-slit diffraction?
+Explain what diffraction is.
+What is the difference between a diffraction and a scattering?
+How do you handle scattering?
+What is the difference between a Rayleigh and a Mie scattering?
+Explain what scattering is.
+What is the difference between a scattering and an absorption?
+How do you handle absorption?
+What is the difference between an absorption and a reflection?
+Explain what absorption is.
+What is the difference between an absorption and a transmission?
+How do you handle reflection?
+What is the difference between a specular and a diffuse reflection?
+Explain what reflection is.
+What is the difference between a reflection and a refraction?
+How do you handle refraction?
+What is the difference between a refraction and a dispersion?
+Explain what refraction is.
+What is the difference between a refraction and a Snell's law?
+How do you calculate refractive index?
+What is the difference between a refractive index and a dispersion?
+Explain what refractive index is.
+What is the difference between a refractive index and an absorption coefficient?
+How do you handle optical materials?
+What is the difference between a transparent and a translucent material?
+Explain what transparency is.
+What is the difference between a transparent and an opaque material?
+How do you handle opacity?
+What is the difference between an opacity and a transparency?
+Explain what opacity is.
+What is the difference between an opacity and a reflectivity?
+How do you handle color?
+What is the difference between a hue and a saturation?
+Explain what color is.
+What is the difference between a hue and a brightness?
+How do you represent color?
+What is the difference between an RGB and an HSV color space?
+Explain what RGB is.
+What is the difference between an RGB and a CMYK color space?
+How do you convert between color spaces?
+What is the difference between a color space and a color model?
+Explain what a color space is.
+What is the difference between a color space and a gamut?
+How do you handle color gamut?
+What is the difference between a gamut and a dynamic range?
+Explain what a color gamut is.
+What is the difference between a gamut and a color depth?
+How do you handle color depth?
+What is the difference between an 8-bit and a 10-bit color?
+Explain what color depth is.
+What is the difference between a color depth and a bit depth?
+How do you handle HDR?
+What is the difference between an HDR and an SDR?
+Explain what HDR is.
+What is the difference between an HDR and a tone mapping?
+How do you tone map an HDR image?
+What is the difference between a global and a local tone mapping?
+Explain what tone mapping is.
+What is the difference between a tone mapping and a gamma correction?
+How do you apply gamma correction?
+What is the difference between a gamma and a linear encoding?
+Explain what gamma correction is.
+What is the difference between a gamma and a sRGB?
+How do you handle sRGB?
+What is the difference between an sRGB and an Adobe RGB?
+Explain what sRGB is.
+What is the difference between an sRGB and a Display P3?
+How do you handle wide gamut?
+What is the difference between a wide gamut and a standard gamut?
+Explain what a wide gamut is.
+What is the difference between a wide gamut and a HDR?
+How do you display HDR?
+What is the difference between an OLED and an LCD?
+Explain what OLED is.
+What is the difference between an OLED and a QLED?
+How do you display an image?
+What is the difference between a display and a projector?
+Explain what a display is.
+What is the difference between a display and a screen?
+How do you render an image?
+What is the difference between a rendering and a rasterization?
+Explain what rendering is.
+What is the difference between a rasterization and a ray tracing?
+How do you ray trace a scene?
+What is the difference between a ray tracing and a path tracing?
+Explain what ray tracing is.
+What is the difference between a ray and a path?
+How do you trace a ray?
+What is the difference between a ray and a vector?
+Explain what a ray is.
+What is the difference between a ray and a line?
+How do you intersect a ray with a surface?
+What is the difference between a ray-sphere and a ray-box intersection?
+Explain what ray-sphere intersection is.
+What is the difference between an intersection and a hit?
+How do you handle shading?
+What is the difference between a flat and a smooth shading?
+Explain what shading is.
+What is the difference between a Gouraud and a Phong shading?
+How do you compute lighting?
+What is the difference between a local and a global illumination?
+Explain what Phong reflection is.
+What is the difference between a Phong and a Blinn-Phong model?
+How do you handle shadows?
+What is the difference between a shadow and a shading?
+Explain what shadow mapping is.
+What is the difference between a shadow map and a shadow volume?
+How do you render shadows?
+What is the difference between a hard and a soft shadow?
+Explain what a soft shadow is.
+What is the difference between a soft and a hard shadow?
+How do you handle transparency in rendering?
+What is the difference between an alpha blending and an alpha testing?
+Explain what alpha blending is.
+What is the difference between an alpha and a color key?
+How do you composite images?
+What is the difference between a compositing and a blending?
+Explain what compositing is.
+What is the difference between a compositing and a matting?
+How do you extract a foreground?
+What is the difference between a matting and a segmentation?
+Explain what matting is.
+What is the difference between a matte and a mask?
+How do you create a mask?
+What is the difference between a mask and a selection?
+Explain what a mask is.
+What is the difference between a mask and an alpha channel?
+How do you handle an alpha channel?
+What is the difference between an alpha and a transparency?
+Explain what an alpha channel is.
+What is the difference between an alpha and a chroma key?
+How do you handle a green screen?
+What is the difference between a green screen and a blue screen?
+Explain what chroma keying is.
+What is the difference between a chroma key and a luma key?
+How do you key a video?
+What is the difference between a keying and a masking?
+Explain what video keying is.
+What is the difference between a key and a matte?
+How do you process video?
+What is the difference between a video and an image?
+Explain what video processing is.
+What is the difference between a video and an animation?
+How do you create an animation?
+What is the difference between a 2D and a 3D animation?
+Explain what animation is.
+What is the difference between a keyframe and a tween animation?
+How do you interpolate between keyframes?
+What is the difference between a linear and a spline interpolation?
+Explain what keyframe animation is.
+What is the difference between a keyframe and a motion capture?
+How do you capture motion?
+What is the difference between a motion capture and a performance capture?
+Explain what motion capture is.
+What is the difference between a motion and a facial capture?
+How do you animate a face?
+What is the difference between a facial and a body animation?
+Explain what facial animation is.
+What is the difference between a blendshape and a bone animation?
+How do you rig a character?
+What is the difference between a rigging and a skinning?
+Explain what rigging is.
+What is the difference between a skeleton and a rig?
+How do you skin a character?
+What is the difference between a linear and a dual quaternion skinning?
+Explain what skinning is.
+What is the difference between a skinning and a weighting?
+How do you weight a vertex?
+What is the difference between a vertex and a bone weight?
+Explain what vertex weighting is.
+What is the difference between a weight and an influence?
+How do you deform a mesh?
+What is the difference between a deformation and a transformation?
+Explain what mesh deformation is.
+What is the difference between a mesh and a point cloud?
+How do you render a point cloud?
+What is the difference between a point-based and a polygon-based rendering?
+Explain what a point cloud is.
+What is the difference between a point cloud and a voxel grid?
+How do you convert a point cloud to a mesh?
+What is the difference between a mesh and a surface?
+Explain what a mesh is.
+What is the difference between a mesh and a wireframe?
+How do you generate a mesh?
+What is the difference between a procedural and a manual modeling?
+Explain what procedural modeling is.
+What is the difference between a procedural and a parametric model?
+How do you model a 3D object?
+What is the difference between a NURBS and a polygon model?
+Explain what NURBS is.
+What is the difference between a NURBS and a Bezier curve?
+How do you model a curve?
+What is the difference between a Bezier and a B-spline?
+Explain what a Bezier curve is.
+What is the difference between a Bezier and a Catmull-Rom spline?
+How do you interpolate a curve?
+What is the difference between an interpolation and an approximation?
+Explain what interpolation is.
+What is the difference between an interpolation and an extrapolation?
+How do you extrapolate data?
+What is the difference between a linear and a polynomial interpolation?
+Explain what linear interpolation is.
+What is the difference between a linear and a cubic interpolation?
+How do you interpolate in multiple dimensions?
+What is the difference between a bilinear and a bicubic interpolation?
+Explain what bilinear interpolation is.
+What is the difference between a bilinear and a trilinear interpolation?
+How do you interpolate on a grid?
+What is the difference between a grid and a mesh interpolation?
+Explain what a grid is.
+What is the difference between a regular and an irregular grid?
+How do you handle irregular data?
+What is the difference between a structured and an unstructured grid?
+Explain what a structured grid is.
+What is the difference between a structured and an unstructured data?
+How do you handle scattered data?
+What is the difference between a scattered and a gridded data?
+Explain what scattered data is.
+What is the difference between a scattered and a random data?
+How do you interpolate scattered data?
+What is the difference between a nearest neighbor and an inverse distance weighting?
+Explain what nearest neighbor interpolation is.
+What is the difference between a nearest neighbor and a bilinear interpolation?
+How do you handle spatial data?
+What is the difference between a spatial and a temporal data?
+Explain what spatial data is.
+What is the difference between a spatial and a geographic data?
+How do you handle geographic data?
+What is the difference between a GIS and a CAD?
+Explain what GIS is.
+What is the difference between a GIS and a GPS?
+How do you store spatial data?
+What is the difference between a vector and a raster data?
+Explain what vector data is.
+What is the difference between a vector and a raster format?
+How do you convert between vector and raster?
+What is the difference between a vectorization and a rasterization?
+Explain what rasterization is.
+What is the difference between a raster and a pixel?
+How do you handle pixels?
+What is the difference between a pixel and a voxel?
+Explain what a pixel is.
+What is the difference between a pixel and a texel?
+How do you handle textures?
+What is the difference between a texture and a material?
+Explain what a texture is.
+What is the difference between a texture and a shader?
+How do you write a shader?
+What is the difference between a vertex and a fragment shader?
+Explain what a shader is.
+What is the difference between a shader and a program?
+How do you compile a shader?
+What is the difference between a GLSL and an HLSL?
+Explain what GLSL is.
+What is the difference between a GLSL and a CUDA?
+How do you program a GPU?
+What is the difference between a GPU and a CPU?
+Explain what a GPU is.
+What is the difference between a GPU and a TPU?
+How do you accelerate computation?
+What is the difference between a hardware and a software acceleration?
+Explain what hardware acceleration is.
+What is the difference between a hardware and a software rendering?
+How do you optimize rendering?
+What is the difference between a rendering and a rasterization pipeline?
+Explain what a rendering pipeline is.
+What is the difference between a fixed-function and a programmable pipeline?
+How do you build a graphics pipeline?
+What is the difference between a graphics and a compute pipeline?
+Explain what a compute pipeline is.
+What is the difference between a compute and a graphics shader?
+How do you do general-purpose GPU computing?
+What is the difference between a GPGPU and a CUDA?
+Explain what GPGPU is.
+What is the difference between a GPGPU and an OpenCL?
+How do you write parallel code?
+What is the difference between a parallel and a concurrent programming?
+Explain what parallel programming is.
+What is the difference between a data and a task parallelism?
+How do you parallelize a task?
+What is the difference between a SIMD and a MIMD?
+Explain what SIMD is.
+What is the difference between a SIMD and a vectorization?
+How do you vectorize a loop?
+What is the difference between a vectorization and a parallelization?
+Explain what vectorization is.
+What is the difference between a vector and a scalar operation?
+How do you optimize a loop?
+What is the difference between a loop unrolling and a loop fusion?
+Explain what loop unrolling is.
+What is the difference between a loop unrolling and a loop tiling?
+How do you optimize memory access?
+What is the difference between a loop tiling and a loop blocking?
+Explain what loop tiling is.
+What is the difference between a tiling and a blocking?
+How do you handle cache-friendly code?
+What is the difference between a cache-friendly and a memory-friendly code?
+Explain what cache-friendly code is.
+What is the difference between a cache and a register?
+How do you optimize register usage?
+What is the difference between a register and a local variable?
+Explain what a register is.
+What is the difference between a register and a memory?
+How do you handle memory hierarchy?
+What is the difference between a register and a cache?
+Explain what a memory hierarchy is.
+What is the difference between a cache and a main memory?
+How do you optimize memory performance?
+What is the difference between a latency and a bandwidth?
+Explain what memory latency is.
+What is the difference between a latency and a throughput?
+How do you measure memory performance?
+What is the difference between a memory bandwidth and a memory latency?
+Explain what memory bandwidth is.
+What is the difference between a bandwidth and a throughput?
+How do you optimize bandwidth?
+What is the difference between a sequential and a random access?
+Explain what sequential access is.
+What is the difference between a sequential and a random access?
+How do you optimize access patterns?
+What is the difference between a stride and a sequential access?
+Explain what a stride is.
+What is the difference between a stride and a step?
+How do you handle non-contiguous data?
+What is the difference between a contiguous and a non-contiguous array?
+Explain what a contiguous array is.
+What is the difference between a contiguous and a strided array?
+How do you handle array layout?
+What is the difference between a row-major and a column-major order?
+Explain what row-major order is.
+What is the difference between a row-major and a column-major layout?
+How do you transpose a matrix?
+What is the difference between a transpose and a permutation?
+Explain what a matrix transpose is.
+What is the difference between a transpose and an inverse?
+How do you invert a matrix?
+What is the difference between an inverse and a pseudoinverse?
+Explain what a matrix inverse is.
+What is the difference between an inverse and a determinant?
+How do you compute a determinant?
+What is the difference between a determinant and a trace?
+Explain what a determinant is.
+What is the difference between a determinant and an eigenvalue?
+How do you compute eigenvalues?
+What is the difference between an eigenvalue and an eigenvector?
+Explain what an eigenvalue is.
+What is the difference between an eigenvalue and a singular value?
+How do you compute a singular value decomposition?
+What is the difference between an SVD and an eigendecomposition?
+Explain what SVD is.
+What is the difference between an SVD and a PCA?
+How do you reduce dimensions with SVD?
+What is the difference between a dimensionality reduction and a feature extraction?
+Explain what dimensionality reduction is.
+What is the difference between a linear and a nonlinear dimensionality reduction?
+How do you handle high-dimensional data?
+What is the difference between a high and a low-dimensional space?
+Explain what the curse of dimensionality is.
+What is the difference between a distance and a similarity in high dimensions?
+How do you handle distances in high dimensions?
+What is the difference between a Euclidean and a Manhattan distance?
+Explain what Euclidean distance is.
+What is the difference between a Euclidean and a cosine distance?
+How do you measure similarity?
+What is the difference between a similarity and a distance metric?
+Explain what cosine similarity is.
+What is the difference between a cosine and a Jaccard similarity?
+How do you compare sets?
+What is the difference between a Jaccard and a Dice coefficient?
+Explain what the Jaccard index is.
+What is the difference between a Jaccard and a Hamming distance?
+How do you compare strings?
+What is the difference between a Hamming and a Levenshtein distance?
+Explain what the Levenshtein distance is.
+What is the difference between a Levenshtein and a Damerau-Levenshtein distance?
+How do you align sequences?
+What is the difference between a sequence alignment and a string matching?
+Explain what sequence alignment is.
+What is the difference between a global and a local alignment?
+How do you align DNA sequences?
+What is the difference between a Needleman-Wunsch and a Smith-Waterman?
+Explain what the Needleman-Wunsch algorithm is.
+What is the difference between a dynamic programming and a greedy alignment?
+How do you score an alignment?
+What is the difference between a substitution and a gap penalty?
+Explain what a substitution matrix is.
+What is the difference between a BLOSUM and a PAM matrix?
+How do you handle biological sequences?
+What is the difference between a DNA and a protein sequence?
+Explain what DNA is.
+What is the difference between a DNA and an RNA?
+How do you sequence a genome?
+What is the difference between a sequencing and a genotyping?
+Explain what genome sequencing is.
+What is the difference between a genome and a gene?
+How do you analyze gene expression?
+What is the difference between a microarray and RNA-seq?
+Explain what gene expression is.
+What is the difference between a gene and a protein?
+How do you study proteins?
+What is the difference between a protein and an enzyme?
+Explain what a protein is.
+What is the difference between a protein and a peptide?
+How do you fold a protein?
+What is the difference between a protein folding and a misfolding?
+Explain what protein folding is.
+What is the difference between a primary and a tertiary structure?
+How do you predict protein structure?
+What is the difference between a homology and an ab initio modeling?
+Explain what homology modeling is.
+What is the difference between a homology and a threading?
+How do you design a drug?
+What is the difference between a drug design and a drug discovery?
+Explain what drug design is.
+What is the difference between a rational and a high-throughput screening?
+How do you screen compounds?
+What is the difference between a virtual and a physical screening?
+Explain what high-throughput screening is.
+What is the difference between a screening and a validation?
+How do you validate a drug?
+What is the difference between a preclinical and a clinical trial?
+Explain what a clinical trial is.
+What is the difference between a Phase I and a Phase II trial?
+How do you design a clinical trial?
+What is the difference between a randomized and an open-label trial?
+Explain what randomization is.
+What is the difference between a blinded and an open trial?
+How do you handle bias in clinical trials?
+What is the difference between a selection and a performance bias?
+Explain what bias is.
+What is the difference between a bias and a confounder?
+How do you handle confounding?
+What is the difference between a confounder and a mediator?
+Explain what a confounder is.
+What is the difference between a confounder and a collider?
+How do you handle causal inference?
+What is the difference between a causal and a correlational inference?
+Explain what causal inference is.
+What is the difference between a causal and a statistical inference?
+How do you establish causality?
+What is the difference between a randomized experiment and an observational study?
+Explain what a randomized experiment is.
+What is the difference between a randomized and a natural experiment?
+How do you handle natural experiments?
+What is the difference between a natural and a quasi-experiment?
+Explain what a natural experiment is.
+What is the difference between a quasi and a true experiment?
+How do you design a quasi-experiment?
+What is the difference between a quasi and a non-experiment?
+Explain what a quasi-experiment is.
+What is the difference between a quasi-experimental and an observational design?
+How do you handle selection bias?
+What is the difference between a selection and an attrition bias?
+Explain what selection bias is.
+What is the difference between a selection and a sampling bias?
+How do you handle attrition?
+What is the difference between an attrition and a dropout?
+Explain what attrition is.
+What is the difference between an attrition and a censoring?
+How do you handle censored data?
+What is the difference between a censored and a truncated data?
+Explain what censored data is.
+What is the difference between a censored and a missing data?
+How do you handle missing data?
+What is the difference between a missing and an incomplete data?
+Explain what missing data is.
+What is the difference between a missing and a corrupted data?
+How do you handle corrupted data?
+What is the difference between a corrupted and a noisy data?
+Explain what data corruption is.
+What is the difference between a corruption and a loss?
+How do you handle data loss?
+What is the difference between a data loss and a data leak?
+Explain what data loss is.
+What is the difference between a data loss and a data breach?
+How do you prevent data breaches?
+What is the difference between a data breach and a data leak?
+Explain what a data breach is.
+What is the difference between a breach and an intrusion?
+How do you detect intrusions?
+What is the difference between an intrusion and an anomaly?
+Explain what intrusion detection is.
+What is the difference between an IDS and an IPS?
+How do you prevent intrusions?
+What is the difference between a prevention and a detection?
+Explain what intrusion prevention is.
+What is the difference between a prevention and a mitigation?
+How do you mitigate attacks?
+What is the difference between a mitigation and a remediation?
+Explain what mitigation is.
+What is the difference between a mitigation and a response?
+How do you respond to incidents?
+What is the difference between a response and a recovery?
+Explain what incident response is.
+What is the difference between a response and a containment?
+How do you contain an incident?
+What is the difference between a containment and an isolation?
+Explain what containment is.
+What is the difference between a containment and a quarantine?
+How do you quarantine a system?
+What is the difference between a quarantine and an isolation?
+Explain what quarantine is.
+What is the difference between a quarantine and a sandbox?
+How do you sandbox a program?
+What is the difference between a sandbox and a container?
+Explain what a sandbox is.
+What is the difference between a sandbox and a virtual machine?
+How do you isolate applications?
+What is the difference between a virtual machine and a container?
+Explain what a virtual machine is.
+What is the difference between a VM and a hypervisor?
+How do you virtualize a system?
+What is the difference between a full and a para-virtualization?
+Explain what virtualization is.
+What is the difference between a virtualization and an emulation?
+How do you emulate a system?
+What is the difference between an emulation and a simulation?
+Explain what emulation is.
+What is the difference between an emulation and a compatibility layer?
+How do you handle compatibility?
+What is the difference between a compatibility and an interoperability?
+Explain what compatibility is.
+What is the difference between a compatibility and a portability?
+How do you port software?
+What is the difference between a port and a cross-compile?
+Explain what porting is.
+What is the difference between a port and a migration?
+How do you cross-compile?
+What is the difference between a cross-compile and a native compile?
+Explain what cross-compilation is.
+What is the difference between a cross and a native compilation?
+How do you build for multiple platforms?
+What is the difference between a platform and an architecture?
+Explain what a platform is.
+What is the difference between a platform and an operating system?
+How do you handle platform differences?
+What is the difference between a platform-specific and a platform-independent code?
+Explain what platform independence is.
+What is the difference between a platform-independent and a portable code?
+How do you write portable code?
+What is the difference between a portable and a cross-platform code?
+Explain what portable code is.
+What is the difference between a portable and a native code?
+How do you handle native code?
+What is the difference between a native and a managed code?
+Explain what native code is.
+What is the difference between a native and an interpreted code?
+How do you interpret code?
+What is the difference between an interpreter and a compiler?
+Explain what an interpreter is.
+What is the difference between an interpreter and a JIT?
+How do you JIT compile?
+What is the difference between a JIT and an AOT?
+Explain what JIT compilation is.
+What is the difference between a JIT and a profile-guided optimization?
+How do you optimize at runtime?
+What is the difference between a runtime and a compile-time optimization?
+Explain what runtime optimization is.
+What is the difference between a runtime and a compile-time?
+How do you handle runtime errors?
+What is the difference between a runtime and a compile-time error?
+Explain what a runtime error is.
+What is the difference between a runtime and a logic error?
+How do you handle logic errors?
+What is the difference between a logic and a syntax error?
+Explain what a logic error is.
+What is the difference between a logic and a semantic error?
+How do you handle semantic errors?
+What is the difference between a semantic and a syntax error?
+Explain what a semantic error is.
+What is the difference between a semantic and a type error?
+How do you handle type errors?
+What is the difference between a static and a dynamic typing?
+Explain what static typing is.
+What is the difference between a static and a dynamic type checking?
+How do you check types?
+What is the difference between a type checking and a type inference?
+Explain what type inference is.
+What is the difference between a type inference and a type annotation?
+How do you infer types?
+What is the difference between a Hindley-Milner and a bidirectional typing?
+Explain what the Hindley-Milner system is.
+What is the difference between a Hindley-Milner and a System F?
+How do you handle polymorphism in type systems?
+What is the difference between a parametric and a subtype polymorphism?
+Explain what parametric polymorphism is.
+What is the difference between a parametric and an ad-hoc polymorphism?
+How do you handle ad-hoc polymorphism?
+What is the difference between an ad-hoc and a overloading?
+Explain what ad-hoc polymorphism is.
+What is the difference between an overloading and an overriding?
+How do you handle method dispatch?
+What is the difference between a static and a dynamic dispatch?
+Explain what dynamic dispatch is.
+What is the difference between a vtable and a message passing?
+How do you implement dynamic dispatch?
+What is the difference between a single and a multiple dispatch?
+Explain what multiple dispatch is.
+What is the difference between a multiple and a single dispatch?
+How do you handle method resolution?
+What is the difference between a method and a function?
+Explain what a method is.
+What is the difference between a method and a procedure?
+How do you define a function?
+What is the difference between a function and a lambda?
+Explain what a function is.
+What is the difference between a function and a closure?
+How do you create a closure?
+What is the difference between a closure and a function?
+Explain what a closure is.
+What is the difference between a closure and a generator?
+How do you create a generator?
+What is the difference between a generator and a coroutine?
+Explain what a generator is.
+What is the difference between a generator and an iterator?
+How do you create an iterator?
+What is the difference between an iterator and an iterable?
+Explain what an iterator is.
+What is the difference between an iterator and a generator?
+How do you iterate over data?
+What is the difference between a for and a while loop?
+Explain what iteration is.
+What is the difference between a loop and a recursion?
+How do you handle recursion?
+What is the difference between a recursion and a tail call?
+Explain what recursion is.
+What is the difference between a tail and a non-tail recursion?
+How do you optimize tail recursion?
+What is the difference between a tail call and a tail call optimization?
+Explain what tail call optimization is.
+What is the difference between a TCO and a trampoline?
+How do you handle deep recursion?
+What is the difference between a deep and a shallow recursion?
+Explain what deep recursion is.
+What is the difference between a deep recursion and a stack overflow?
+How do you prevent stack overflows?
+What is the difference between a stack and a heap overflow?
+Explain what a stack overflow is.
+What is the difference between a stack and a heap?
+How do you manage memory?
+What is the difference between a stack and a heap allocation?
+Explain what stack allocation is.
+What is the difference between a stack and a heap memory?
+How do you allocate memory?
+What is the difference between a static and a dynamic allocation?
+Explain what dynamic allocation is.
+What is the difference between a dynamic and a static memory?
+How do you free memory?
+What is the difference between a manual and an automatic memory management?
+Explain what manual memory management is.
+What is the difference between a manual and an automatic deallocation?
+How do you handle memory leaks?
+What is the difference between a memory leak and a dangling pointer?
+Explain what a memory leak is.
+What is the difference between a leak and a dangling pointer?
+How do you detect memory leaks?
+What is the difference between a static and a dynamic leak detection?
+Explain what a dangling pointer is.
+What is the difference between a dangling and a wild pointer?
+How do you handle pointers?
+What is the difference between a pointer and a reference?
+Explain what a pointer is.
+What is the difference between a pointer and a smart pointer?
+How do you use smart pointers?
+What is the difference between a unique and a shared pointer?
+Explain what a smart pointer is.
+What is the difference between a shared and a weak pointer?
+How do you handle ownership?
+What is the difference between an ownership and a borrowing?
+Explain what ownership is.
+What is the difference between an ownership and a reference counting?
+How do you handle reference counting?
+What is the difference between a reference counting and a garbage collection?
+Explain what reference counting is.
+What is the difference between a reference counting and a tracing GC?
+How do you collect garbage?
+What is the difference between a mark-and-sweep and a copying GC?
+Explain what garbage collection is.
+What is the difference between a generational and a non-generational GC?
+How do you optimize garbage collection?
+What is the difference between a minor and a major GC?
+Explain what a generational GC is.
+What is the difference between a young and an old generation?
+How do you handle memory fragmentation?
+What is the difference between an internal and an external fragmentation?
+Explain what memory fragmentation is.
+What is the difference between a fragmentation and a compaction?
+How do you compact memory?
+What is the difference between a compaction and a defragmentation?
+Explain what compaction is.
+What is the difference between a compaction and a relocation?
+How do you relocate objects?
+What is the difference between a relocation and a moving GC?
+Explain what a moving GC is.
+What is the difference between a moving and a non-moving GC?
+How do you handle object finalization?
+What is the difference between a finalizer and a destructor?
+Explain what a finalizer is.
+What is the difference between a finalizer and a dispose?
+How do you handle resources?
+What is the difference between a resource and a memory?
+Explain what resource management is.
+What is the difference between a resource and an asset?
+How do you manage assets?
+What is the difference between an asset and a resource?
+Explain what an asset is.
+What is the difference between an asset and a liability?
+How do you handle finances?
+What is the difference between an asset and an expense?
+Explain what a liability is.
+What is the difference between a liability and an equity?
+How do you calculate equity?
+What is the difference between an equity and a debt?
+Explain what equity is.
+What is the difference between an equity and a capital?
+How do you raise capital?
+What is the difference between a debt and an equity financing?
+Explain what debt financing is.
+What is the difference between a debt and an equity?
+How do you value a company?
+What is the difference between a valuation and a pricing?
+Explain what valuation is.
+What is the difference between a DCF and a comparable analysis?
+How do you calculate a DCF?
+What is the difference between a NPV and an IRR?
+Explain what NPV is.
+What is the difference between a NPV and a payback period?
+How do you calculate ROI?
+What is the difference between a ROI and a ROE?
+Explain what ROI is.
+What is the difference between a ROI and a ROA?
+How do you measure profitability?
+What is the difference between a profit and a revenue?
+Explain what profit is.
+What is the difference between a gross and a net profit?
+How do you calculate margins?
+What is the difference between a gross and an operating margin?
+Explain what a profit margin is.
+What is the difference between a margin and a markup?
+How do you price a product?
+What is the difference between a cost-plus and a value-based pricing?
+Explain what cost-plus pricing is.
+What is the difference between a cost-plus and a dynamic pricing?
+How do you handle discounts?
+What is the difference between a discount and a rebate?
+Explain what a discount is.
+What is the difference between a discount and a coupon?
+How do you handle promotions?
+What is the difference between a promotion and an advertisement?
+Explain what a promotion is.
+What is the difference between a promotion and a campaign?
+How do you run a marketing campaign?
+What is the difference between a campaign and a strategy?
+Explain what a marketing strategy is.
+What is the difference between a strategy and a tactic?
+How do you develop a business strategy?
+What is the difference between a strategy and a plan?
+Explain what a business strategy is.
+What is the difference between a strategy and an objective?
+How do you set objectives?
+What is the difference between an objective and a goal?
+Explain what an objective is.
+What is the difference between a goal and a milestone?
+How do you track progress?
+What is the difference between a milestone and a deliverable?
+Explain what a milestone is.
+What is the difference between a deliverable and an output?
+How do you manage a project?
+What is the difference between a project and a program?
+Explain what project management is.
+What is the difference between a project and an operation?
+How do you plan a project?
+What is the difference between a plan and a schedule?
+Explain what a project plan is.
+What is the difference between a schedule and a timeline?
+How do you create a schedule?
+What is the difference between a Gantt and a PERT chart?
+Explain what a Gantt chart is.
+What is the difference between a Gantt and a critical path?
+How do you find a critical path?
+What is the difference between a critical path and a slack?
+Explain what the critical path method is.
+What is the difference between a slack and a float?
+How do you handle project risks?
+What is the difference between a risk and an issue?
+Explain what risk management is.
+What is the difference between a risk and a threat?
+How do you assess risks?
+What is the difference between a risk assessment and a risk analysis?
+Explain what risk assessment is.
+What is the difference between a qualitative and a quantitative risk analysis?
+How do you mitigate risks?
+What is the difference between a mitigation and an avoidance?
+Explain what risk mitigation is.
+What is the difference between a mitigation and a transfer?
+How do you transfer risk?
+What is the difference between a risk transfer and a risk acceptance?
+Explain what risk transfer is.
+What is the difference between an insurance and a hedging?
+How do you hedge a risk?
+What is the difference between a hedge and a derivative?
+Explain what hedging is.
+What is the difference between a derivative and an option?
+How do you trade options?
+What is the difference between a call and a put option?
+Explain what an option is.
+What is the difference between an option and a future?
+How do you trade futures?
+What is the difference between a future and a forward contract?
+Explain what a futures contract is.
+What is the difference between a future and a swap?
+How do you trade swaps?
+What is the difference between a swap and an option?
+Explain what a swap is.
+What is the difference between a swap and a forward?
+How do you handle financial derivatives?
+What is the difference between a derivative and an underlying asset?
+Explain what a derivative is.
+What is the difference between a derivative and a security?
+How do you trade securities?
+What is the difference between a stock and a bond?
+Explain what a stock is.
+What is the difference between a stock and a share?
+How do you value a stock?
+What is the difference between a P/E and a P/B ratio?
+Explain what a P/E ratio is.
+What is the difference between a P/E and a dividend yield?
+How do you analyze a company?
+What is the difference between a fundamental and a technical analysis?
+Explain what fundamental analysis is.
+What is the difference between a fundamental and a technical analysis?
+How do you read a stock chart?
+What is the difference between a candlestick and a line chart?
+Explain what a candlestick chart is.
+What is the difference between a candlestick and a bar chart?
+How do you identify trends?
+What is the difference between a trend and a reversal?
+Explain what a trend is.
+What is the difference between an uptrend and a downtrend?
+How do you trade trends?
+What is the difference between a long and a short position?
+Explain what a long position is.
+What is the difference between a long and a short?
+How do you short a stock?
+What is the difference between a short and a put option?
+Explain what short selling is.
+What is the difference between a short sale and a margin trade?
+How do you trade on margin?
+What is the difference between a margin and a leverage?
+Explain what margin trading is.
+What is the difference between a margin and a collateral?
+How do you handle leverage?
+What is the difference between a leverage and an exposure?
+Explain what leverage is.
+What is the difference between a leverage and a gearing?
+How do you manage a portfolio?
+What is the difference between a portfolio and a basket?
+Explain what a portfolio is.
+What is the difference between a portfolio and an index?
+How do you diversify a portfolio?
+What is the difference between a diversification and a hedging?
+Explain what diversification is.
+What is the difference between a diversification and an asset allocation?
+How do you allocate assets?
+What is the difference between a strategic and a tactical allocation?
+Explain what asset allocation is.
+What is the difference between a strategic and a tactical asset allocation?
+How do you rebalance a portfolio?
+What is the difference between a rebalancing and a reallocation?
+Explain what rebalancing is.
+What is the difference between a rebalancing and a drift?
+How do you measure portfolio performance?
+What is the difference between a Sharpe and a Sortino ratio?
+Explain what the Sharpe ratio is.
+What is the difference between a Sharpe and a Treynor ratio?
+How do you measure risk-adjusted returns?
+What is the difference between an alpha and a beta?
+Explain what alpha is.
+What is the difference between an alpha and a beta?
+How do you measure market risk?
+What is the difference between a systematic and an unsystematic risk?
+Explain what beta is.
+What is the difference between a systematic and an idiosyncratic risk?
+How do you handle market risk?
+What is the difference between a market and a credit risk?
+Explain what market risk is.
+What is the difference between a market and an operational risk?
+How do you handle credit risk?
+What is the difference between a credit and a default risk?
+Explain what credit risk is.
+What is the difference between a default and a recovery rate?
+How do you measure default probability?
+What is the difference between a PD and a LGD?
+Explain what probability of default is.
+What is the difference between a PD and an EAD?
+How do you calculate expected loss?
+What is the difference between an expected and an unexpected loss?
+Explain what expected loss is.
+What is the difference between an expected loss and a VaR?
+How do you calculate VaR?
+What is the difference between a VaR and an expected shortfall?
+Explain what Value at Risk is.
+What is the difference between a VaR and a stress testing?
+How do you stress test a portfolio?
+What is the difference between a stress test and a scenario analysis?
+Explain what stress testing is.
+What is the difference between a stress test and a backtest?
+How do you backtest a strategy?
+What is the difference between a backtest and a paper trading?
+Explain what backtesting is.
+What is the difference between a backtest and a walk-forward analysis?
+How do you validate a trading strategy?
+What is the difference between an in-sample and an out-of-sample test?
+Explain what out-of-sample testing is.
+What is the difference between an in-sample and an out-of-sample performance?
+How do you prevent overfitting in trading?
+What is the difference between a curve fitting and a overfitting?
+Explain what overfitting is.
+What is the difference between an overfitting and an underfitting?
+How do you prevent underfitting?
+What is the difference between a bias and a variance?
+Explain the bias-variance tradeoff.
+What is the difference between a bias and a variance error?
+How do you balance bias and variance?
+What is the difference between a training and a generalization error?
+Explain what generalization is.
+What is the difference between a training and a test error?
+How do you measure generalization?
+What is the difference between a cross-validation and a holdout?
+Explain what cross-validation is.
+What is the difference between a k-fold and a leave-one-out CV?
+How do you handle model selection?
+What is the difference between a model selection and a hyperparameter tuning?
+Explain what model selection is.
+What is the difference between a model and a hypothesis?
+How do you select the best model?
+What is the difference between a simple and a complex model?
+Explain what Occam's razor is.
+What is the difference between a simple and a parsimonious model?
+How do you handle model complexity?
+What is the difference between a regularization and a pruning?
+Explain what regularization is.
+What is the difference between an L1 and an L2 regularization?
+How do you regularize a model?
+What is the difference between a ridge and a lasso regression?
+Explain what ridge regression is.
+What is the difference between a ridge and a lasso?
+How do you handle feature selection with regularization?
+What is the difference between a lasso and an elastic net?
+Explain what lasso regression is.
+What is the difference between a lasso and a group lasso?
+How do you handle grouped features?
+What is the difference between a group and a sparse lasso?
+Explain what the elastic net is.
+What is the difference between an elastic net and a lasso?
+How do you handle correlated features?
+What is the difference between a correlated and a collinear feature?
+Explain what collinearity is.
+What is the difference between a collinearity and a multicollinearity?
+How do you detect multicollinearity?
+What is the difference between a VIF and a tolerance?
+Explain what VIF is.
+What is the difference between a VIF and a condition index?
+How do you handle multicollinearity in regression?
+What is the difference between a ridge and a PCA regression?
+Explain what PCA regression is.
+What is the difference between a PCA and a PLS regression?
+How do you handle high-dimensional regression?
+What is the difference between a PLS and a PCR?
+Explain what partial least squares is.
+What is the difference between a PLS and an OLS?
+How do you handle multivariate regression?
+What is the difference between a multivariate and a multiple regression?
+Explain what multiple regression is.
+What is the difference between a multiple and a simple regression?
+How do you handle interactions in regression?
+What is the difference between an interaction and a main effect?
+Explain what an interaction effect is.
+What is the difference between an interaction and a moderation?
+How do you handle moderation?
+What is the difference between a moderation and a mediation?
+Explain what moderation is.
+What is the difference between a moderation and a confounding?
+How do you handle mediation?
+What is the difference between a mediation and a direct effect?
+Explain what mediation is.
+What is the difference between a direct and an indirect effect?
+How do you measure indirect effects?
+What is the difference between a Sobel test and a bootstrap?
+Explain what the Sobel test is.
+What is the difference between a Sobel and a Hayes test?
+How do you test for mediation?
+What is the difference between a partial and a full mediation?
+Explain what full mediation is.
+What is the difference between a partial and a full mediation?
+How do you handle multiple mediators?
+What is the difference between a parallel and a serial mediation?
+Explain what parallel mediation is.
+What is the difference between a parallel and a serial mediation?
+How do you handle moderated mediation?
+What is the difference between a moderated mediation and a mediated moderation?
+Explain what moderated mediation is.
+What is the difference between a moderated mediation and a conditional indirect effect?
+How do you analyze longitudinal data?
+What is the difference between a longitudinal and a cross-sectional data?
+Explain what longitudinal data is.
+What is the difference between a longitudinal and a panel data?
+How do you handle repeated measures?
+What is the difference between a repeated measures and a cross-sectional design?
+Explain what repeated measures are.
+What is the difference between a repeated measures and a within-subjects design?
+How do you handle within-subjects factors?
+What is the difference between a within and a between-subjects design?
+Explain what a within-subjects design is.
+What is the difference between a within and a between-subjects factor?
+How do you handle mixed designs?
+What is the difference between a mixed and a factorial design?
+Explain what a mixed design is.
+What is the difference between a mixed and a split-plot design?
+How do you handle nested data?
+What is the difference between a nested and a crossed design?
+Explain what a nested design is.
+What is the difference between a nested and a hierarchical design?
+How do you handle hierarchical data?
+What is the difference between a hierarchical and a multilevel model?
+Explain what a hierarchical model is.
+What is the difference between a multilevel and a mixed-effects model?
+How do you fit a mixed-effects model?
+What is the difference between a fixed and a random effect?
+Explain what a fixed effect is.
+What is the difference between a fixed and a random effect?
+How do you choose between fixed and random effects?
+What is the difference between a random intercept and a random slope?
+Explain what a random intercept is.
+What is the difference between a random intercept and a random slope?
+How do you handle correlated random effects?
+What is the difference between a correlated and an independent random effect?
+Explain what a random slope is.
+What is the difference between a random slope and a random coefficient?
+How do you handle varying coefficients?
+What is the difference between a varying and a fixed coefficient?
+Explain what a varying coefficient is.
+What is the difference between a varying and a random coefficient?
+How do you handle non-linear mixed effects?
+What is the difference between a linear and a nonlinear mixed model?
+Explain what a nonlinear mixed model is.
+What is the difference between a linear and a nonlinear mixed-effects model?
+How do you handle generalized linear mixed models?
+What is the difference between a GLM and a GLMM?
+Explain what a GLMM is.
+What is the difference between a GLM and a mixed model?
+How do you handle non-normal data?
+What is the difference between a normal and a non-normal distribution?
+Explain what a GLM is.
+What is the difference between a GLM and an OLS?
+How do you handle binary outcomes?
+What is the difference between a logistic and a probit regression?
+Explain what logistic regression is.
+What is the difference between a logistic and a linear regression?
+How do you handle count data?
+What is the difference between a Poisson and a negative binomial regression?
+Explain what Poisson regression is.
+What is the difference between a Poisson and a zero-inflated regression?
+How do you handle overdispersion?
+What is the difference between an overdispersion and a underdispersion?
+Explain what overdispersion is.
+What is the difference between an overdispersion and a heteroscedasticity?
+How do you handle zero-inflated data?
+What is the difference between a zero-inflated and a hurdle model?
+Explain what a zero-inflated model is.
+What is the difference between a zero-inflated and a zero-truncated model?
+How do you handle truncated data?
+What is the difference between a truncated and a censored data?
+Explain what truncated data is.
+What is the difference between a truncated and a left-censored data?
+How do you handle survival data?
+What is the difference between a survival and a time-to-event data?
+Explain what survival analysis is.
+What is the difference between a survival and a hazard function?
+How do you estimate survival?
+What is the difference between a Kaplan-Meier and a Cox model?
+Explain what the Kaplan-Meier estimator is.
+What is the difference between a Kaplan-Meier and a life table?
+How do you handle censoring in survival?
+What is the difference between a right and a left censoring?
+Explain what right censoring is.
+What is the difference between a right and an interval censoring?
+How do you handle competing risks?
+What is the difference between a competing risk and a cause-specific hazard?
+Explain what competing risks are.
+What is the difference between a competing risk and a censoring?
+How do you handle time-varying covariates?
+What is the difference between a time-varying and a time-fixed covariate?
+Explain what a time-varying covariate is.
+What is the difference between a time-varying and a time-dependent covariate?
+How do you handle frailty models?
+What is the difference between a frailty and a random effect?
+Explain what a frailty model is.
+What is the difference between a frailty and a shared frailty?
+How do you handle recurrent events?
+What is the difference between a recurrent and a multiple event?
+Explain what recurrent events are.
+What is the difference between a recurrent and a a repeated event?
+How do you handle multiple events?
+What is the difference between a multiple and a recurrent event?
+Explain what multiple events are.
+What is the difference between a multiple and a competing risk?
+How do you handle multistate models?
+What is the difference between a multistate and a Markov model?
+Explain what a multistate model is.
+What is the difference between a multistate and a illness-death model?
+How do you handle transition probabilities?
+What is the difference between a transition and a transition probability?
+Explain what a transition probability is.
+What is the difference between a transition and a hazard?
+How do you estimate transition probabilities?
+What is the difference between an Aalen-Johansen and a Kaplan-Meier?
+Explain what the Aalen-Johansen estimator is.
+What is the difference between an Aalen-Johansen and a Nelson-Aalen?
+How do you handle cumulative incidence?
+What is the difference between a cumulative incidence and a survival?
+Explain what cumulative incidence is.
+What is the difference between a cumulative incidence and a hazard?
+How do you handle cause-specific hazards?
+What is the difference between a cause-specific and a subdistribution hazard?
+Explain what a cause-specific hazard is.
+What is the difference between a cause-specific and a subdistribution hazard?
+How do you fit a Fine-Gray model?
+What is the difference between a Fine-Gray and a Cox model?
+Explain what the Fine-Gray model is.
+What is the difference between a Fine-Gray and a cause-specific Cox?
+How do you handle interval-censored data?
+What is the difference between an interval and a right censoring?
+Explain what interval censoring is.
+What is the difference between an interval and a left censoring?
+How do you handle left-censored data?
+What is the difference between a left and a right censoring?
+Explain what left censoring is.
+What is the difference between a left and a double censoring?
+How do you handle double censoring?
+What is the difference between a double and a interval censoring?
+Explain what double censoring is.
+What is the difference between a double and a dependent censoring?
+How do you handle dependent censoring?
+What is the difference between a dependent and an independent censoring?
+Explain what dependent censoring is.
+What is the difference between a dependent and an informative censoring?
+How do you handle informative censoring?
+What is the difference between an informative and a non-informative censoring?
+Explain what informative censoring is.
+What is the difference between an informative and a random censoring?
+How do you handle random censoring?
+What is the difference between a random and a non-random censoring?
+Explain what random censoring is.
+What is the difference between a random and a type I censoring?
+How do you handle type I censoring?
+What is the difference between a type I and a type II censoring?
+Explain what type I censoring is.
+What is the difference between a type I and a progressive censoring?
+How do you handle progressive censoring?
+What is the difference between a progressive and a sequential censoring?
+Explain what progressive censoring is.
+What is the difference between a progressive and a hybrid censoring?
+How do you handle hybrid censoring?
+What is the difference between a hybrid and a mixed censoring?
+Explain what hybrid censoring is.
+What is the difference between a hybrid and a unified censoring?
+How do you handle unified censoring?
+What is the difference between a unified and a general censoring?
+Explain what unified censoring is.
+What is the difference between a unified and a hybrid censoring?

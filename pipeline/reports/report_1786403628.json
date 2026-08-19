@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-08-10 19:13:48",
+  "total_time": 16.333263635635376,
+  "ingested_chars": 107688,
+  "train": {
+    "loss_before": 0,
+    "loss_after": 3.2645109979157243,
+    "improvement": 0,
+    "neurons_before": 24,
+    "neurons_after": 24,
+    "train_time": 4.9908740520477295,
+    "epochs_run": 300
+  },
+  "dream": {
+    "loss_before": 3.2645109979157243,
+    "loss_after": 3.0994779245648907,
+    "dream_time": 10.038877487182617,
+    "cycles": 500,
+    "neurons_after": 26,
+    "new_mutations": 3
+  },
+  "eval": {
+    "loss": 3.0994779245648907,
+    "neurons": 26,
+    "corpus": 107688,
+    "epochs": 1600,
+    "samples": {
+      "0.3_hello echo": "r te a a a t a an  a a a a ansne te ae r  a ans te  a t  os ae e anen a a a a te",
+      "0.3_the ocean": "r  t t   r t t t a io  o s ane te  ha a t te  o a ara  rn n n n n r r y  r e e t",
+      "0.3_tell me about": "r  he an n n n a io e se d nh an n a a aranene  a te  a t tea a b tha u s a an n",
+      "0.5_hello echo": ". rrt te od ihs a iogoa a aoou eae e ait tthse aon ts t t araoen anne arvn h rn",
+      "0.5_the ocean": "n nane tete sit t a tha tha trsi  o aa anane a aei e  Ton u r i  onhele a ipn t",
+      "0.5_tell me about": "d e tat t ge antn n on oshele a io rs ant  s e  e q a ti n   ria te nn n e  a an",
+      "0.7_hello echo": "i  ueate  id n aub fhieru are Iieme raaa ala rore odierw .lao r ht l senea e tim",
+      "0.7_the ocean": "nIn n nhg2essns lp g  u ane  h ee nt trianacen ao c riparharsne tu r aras iee i",
+      "0.7_tell me about": "naeaceesoutooseaoneaa eben myte r ih e date ah pRitotsyiieror  t sr hr o  iv o s",
+      "1.0_hello echo": "sKntiuhuerm tfp ja2g)os",
+      "1.0_the ocean": "iro s5e #n. neai rns gem uah. seiecraeanawtoteeque itsuu7wo euwcrrf.",
+      "1.0_tell me about": "ibenotisnr 3o rtroec ioiJlpeasirtm K.eaneadr we ose p to cleeeueraaniredeaidrwie"
+    },
+    "quantum_entropy": 0.6018451557343097
+  }
+}

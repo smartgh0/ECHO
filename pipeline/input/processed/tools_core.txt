@@ -1,0 +1,112 @@
+user: what is two plus two
+echo: calc: 2 + 2
+tool_result: 4
+echo: the answer is 4
+user: what is three times seven
+echo: calc: 3 * 7
+tool_result: 21
+echo: three times seven is 21
+user: what is one hundred divided by four
+echo: calc: 100 / 4
+tool_result: 25.0
+echo: one hundred divided by four is 25
+user: what is the square root of sixteen
+echo: calc: sqrt(16)
+tool_result: 4.0
+echo: the square root of sixteen is 4
+user: what is five plus ten minus three
+echo: calc: 5 + 10 - 3
+tool_result: 12
+echo: five plus ten minus three is 12
+user: what is two to the power of ten
+echo: calc: 2 ** 10
+tool_result: 1024
+echo: two to the power of ten is 1024
+user: what is fifteen times eight
+echo: calc: 15 * 8
+tool_result: 120
+echo: fifteen times eight is 120
+user: what is nine hundred divided by thirty
+echo: calc: 900 / 30
+tool_result: 30.0
+echo: nine hundred divided by thirty is 30
+user: what time is it
+echo: time: now
+tool_result: 14:32:05
+echo: it is currently 14:32
+user: what is today date
+echo: date: today
+tool_result: 2024-01-15 (Monday)
+echo: today is monday january 15 2024
+user: what day is it
+echo: date: today
+tool_result: 2024-01-15 (Monday)
+echo: today is monday
+user: remember that my favorite color is blue
+echo: remember: favorite_color blue
+tool_result: saved: favorite_color
+echo: I will remember that your favorite color is blue
+user: remember that I live by the ocean
+echo: remember: location ocean
+tool_result: saved: location
+echo: I will remember that you live by the ocean
+user: remember my name is alex
+echo: remember: name alex
+tool_result: saved: name
+echo: I will remember your name is alex
+user: what is my name
+echo: recall: name
+tool_result: alex
+echo: your name is alex
+user: what is my favorite color
+echo: recall: favorite_color
+tool_result: blue
+echo: your favorite color is blue
+user: where do I live
+echo: recall: location
+tool_result: ocean
+echo: you live by the ocean
+user: do you remember anything about me
+echo: recall: name
+tool_result: alex
+echo: yes your name is alex and you live by the ocean and your favorite color is blue
+user: what is the capital of france
+echo: search: capital of france
+tool_result: Paris - Wikipedia: Paris is the capital of France
+echo: the capital of france is paris
+user: search for quantum mechanics
+echo: search: quantum mechanics
+tool_result: Quantum mechanics - Wikipedia: Quantum mechanics is the fundamental theory in physics
+echo: quantum mechanics is the fundamental theory in physics that describes the behavior of matter at the smallest scales
+user: what can you tell me about black holes
+echo: search: black holes
+tool_result: Black hole - Wikipedia: A black hole is a region of spacetime where gravity is so strong
+echo: a black hole is a region of spacetime where gravity is so strong that nothing not even light can escape
+user: fetch the page at example dot com
+echo: fetch: https://example.com
+tool_result: Example Domain This domain is for use in illustrative examples
+echo: the page at example dot com is a simple example domain page
+user: look up the weather
+echo: search: weather today
+tool_result: Weather forecast: partly cloudy 72 degrees
+echo: the weather today is partly cloudy at 72 degrees
+user: who wrote romeo and juliet
+echo: search: who wrote romeo and juliet
+tool_result: William Shakespeare - Wikipedia: Romeo and Juliet is a tragedy by William Shakespeare
+echo: romeo and juliet was written by william shakespeare
+user: what is the speed of light
+echo: search: speed of light
+tool_result: Speed of light - Wikipedia: The speed of light is approximately 299792458 meters per second
+echo: the speed of light is approximately three hundred million meters per second
+user: help me with math what is forty two times seventeen
+echo: calc: 42 * 17
+tool_result: 714
+echo: forty two times seventeen is 714
+user: I need to calculate compound interest
+echo: calc: 1000 * (1.05 ** 10)
+tool_result: 1628.89
+echo: one thousand at five percent compound interest for ten years is about 1629
+user: what tools can you use
+echo: help: tools
+tool_result: calc: evaluate math | time: current time | date: current date | search: web search | fetch: fetch page | file: file ops | remember: store | recall: retrieve | git: git ops | twitter: post or search | facebook: post or pages | think: extended generation | status: brain status
+echo: I can use math time date search fetch file remember recall git twitter facebook think and status tools

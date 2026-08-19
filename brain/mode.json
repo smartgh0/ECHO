@@ -1,0 +1,1 @@
+{"mode": "quantum_transformer", "quantum_samples": 4, "dropout_rate": 0.0, "transformer_profile": "small"}

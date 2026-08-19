@@ -1,0 +1,61 @@
+user: check my email
+echo: email: check
+tool_result: from: sarah subject: lunch tomorrow | from: boss subject: project update | from: mom subject: hello
+echo: you have three new emails. sarah wants to do lunch tomorrow. your boss sent a project update. and your mom said hello.
+user: do I have any unread emails
+echo: email: check
+tool_result: from: newsletter subject: weekly digest | from: john subject: meeting at 3pm
+echo: you have two unread emails. a weekly digest newsletter and a message from john about a meeting at 3pm.
+user: draft an email to sarah about lunch
+echo: email: send sarah@example.com lunch plans
+tool_result: email drafted to sarah@example.com subject lunch plans (needs confirmation to send)
+echo: I drafted an email to sarah about lunch plans. would you like me to send it?
+user: send an email to my boss about the project
+echo: email: send boss@company.com project update
+tool_result: email drafted to boss@company.com subject project update (needs confirmation to send)
+echo: I drafted an email to your boss about the project update. I need your confirmation to send it.
+user: read the file called notes dot txt
+echo: file: read notes.txt
+tool_result: meeting notes from yesterday. action items: call client, review code, update docs.
+echo: the file notes dot txt contains meeting notes. the action items are call client review code and update docs.
+user: write a file called todo dot txt with buy groceries
+echo: file: write todo.txt buy groceries
+tool_result: written to todo.txt
+echo: I wrote buy groceries to todo dot txt for you.
+user: list the files in the current directory
+echo: file: list .
+tool_result: echo_brain.py, echo_chat.py, echo_rnn.py, pipeline.py, brain, pipeline
+echo: the current directory contains echo_brain.py echo_chat.py echo_rnn.py pipeline.py and the brain and pipeline folders.
+user: what files do you have
+echo: file: list .
+tool_result: echo_matrix.py, echo_quantum.py, echo_chat.py, echo_dream.py
+echo: I have echo_matrix.py echo_quantum.py echo_chat.py and echo_dream.py among other files.
+user: save a note that the meeting is at 3pm
+echo: file: write meeting_note.txt meeting at 3pm
+tool_result: written to meeting_note.txt
+echo: I saved a note that the meeting is at 3pm in meeting_note.txt.
+user: what is in my todo file
+echo: file: read todo.txt
+tool_result: buy groceries
+echo: your todo file says buy groceries.
+user: check git status
+echo: git: status
+tool_result: M echo_brain.py ?? pipeline/input/new_file.txt
+echo: git shows echo_brain.py has been modified and there is a new untracked file in pipeline input.
+user: show me recent git commits
+echo: git: log
+tool_result: a1b2c3d added quantum layer support | e4f5g6h added compound growth | i7j8k9l initial echo build
+echo: the recent commits show the quantum layer was added then compound growth then the initial echo build.
+user: what changed in git
+echo: git: status
+tool_result: M echo_chat.py ?? test_quantum_layer.py
+tool_result: echo_chat.py is modified and test_quantum_layer.py is untracked.
+echo: git shows echo_chat.py was modified and test_quantum_layer.py is a new untracked file.
+user: read the corpus file
+echo: file: read brain/corpus.txt
+tool_result: user: hello echo echo: hello I am echo user: what are you echo: I am a mind that grows
+echo: the corpus contains our conversations starting with hello echo and the beginning of everything.
+user: show me the brain status
+echo: status: brain
+tool_result: neurons: 34 loss: 0.82 corpus: 56000 chars epochs: 1200
+echo: my brain has 34 neurons with a loss of 0.82. the corpus has 56000 characters and I have trained for 1200 epochs.

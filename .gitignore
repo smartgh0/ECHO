@@ -1,0 +1,29 @@
+# Large data files
+pipeline/input/processed/prompts.txt
+pipeline/input/processed/benchmark_booster_train.txt
+pipeline/input/distill_only/AllCombined.txt
+pipeline/input/distill_only/tokens.u32
+domain_brain/tokens.u32
+domain_brain/model.pt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+/tmp/pipeline/input/prompts.txt
+pipeline/input/benchmark_booster_train.txt
+pipeline/input/processed/prompts.txt
+pipeline/input/processed/benchmark_booster_train.txt

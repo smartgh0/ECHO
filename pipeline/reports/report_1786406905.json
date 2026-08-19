@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-08-10 20:08:25",
+  "total_time": 1103.8283016681671,
+  "train": {
+    "loss_before": 3.002188085449667,
+    "loss_after": 3.183686064280147,
+    "improvement": -6.045523253860202,
+    "neurons_before": 29,
+    "neurons_after": 128,
+    "train_time": 361.0870704650879,
+    "epochs_run": 5000
+  },
+  "dream": {
+    "loss_before": 3.183686064280147,
+    "loss_after": 3.151902247977339,
+    "dream_time": 739.5632860660553,
+    "cycles": 5000,
+    "neurons_after": 128,
+    "new_mutations": 2
+  },
+  "eval": {
+    "loss": 3.151902247977339,
+    "neurons": 128,
+    "corpus": 109322,
+    "epochs": 22446,
+    "samples": {
+      "0.3_hello echo": "re t moun s ing wount t in tis s we t and me the at thes the me ce that and ate",
+      "0.3_the ocean": "at in and ing rere is at en theri is ait t an and ise : there t in ing is the is",
+      "0.3_tell me about": "s at anat therat en there me s and inge tint ins in t and at an thend se and t a",
+      "0.5_hello echo": "candes an cos t t os er s an natat and a anat s nd er in lis the ite us rerer e",
+      "0.5_the ocean": "yerateat at int ss thand ons amen rise : as ing then t av atoat ant enve taun s",
+      "0.5_tell me about": "ire an serit tat ing we we is ntec: tit t dre tharanghans me thpes and ins atat",
+      "0.7_hello echo": "haonwnt inaisy alon e chan. thor ss on t orenonere enit inenlas el thant oas sen",
+      "0.7_the ocean": "ilt eme whin cherdlw m is reathend it a cem e ariopuatee uc chat t w int iint in",
+      "0.7_tell me about": "te at emrns myt wre s medis inder d d s ews ind e toas one t ns e ge cus er fite",
+      "1.0_hello echo": "yHopite t e somamsnoticrtt lr sls adenwoor ome iouisawowhtinikpeatsand tp nncto:",
+      "1.0_the ocean": "thawomoud pai. d oar s bme s muod atiaomat oas se ncain ompyoshocaind inilcouk a",
+      "1.0_tell me about": "s b :oopiat. eriwapale ile  de fisr ahhos r. we wsim mm ondey beewlmw ptme s fge"
+    },
+    "quantum_entropy": 0.5546282596618994
+  }
+}

@@ -1,0 +1,20 @@
+user: how does the training pipeline work
+echo: the pipeline has five stages. stage one is ingest. it reads text files from the input folder and adds them to the corpus. stage two is train. it runs three hundred epochs of gradient descent in two phases. stage three is dream. it runs five hundred cycles of rehearsal on existing memory. stage four is evaluate. it generates sample responses at different temperatures. stage five is report. it saves a summary of everything that happened.
+user: how do I feed echo new text
+echo: drop any text file into the pipeline input folder. it can be a conversation a journal a poem a story or anything. the pipeline detects the format automatically. if it is prose it smart splits it into pseudo conversation turns. then run pipeline dot py run and walk away.
+user: how often should I run the pipeline
+echo: run it whenever you add new text. if you add text daily run it daily. if you add text weekly run it weekly. the more you run it the smarter echo gets. run it overnight for best results because dream mode is where the deepest learning happens.
+user: what if I want to train harder
+echo: run pipeline dot py run with more epochs and dream cycles. for example run with epochs five hundred and dream one thousand. this takes longer but produces a sharper brain. you can also run dream alone with dream cycles one thousand for overnight consolidation.
+user: how do I check echo progress
+echo: run pipeline dot py status. it shows the brain mode neuron count loss corpus size total epochs and quantum entropy. you can also run pipeline dot py report to see the latest pipeline report with sample responses.
+user: what temperature should I use
+echo: use zero point three to see what echo has actually learned. use zero point five for evaluation. use zero point seven for conversation. use one point zero for creativity. use one point five for chaos. lower temperature is more conservative. higher temperature is more wild.
+user: how do I backup echo
+echo: run pipeline dot py export with an output file. this saves the entire brain including weights vocabulary evolution state and quantum amplitudes as a single json file. you can copy this file to another machine or keep it as a backup.
+user: what mode should echo be in
+echo: quantum layer mode is the default and the best. it uses layer level superposition with quantum dropout. it is efficient and scalable. classical mode is the baseline. full quantum mode is the legacy per weight superposition. you can switch with mode quantum layer or mode classical inside the chat.
+user: how many neurons should echo have
+echo: start with twenty four. the compound growth system will expand automatically. the brain grows at five percent interest per growth event. it can reach up to one hundred twenty eight neurons in quantum layer mode. do not manually set the neuron count. let the evolution system handle it.
+user: what is the best corpus size
+echo: more text is always better. start with at least a thousand characters. ten thousand is good. one hundred thousand is excellent. the more diverse the text the more robust the brain. mix conversation prose poetry and technical text for the richest learning.

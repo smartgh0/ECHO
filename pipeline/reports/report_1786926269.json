@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-08-16 20:24:29",
+  "total_time": 19.38278818130493,
+  "dream": {
+    "loss_before": 0,
+    "loss_after": 2.596277264046978,
+    "dream_time": 15.924597263336182,
+    "cycles": 500,
+    "neurons_after": 128,
+    "new_mutations": 0
+  },
+  "eval": {
+    "loss": 2.596277264046978,
+    "neurons": 128,
+    "corpus": 108107,
+    "epochs": 500,
+    "samples": {
+      "0.3_hello echo": "sthor: thor: d bond thor: puline pho the wher: whond whe tho: whe that bonthor:",
+      "0.3_the ocean": "thechor: e the the che thandan ansere the che whon whor: thonthon whond the ind",
+      "0.3_tell me about": "bus inde bus in pus thor: thalls whong t thound the the thor: ase t ches puse th",
+      "0.5_hello echo": "ar: as n pan chor: am who the whe a the t thate at ind ych ondemaroro: ind thond",
+      "0.5_the ocean": "sthe ingive ans s ar: inecin d thone d thonnd inatomes illy it d ar: is thermear",
+      "0.5_tell me about": "fus yllthon thanthe ans che wise enthe be we llind fr: t wher: whery tho: but in",
+      "0.7_hello echo": "whouwy s s b: nt me Lus whrom wa . mthy lt. thesom chand whos phar: brdes thwati",
+      "0.7_the ocean": "fo| Mur* cor: w k inf irethofhulk choA ins wholing butharghwhans 4 f_horne imat",
+      "0.7_tell me about": "bngousechono M pink gad fatrdor: tho t s s xthe the ce I tathoubur: sephine whes",
+      "1.0_hello echo": "ker.o) 4 t ctTollrA ichsegalcwholod baryobruine stecald brfn. Ous 4Cileantlechem",
+      "1.0_the ocean": "echo=+renloy 1s d jar` as +ext 1 erhcorochumiwat t dg tuwarNhochamodprarrDugmput",
+      "1.0_tell me about": "iorond xwdds asthe antputt qus les bon . y ispt. lgodero!eyego\u2014olthiskaheasmdovu"
+    },
+    "quantum_entropy": null
+  }
+}

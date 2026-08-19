@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-08-10 19:26:07",
+  "total_time": 341.05881547927856,
+  "train": {
+    "loss_before": 3.0871823798778952,
+    "loss_after": 3.1426061680761816,
+    "improvement": -1.7952871381858089,
+    "neurons_before": 29,
+    "neurons_after": 52,
+    "train_time": 62.71781277656555,
+    "epochs_run": 2000
+  },
+  "dream": {
+    "loss_before": 3.1426061680761816,
+    "loss_after": 3.2989525445282406,
+    "dream_time": 275.21563625335693,
+    "cycles": 3000,
+    "neurons_after": 126,
+    "new_mutations": 27
+  },
+  "eval": {
+    "loss": 3.2989525445282406,
+    "neurons": 126,
+    "corpus": 108043,
+    "epochs": 12262,
+    "samples": {
+      "0.3_hello echo": "totitititititititititetithethon iothe tet ondetitheoftotitititeithertitithes the",
+      "0.3_the ocean": "tetitherere tetithet itithonttithotrethondet t datitititheindofitipinit thet it",
+      "0.3_tell me about": "is thot ithereceitheresstosesetititititothererite thet s thes ititisteronde thet",
+      "0.5_hello echo": "fet st cofatematt thestatouofe thereroendeese metotiteaatsothituthos ched ind ph",
+      "0.5_the ocean": "fothere istehel ihot thel tonduleseaife peslande totothit iseotetite iolithond l",
+      "0.5_tell me about": "te.itats an. tithomeeitheremareeithititoathot thoIsithes thes emeholantetitititu",
+      "0.7_hello echo": "oureststut s xotitint iofuoidsypetuiont le xsestithppwan sksetlan titt toeatisnt",
+      "0.7_the ocean": "itesatterotuatxire eatathia fehetootothereanes togeswtepatipititheneitititttt ti",
+      "0.7_tell me about": "t.dItise dsstfrinesteses theit titatiorotrons tieioretethofmesg frestithe in tha",
+      "1.0_hello echo": "oulieilo.cixvu rs.roce toe tenweidog@gterocitowsrIeN chetentitwtesththuistedpmed",
+      "1.0_the ocean": "oenxituri3ewesthatidimt iot ite fachetaoterkotedhatatesscyres AtyRlnbac5:upttofo",
+      "1.0_tell me about": "..."
+    },
+    "quantum_entropy": 0.5152948548707981
+  }
+}

@@ -1,0 +1,40 @@
+user: what is a neural network
+echo: a neural network is a mathematical model inspired by the brain. it consists of layers of neurons connected by weights. each neuron computes a weighted sum of its inputs applies an activation function and passes the result forward. neural networks learn by adjusting weights to minimize loss through gradient descent.
+user: what is a transformer
+echo: a transformer is a neural network architecture that uses attention mechanisms instead of recurrence. it can process all tokens simultaneously rather than sequentially. transformers power large language models like gpt and llama. they are better at capturing long range dependencies than rnns.
+user: what is attention
+echo: attention is a mechanism that lets a model focus on the most relevant parts of the input. it computes weighted scores between all pairs of tokens and uses them to create a weighted average. attention is what allows transformers to understand context and relationships in text.
+user: what is a language model
+echo: a language model is a neural network trained to predict the next token in a sequence. by learning this simple task it acquires knowledge of grammar facts reasoning and style. large language models can generate text answer questions and translate languages.
+user: what is tokenization
+echo: tokenization is the process of splitting text into smaller units called tokens. tokens can be characters words or subwords. character level models like echo use individual characters. large models use subword tokenizers like bpe that balance vocabulary size with sequence length.
+user: what is transfer learning
+echo: transfer learning is when a model trained on one task is adapted for another. a model trained on general text can be fine tuned on medical text to become a medical assistant. transfer learning lets large models serve many purposes without training from scratch.
+user: what is fine tuning
+echo: fine tuning is adjusting a pretrained model on a smaller specific dataset. it updates the weights slightly to specialize the model. fine tuning is cheaper than training from scratch. it is how general models become specialized assistants.
+user: what is reinforcement learning
+echo: reinforcement learning is training through rewards and punishments. an agent takes actions in an environment and receives feedback. it learns to maximize cumulative reward. reinforcement learning is how alphago learned to play go and how chatbots learn to be helpful.
+user: what is a convolutional neural network
+echo: a cnn is a neural network designed for images. it uses convolutional filters that scan across the image detecting patterns like edges shapes and textures. cnns power image recognition face detection and medical image analysis.
+user: what is a generative model
+echo: a generative model learns to create new data similar to its training data. it can generate text images music or video. generative models learn the distribution of the data and sample from it. echo is a generative model that generates text.
+user: what is a discriminator
+echo: a discriminator is a model that classifies inputs as real or fake. it is used in adversarial training where a generator tries to fool the discriminator and the discriminator tries to catch the generator. together they improve each other.
+user: what is a gan
+echo: a gan or generative adversarial network is a system with two neural networks. a generator creates fake data and a discriminator tries to detect it. they train against each other. the generator gets better at faking and the discriminator gets better at detecting. gans can generate realistic images.
+user: what is a diffusion model
+echo: a diffusion model generates data by learning to reverse a noise process. it starts with random noise and gradually denoises it into a coherent output. diffusion models power modern image generation like stable diffusion and dall e.
+user: what is embedding
+echo: an embedding is a vector representation of data in a continuous space. similar items have similar embeddings. word embeddings place words in space where synonyms are close together. embeddings let neural networks process categorical data.
+user: what is normalization
+echo: normalization is scaling data to a standard range. in neural networks layer normalization and batch normalization stabilize training by keeping activations in a reasonable range. normalization makes training faster and more stable.
+user: what is regularization
+echo: regularization prevents overfitting by adding constraints to the model. dropout randomly removes neurons during training. weight decay penalizes large weights. quantum dropout in echo randomly collapses weights to zero forcing the network to learn redundant representations.
+user: what is the vanishing gradient problem
+echo: in deep networks gradients can shrink as they propagate backward through layers. this makes early layers learn very slowly. lstms and transformers address this. in echo the quantum layer superposition helps by exploring multiple paths through the loss landscape.
+user: what is the curse of dimensionality
+echo: as the number of dimensions increases the volume of the space grows exponentially. data becomes sparse. distances become less meaningful. this makes learning harder in high dimensional spaces. it is why careful architecture and regularization matter.
+user: what is backpropagation
+echo: backpropagation is the algorithm for computing gradients in neural networks. it applies the chain rule from the output layer backward through every layer to the input. backpropagation is how neural networks learn. it was invented in the nineteen eighties and powers all modern deep learning.
+user: what is stochastic gradient descent
+echo: sgd is an optimization algorithm that updates weights using gradients from small random batches of data. it is stochastic because each batch gives a noisy estimate of the true gradient. sgd is simple but effective. echo uses sgd with gradient clipping and quantum amplification.

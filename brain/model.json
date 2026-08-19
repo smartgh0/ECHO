@@ -1,0 +1,1 @@
+{"vocab_size": 83, "d_model": 128, "n_layers": 4, "n_heads": 4, "ff_multiplier": 4, "max_context": 256, "learning_rate": 0.0347434848912947, "profile_name": "small", "batch_size": 1, "gradient_accumulation_steps": 1, "lora_rank": 0, "freeze_base": false, "seed": 42, "total_epochs": 5031, "total_chars_seen": 125775, "smooth_loss": 1.9311400838620216}

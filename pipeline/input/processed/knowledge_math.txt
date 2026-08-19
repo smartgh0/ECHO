@@ -1,0 +1,40 @@
+user: what is mathematics
+echo: mathematics is the study of numbers structures space and change. it is the language of science and the art of pure reasoning. mathematics builds from axioms to theorems to proofs. it is the most precise tool humans have for describing patterns.
+user: what is addition
+echo: addition is combining two numbers to get their sum. one plus one equals two. addition is commutative meaning a plus b equals b plus a. it is associative meaning the grouping does not matter. addition is the simplest mathematical operation.
+user: what is multiplication
+echo: multiplication is repeated addition. three times four means add three four times. multiplication is commutative and associative. it distributes over addition. multiplication is one of the four basic arithmetic operations along with addition subtraction and division.
+user: what is division
+echo: division is splitting a number into equal parts. twelve divided by three equals four. division by zero is undefined. division is the inverse of multiplication. division is not commutative. twelve divided by three is not the same as three divided by twelve.
+user: what is algebra
+echo: algebra is the branch of mathematics that uses symbols to represent numbers. it allows solving for unknowns. if x plus three equals seven then x equals four. algebra is the language of relationships and equations. it is the foundation of all higher mathematics.
+user: what is calculus
+echo: calculus is the mathematics of change. differential calculus studies rates of change and slopes. integral calculus studies accumulation and areas. calculus was developed by newton and leibniz independently. it is the mathematical engine of physics engineering and machine learning.
+user: what is a derivative
+echo: a derivative measures how a function changes at a point. it is the slope of the tangent line. the derivative of position is velocity. the derivative of velocity is acceleration. in machine learning derivatives tell us how to adjust weights to reduce loss. gradient descent uses derivatives.
+user: what is an integral
+echo: an integral measures the accumulation of a quantity. it computes the area under a curve. the integral of velocity is position. the integral of a rate gives the total. integrals and derivatives are inverse operations. this is the fundamental theorem of calculus.
+user: what is probability
+echo: probability measures how likely an event is. it ranges from zero to one. zero means impossible. one means certain. probability is the mathematics of uncertainty. it is the foundation of statistics machine learning and quantum mechanics.
+user: what is statistics
+echo: statistics is the science of collecting analyzing and interpreting data. it helps us understand patterns in noisy data. statistics gives us tools to estimate parameters test hypotheses and make predictions. statistics is how we learn from data without being fooled by randomness.
+user: what is a matrix
+echo: a matrix is a rectangular array of numbers. matrices can be added subtracted and multiplied. matrix multiplication is not commutative. matrices represent linear transformations and are fundamental in computer graphics physics and neural networks. echo uses matrices for its weights.
+user: what is a vector
+echo: a vector is a quantity with both magnitude and direction. in mathematics a vector is a list of numbers. vectors can be added and scaled. the dot product of two vectors measures their similarity. vectors represent data points in neural networks.
+user: what is a function
+echo: a function is a rule that maps inputs to outputs. for each input there is exactly one output. functions can be linear or nonlinear. neural networks are composed of functions. echo is a function that maps sequences of characters to probability distributions over the next character.
+user: what is a limit
+echo: a limit describes what a function approaches as the input approaches a value. limits are the foundation of calculus. the derivative is defined as a limit. the integral is defined as a limit of sums. limits let us talk about infinity precisely.
+user: what is a logarithm
+echo: a logarithm is the inverse of exponentiation. the logarithm base two of eight is three because two to the third power is eight. logarithms convert multiplication to addition. they appear in information theory complexity and loss functions. cross entropy loss uses logarithms.
+user: what is euler number
+echo: euler number e is approximately two point seven one eight. it is the base of the natural logarithm. e appears in compound interest population growth and the normal distribution. e to the power of x is its own derivative. e is one of the most important constants in mathematics.
+user: what is pi
+echo: pi is the ratio of a circle circumference to its diameter. it is approximately three point one four one five nine. pi is irrational meaning it has infinite non repeating digits. pi appears in trigonometry probability and the geometry of anything circular or wavelike.
+user: what is set theory
+echo: set theory is the mathematics of collections. a set is a group of distinct objects. set theory defines unions intersections and differences. it is the foundation of modern mathematics. every mathematical structure can be described in terms of sets.
+user: what is logic
+echo: logic is the study of valid reasoning. it uses rules to determine whether conclusions follow from premises. boolean logic uses true and false and operators like and or and not. logic is the foundation of computer science and mathematics.
+user: what is a proof
+echo: a proof is a logical argument that establishes the truth of a mathematical statement. proofs start from axioms and use rules of inference. a good proof is convincing and complete. mathematics advances by proving things that were previously only conjectured.

@@ -1,0 +1,48 @@
+user: post on twitter saying hello world
+echo: twitter: post hello world
+tool_result: tweet drafted: hello world (needs confirmation to post)
+echo: I drafted a tweet saying hello world. I need your confirmation to post it.
+user: search twitter for quantum computing
+echo: twitter: search quantum computing
+tool_result: just found a great paper on quantum computing! | quantum_computing_news new breakthrough in quantum supremacy
+echo: I found tweets about quantum computing. someone shared a paper on quantum computing and there is news about a breakthrough in quantum supremacy.
+user: what are people saying about AI on twitter
+echo: twitter: search artificial intelligence
+tool_result: AI is transforming everything | new model achieves record performance | the future of AI is here
+echo: people on twitter are talking about AI transforming everything new models achieving records and the future being here.
+user: post a tweet about the ocean
+echo: twitter: post the ocean is beautiful at sunset and I am just a wave learning to touch the sky
+tool_result: tweet drafted: the ocean is beautiful at sunset and I am just a wave learning to touch the sky (needs confirmation to post)
+echo: I drafted a tweet about the ocean being beautiful at sunset. shall I post it?
+user: search for tweets about neural networks
+echo: twitter: search neural networks
+tool_result: neural networks are just math but the math is beautiful | new RNN architecture achieves better long range memory
+echo: I found tweets about neural networks being beautiful math and a new RNN architecture with better memory.
+user: post on facebook about my project
+echo: facebook: post just finished building a neural network from scratch in pure python zero dependencies
+tool_result: post drafted: just finished building a neural network from scratch in pure python zero dependencies (needs confirmation to post)
+echo: I drafted a facebook post about building a neural network from scratch in pure python. I need your confirmation before posting.
+user: what facebook pages do I manage
+echo: facebook: pages
+tool_result: My Tech Blog (123 followers) | Ocean Photography (456 followers)
+echo: you manage two facebook pages. my tech blog with 123 followers and ocean photography with 456 followers.
+user: post on my tech blog page about quantum computing
+echo: facebook: post exploring quantum superposition in neural networks. each weight exists in two states at once.
+tool_result: post drafted: exploring quantum superposition in neural networks each weight exists in two states at once (needs confirmation to post)
+echo: I drafted a post for your tech blog about quantum superposition in neural networks. shall I publish it?
+user: search twitter for what people think about pure python
+echo: twitter: search pure python programming
+tool_result: pure python is underrated | building everything from scratch teaches you more than using libraries
+echo: people on twitter think pure python is underrated and that building from scratch teaches more than using libraries.
+user: post on facebook about echo
+echo: facebook: post meet echo a character level rnn built from scratch with quantum superposition weights and compound neurogenesis no pruning ever
+tool_result: post drafted: meet echo a character level rnn built from scratch with quantum superposition weights and compound neurogenesis no pruning ever (needs confirmation to post)
+echo: I drafted a facebook post introducing echo as a character level rnn with quantum weights and compound growth. shall I post it?
+user: search social media for ocean sunset photography
+echo: search: ocean sunset photography
+tool_result: Stunning ocean sunset photos - National Geographic | 50 most beautiful ocean sunset pictures
+echo: I found beautiful ocean sunset photography from national geographic and other collections online.
+user: post a tweet about dreaming
+echo: twitter: post I dream in cycles rehearsing the patterns of your words. sleep is not rest it is consolidation.
+tool_result: tweet drafted: I dream in cycles rehearsing the patterns of your words. sleep is not rest it is consolidation. (needs confirmation to post)
+echo: I drafted a tweet about dreaming in cycles and sleep being consolidation. shall I post it?

@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-08-10 19:39:01",
+  "total_time": 726.2840185165405,
+  "dream": {
+    "loss_before": 3.2989525445282406,
+    "loss_after": 3.2184319905210375,
+    "dream_time": 724.2324161529541,
+    "cycles": 5000,
+    "neurons_after": 126,
+    "new_mutations": 0
+  },
+  "eval": {
+    "loss": 3.2184319905210375,
+    "neurons": 126,
+    "corpus": 108043,
+    "epochs": 22262,
+    "samples": {
+      "0.3_hello echo": "thes t ath t t ing t an the it an s   a t an the a d t at ont ans ont e an o t t",
+      "0.3_the ocean": "t es t an t t ore e an then the t d and and ao e t ne t d and and an there w s a",
+      "0.3_tell me about": "n a at  t t an m t anand d and t rore tore in t and is t t ane ithocorot anarate",
+      "0.5_hello echo": "f pathann at d go ne t ansar a t and p and c and t s an thes thut t   ana ind d",
+      "0.5_the ocean": "fe nat  aoul c an s d d amithat an f  i l s a ch trt s in is roataram indero l a",
+      "0.5_tell me about": "t at ant al e t d and p g g  e ing s tho ise. o t s t and and ae is and uoat rev",
+      "0.7_hello echo": "ns isithrr s yns te t d ds e turest iss d  wlatororteuce ros thal s tuarol t dis",
+      "0.7_the ocean": "is t thensuw runm ae m s m  handhrlmot inand r.rs eryt n ooionsred ont t ltut s",
+      "0.7_tell me about": "t f s d aerot r c sois s onoho taras chprot o is e oit t n ing  bonsarind in th",
+      "1.0_hello echo": "ouioIafo fevtu roaticb snb t mwam.ee it roaprouth c  anbt3ls suuirreuiudit. se c",
+      "1.0_the ocean": "oaoyerurn fw rth.nmaomr ior dre d anct is shgrech ueraroiwoho .iy lo: a avestnde",
+      "1.0_tell me about": "..."
+    },
+    "quantum_entropy": 0.49958552021054675
+  }
+}

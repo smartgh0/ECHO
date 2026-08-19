@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-08-11 09:35:54",
+  "total_time": 1494.368275642395,
+  "train": {
+    "loss_before": 3.151902247977339,
+    "loss_after": 3.0975111447909334,
+    "improvement": 1.72565958291726,
+    "neurons_before": 128,
+    "neurons_after": 128,
+    "train_time": 734.7794597148895,
+    "epochs_run": 5000
+  },
+  "dream": {
+    "loss_before": 3.0975111447909334,
+    "loss_after": 3.2432965747118963,
+    "dream_time": 749.8524582386017,
+    "cycles": 5000,
+    "neurons_after": 128,
+    "new_mutations": 9
+  },
+  "eval": {
+    "loss": 3.2432965747118963,
+    "neurons": 128,
+    "corpus": 109322,
+    "epochs": 42446,
+    "samples": {
+      "0.3_hello echo": "t cherer ere thate moroanterere ante m  t t me t anderes the t n ne t t av e me",
+      "0.3_the ocean": "at not ingt thme ind t ve t there fo n t t re pe t t f cs the pere t t at ur rat",
+      "0.3_tell me about": "te that thent mece it t me then in t it t  pe ive t re t t t and the t anan te a",
+      "0.5_hello echo": "ain ut chant it t put phe ce ond v. int  e jich nd nreo e ore the uret ches n n",
+      "0.5_the ocean": "te eree e t t wedt thane t t ame iouse chers re nnte ingu arucincat eroras wed I",
+      "0.5_tell me about": "nn ije nthet thoncce t cus me tore s t mo pof thand th ritcinteret e m ire at r",
+      "0.7_hello echo": "ife.uto relesv b.. em chancorese tome bolarere dmeainnt haree t c ate et s peror",
+      "0.7_the ocean": "igt e mesere elardet ingecimet lir lue  e ona ate mu t rat cas t vAt fat icet in",
+      "0.7_tell me about": "tac p d touaruuntipeid nslireeath. mans muund gl atiingt ins rora me cus no fit",
+      "1.0_hello echo": "v.anlue t i solfcthmrpIrut is set acfnvsen ong intarlvothtinnasaeruol. vranimtp",
+      "1.0_the ocean": "thSvrisoe r.  . ciap rc ni t.dure brr.eebt p pesh nd. icoloyotlo. lnd lisd pra a",
+      "1.0_tell me about": "r c  sean.od corudl le. fe  cilalst aciro"
+    },
+    "quantum_entropy": 0.6019218628826682
+  }
+}

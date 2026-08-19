@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-08-16 20:01:32",
+  "total_time": 5.0,
+  "ingested_chars": 112,
+  "train": {
+    "loss_before": 0,
+    "loss_after": 3.0403346977011845,
+    "improvement": 0,
+    "neurons_before": 16,
+    "neurons_after": 16,
+    "train_time": 0.08207273483276367,
+    "epochs_run": 20
+  },
+  "dream": {
+    "loss_before": 3.0403346977011845,
+    "loss_after": 2.9952010008308547,
+    "dream_time": 0.11597299575805664,
+    "cycles": 20,
+    "neurons_after": 16,
+    "new_mutations": 0
+  },
+  "eval": {
+    "loss": 2.9952010008308547,
+    "neurons": 16,
+    "corpus": 158,
+    "epochs": 80,
+    "samples": {
+      "0.3_hello echo": "e eu   e e l e  et e e e   ea        u eeeo     e     u eh ee        e e    el",
+      "0.3_the ocean": "se  o u ee    e h e ue u  e eu e  u  u ee eee  e:e              e     ihu",
+      "0.3_tell me about": "e    t ee  eeu  u  uu e    e  I  e t e  eee  e eee u   se e h e ec e ue e",
+      "0.5_hello echo": "uI",
+      "0.5_the ocean": "hea a eheyee  e",
+      "0.5_tell me about": "h umuyu t irmlee beet e u u",
+      "0.7_hello echo": "...",
+      "0.7_the ocean": "ei ae seelsl oot  eei:rr po veso  r ur s  nh eceha: ho e t ec uteuoeaeo  deu sy",
+      "0.7_tell me about": "v e:t:h",
+      "1.0_hello echo": "tb aehoay",
+      "1.0_the ocean": "syy natu yItsett lsou",
+      "1.0_tell me about": "luw:lv r:y:u pnueaa a"
+    },
+    "quantum_entropy": 0.6920643010179038
+  }
+}
