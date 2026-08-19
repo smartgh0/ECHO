@@ -24,7 +24,7 @@ TEACHER_MODEL="qwen2.5:32b"  # Qwen 2.5 32B (closest to 27B)
 TRAIN_PROFILE="echo-2b"
 TRAIN_STEPS=800000            # ~78 hours on A6000
 SEQ_LEN=512
-DISTILL_COUNT=50000           # Q&A pairs to distill
+DISTILL_COUNT=10000           # Q&A pairs to distill (10K unique prompts available)
 DISTILL_WORKERS=10
 DOMAIN_PROMPTS_FILE="distill_prompts.txt"
 
