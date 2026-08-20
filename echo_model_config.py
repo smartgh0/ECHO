@@ -74,8 +74,6 @@ TRANSFORMER_PROFILES = {
         "optimizer": "adamw",
         "gradient_checkpointing": True,
     },
-        "gradient_accumulation_steps": 16,
-    },
 }
 
 
