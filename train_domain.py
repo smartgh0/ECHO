@@ -10,6 +10,8 @@ import glob
 import json
 import os
 import random
+import signal
+import sys
 from array import array
 
 import numpy as np
@@ -69,6 +71,8 @@ def main():
     parser.add_argument("--lr", type=float, default=None,
                         help="override learning rate on resume (e.g. 0.001)")
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--save-every", type=int, default=1000,
+                        help="save a checkpoint every N steps (0 disables periodic saving)")
     args = parser.parse_args()
 
     files = collect_files(args.input_dir)
@@ -129,6 +133,47 @@ def main():
     print(model.info())
     print(f"Training on {model.device} for {args.steps:,} steps...")
 
+    def save_checkpoint():
+        config = {
+            "vocab_size": model.vocab_size,
+            "d_model": model.d_model,
+            "n_layers": model.n_layers,
+            "n_heads": model.n_heads,
+            "n_kv_heads": model.n_kv_heads,
+            "ff_multiplier": model.ff_multiplier,
+            "max_context": model.max_context,
+            "learning_rate": model.learning_rate,
+            "batch_size": model.batch_size,
+            "gradient_accumulation_steps": model.gradient_accumulation_steps,
+            "lora_rank": model.lora_rank,
+            "freeze_base": model.freeze_base,
+            "optimizer": model.optimizer_name,
+            "gradient_checkpointing": model.gradient_checkpointing,
+            "profile_name": model.profile_name,
+            "seed": model.seed,
+            "total_epochs": model.total_epochs,
+            "total_chars_seen": model.total_chars_seen,
+            "smooth_loss": model.smooth_loss,
+        }
+        checkpoint_tmp = checkpoint_path + ".tmp"
+        torch.save({
+            "state_dict": {key: value.detach().cpu() for key, value in model.state_dict().items()},
+            "config": config,
+            "optimizer": model.optimizer.state_dict(),
+        }, checkpoint_tmp)
+        os.replace(checkpoint_tmp, checkpoint_path)
+        with open(os.path.join(args.output_dir, "training.json"), "w", encoding="utf-8") as handle:
+            json.dump({"steps": model.total_epochs, "tokens": int(token_count), "seq_len": args.seq_len}, handle, indent=2)
+
+    def handle_signal(signum, _frame):
+        print(f"\nReceived signal {signum}, saving checkpoint before exit...", flush=True)
+        save_checkpoint()
+        print(f"Saved domain checkpoint to {args.output_dir} at step {model.total_epochs:,}", flush=True)
+        sys.exit(0)
+
+    signal.signal(signal.SIGTERM, handle_signal)
+    signal.signal(signal.SIGINT, handle_signal)
+
     warmup_steps = min(500, args.steps // 10)
     base_lr = model.learning_rate
     import math
@@ -152,35 +197,11 @@ def main():
         if step % 50 == 0 or step == args.steps - 1:
             current_lr = model.optimizer.param_groups[0]["lr"]
             print(f"step {step + 1}/{args.steps} loss={loss:.4f} smooth={model.smooth_loss:.4f} lr={current_lr:.6f}", flush=True)
+        if args.save_every and (step + 1) % args.save_every == 0:
+            save_checkpoint()
+            print(f"Checkpoint saved at step {step + 1:,}", flush=True)
 
-    config = {
-        "vocab_size": model.vocab_size,
-        "d_model": model.d_model,
-        "n_layers": model.n_layers,
-        "n_heads": model.n_heads,
-        "n_kv_heads": model.n_kv_heads,
-        "ff_multiplier": model.ff_multiplier,
-        "max_context": model.max_context,
-        "learning_rate": model.learning_rate,
-        "batch_size": model.batch_size,
-        "gradient_accumulation_steps": model.gradient_accumulation_steps,
-        "lora_rank": model.lora_rank,
-        "freeze_base": model.freeze_base,
-        "optimizer": model.optimizer_name,
-        "gradient_checkpointing": model.gradient_checkpointing,
-        "profile_name": model.profile_name,
-        "seed": model.seed,
-        "total_epochs": model.total_epochs,
-        "total_chars_seen": model.total_chars_seen,
-        "smooth_loss": model.smooth_loss,
-    }
-    torch.save({
-        "state_dict": {key: value.detach().cpu() for key, value in model.state_dict().items()},
-        "config": config,
-        "optimizer": model.optimizer.state_dict(),
-    }, os.path.join(args.output_dir, "model.pt"))
-    with open(os.path.join(args.output_dir, "training.json"), "w", encoding="utf-8") as handle:
-        json.dump({"steps": args.steps, "tokens": int(token_count), "seq_len": args.seq_len}, handle, indent=2)
+    save_checkpoint()
     print(f"Saved domain checkpoint to {args.output_dir}")
 
 

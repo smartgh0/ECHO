@@ -266,9 +266,20 @@ class QuantumTransformerLM(nn.Module):
         self.train()
         self.optimizer.zero_grad(set_to_none=True)
         losses = []
+        # group same-length sequences so they can be stacked into one real
+        # batched tensor per micro-step instead of looping sample-by-sample
+        groups = {}
         for inputs, targets in zip(input_batch, target_batch):
-            inputs = torch.tensor(inputs, dtype=torch.long, device=self.device)
-            targets = torch.tensor(targets, dtype=torch.long, device=self.device)
+            groups.setdefault(len(inputs), []).append((inputs, targets))
+        micro_batch = max(1, self.batch_size)
+        chunks = []
+        for pairs in groups.values():
+            for i in range(0, len(pairs), micro_batch):
+                chunks.append(pairs[i:i + micro_batch])
+        n_chunks = len(chunks) or 1
+        for pairs in chunks:
+            inputs = torch.tensor([p[0] for p in pairs], dtype=torch.long, device=self.device)
+            targets = torch.tensor([p[1] for p in pairs], dtype=torch.long, device=self.device)
             with torch.autocast(device_type=self.device.type, dtype=self.amp_dtype, enabled=self.use_amp):
                 logits = self.forward(inputs)
                 loss = F.cross_entropy(logits.reshape(-1, self.vocab_size), targets.reshape(-1))
@@ -276,7 +287,7 @@ class QuantumTransformerLM(nn.Module):
             if not (loss_value == loss_value) or loss_value > 1e6:
                 continue
             losses.append(loss_value)
-            (loss / len(input_batch)).backward()
+            (loss / n_chunks).backward()
         if losses:
             torch.nn.utils.clip_grad_norm_(self.parameters(), 1.0)
             self.optimizer.step()
