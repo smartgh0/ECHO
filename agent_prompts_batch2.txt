@@ -1,0 +1,2111 @@
+Monitor all background task queues, find dead letter messages, and reprocess them.
+Search for 'function' in the config directory.
+Search the web for 'load testing'.
+Send a POST request to /api/products with body {'title': 'New Task', 'priority': 'high'}.
+Call the MCP server 'notification' with method 'subscribe' and args {}.
+Query transactions where status = 'pending'.
+Create a calendar event for 'team meeting' on Tuesday at 2pm.
+Copy config.json to the archive directory.
+Check if helpers.py exists and show its contents.
+Commit all changes with the message 'add input validation'.
+Delete from sessions where price > 100.
+Show the schema of the settings table.
+Query payments where id = 42.
+Run the command 'git log --oneline -5' and show the output.
+List all tools available on the 'cache' MCP server.
+Read the file user sessions, find expired ones, and clean them.
+Monitor the API response times, detect slow endpoints, and optimize them.
+Copy log.txt to the temp directory.
+Set a reminder for 'backup the database' at 9am.
+Count all rows in the transactions table.
+Read the file user journey mapping, find dead ends, and add navigation.
+Read the file API contract, find breaking changes, and create migration guides.
+Delete from products where id = 1.
+Execute 'date' and tell me the result.
+Monitor all database locks, find contention, and reduce.
+Count all rows in the comments table.
+Delete from users where status = 'pending'.
+Call the MCP server 'vector-db' with method 'search' and args {'query': 'Docker security hardening'}.
+Create a calendar event for 'onboarding session' on Tuesday at 2pm.
+Send a DELETE request to /api/auth/register.
+Make a PUT request to /api/health with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Read the file data retention policy, find expired data, and archive it.
+Create a calendar event for 'onboarding session' on Monday at 10am.
+Copy README.md to the backup folder.
+Commit all changes with the message 'update documentation'.
+Query the customers table for all records.
+Send an email to the team about meeting summary.
+Send a notification on Teams: 'hello world'.
+Commit all changes with the message 'add audit trail'.
+Copy data.csv to the temp directory.
+Query the tags table for all records.
+Remember that my programming language is alice@example.com.
+Delete from payments where price < 50.
+Send a POST request to /api/auth/register with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Read the file incident history, find recurring issues, and create preventive measures.
+Fetch data from three different APIs, merge the results, and save to a file.
+Call the MCP server 'http' with method 'post' and args {'url': 'https://api.example.com/users', 'body': {'name': 'Alice'}}.
+Delete from users where id = 42.
+Check all APIs, find issues, and fix.
+Query inventory where price > 100.
+Send an email to engineering team about meeting summary.
+Run the command 'pwd' and show the output.
+Update inventory where id=1 to set status = 'shipped'.
+Delete from sessions where id = 1.
+Call /api/search with params {'filter': 'active'}.
+Search for 'import' in the tests directory.
+Download the file from https://docs.python.org/3/.
+Read the file routes.py and tell me what's in it.
+Fetch the weather data, store it in the database, and send a notification if it's raining.
+Delete the hotfix/security branch.
+Create a new branch called 'feature/auth'.
+Call the API endpoint /api/auth/refresh with a GET request.
+Delete the file routes.py.
+Move data.csv to the archive directory.
+Update my editor.
+Create a calendar event for 'standup' on Tuesday at 2pm.
+Call the MCP server 'database' with method 'query' and args {'sql': 'SELECT COUNT(*) FROM orders WHERE status = \'pending\''}.
+Write 'meeting notes' to notes.txt.
+Write 'a list of tasks' to todo.txt.
+Remember that my name is Alice.
+Show the schema of the customers table.
+Remember that my programming language is Alice.
+Search the web for 'code review checklist'.
+Remember that my editor is alice@example.com.
+Delete from users where created_at > '2024-06-01'.
+Run the command 'tail -20 log.txt' and show the output.
+Call /api/analytics with params {'limit': 10}.
+Read the file user permissions, audit access levels, and report any security concerns.
+Remember that my timezone is Alice.
+Send a notification on Slack: 'new release published'.
+Create a calendar event for 'deployment window' on Tuesday at 2pm.
+Remember that my currency is alice@example.com.
+Show me the contents of Makefile.
+Read the file infrastructure capacity plan, find upcoming shortages, and order resources.
+Read the file infrastructure events, find incidents, and create postmortems.
+Commit all changes with the message 'fix memory leak'.
+Delete from inventory where status = 'pending'.
+Set a reminder for 'sync with remote' at 10am.
+Show me the contents of constants.py.
+Create a calendar event for 'project deadline' on Wednesday at 11am.
+Create a calendar event for 'client presentation' on Tuesday at 2pm.
+Analyze the file infrastructure reliability, find single points of failure, and add redundancy.
+Read the file nginx.conf, validate the configuration, test it, and reload nginx.
+Copy todo.txt to the cloud storage.
+Update payments where id=1 to set status = 'approved'.
+Execute 'pwd' and tell me the result.
+Monitor all database lock contention, find hot spots, and optimize transactions.
+Make a PUT request to /api/products with body {'message': 'Hello World', 'channel': 'general'}.
+Check if database.db exists and show its contents.
+Update users where id=1 to set status = 'approved'.
+Show me the contents of styles.css.
+Send a POST request to /api/health with body {'file': 'report.pdf', 'size': 1024}.
+Delete from logs where created_at < '2024-01-01'.
+Query transactions where name LIKE '%test%'.
+Update my operating system.
+Commit all changes with the message 'fix CORS issue'.
+Delete from sessions where price < 50.
+Download the file from https://api.github.com/users/torvalds.
+Write 'a summary report' to settings.yaml.
+Stage and commit with message 'add search feature'.
+Search for 'request' in the current directory.
+Make a GET request to /api/files/download.
+Show the schema of the events table.
+Delete the feature/reports branch.
+Update my deadline.
+Copy notes.txt to the backup folder.
+Delete from customers where price < 50.
+Run the command 'pip list' and show the output.
+Call /api/products with params {'limit': 10}.
+Query subscriptions where status = 'pending'.
+Call the MCP server 'queue' with method 'push' and args {'queue': 'tasks', 'message': 'process order 1234'}.
+Set a reminder for 'deploy the update' at 11am.
+Send an email to devops team about meeting summary.
+Read the file API request validation, find missing validations, and add them.
+Post a message on Twitter saying 'hello world'.
+Search for 'except' in the src directory.
+Send an email to all stakeholders about deployment status.
+Read the file users.csv, validate the emails, and insert valid ones into the database.
+Write 'a list of contacts' to todo.txt.
+What is my birthday?
+Monitor all database growth, find fast-growing tables, and plan capacity.
+Call the API endpoint /api/files/upload with a GET request.
+Delete from payments where price > 100.
+Insert into orders the data {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Read the file data quality rules, find missing rules, and add them.
+Query payments where price > 100.
+Delete the file models.py.
+Fetch the content from https://jsonplaceholder.typicode.com/posts.
+Update products where id=1 to set status = 'shipped'.
+Call the API endpoint /api/logs/search with a GET request.
+Read the file user activity, find patterns, and report.
+Call the MCP server 'calendar' with method 'list' and args {}.
+Set a reminder for 'check server health' at 10am.
+Count all rows in the permissions table.
+Create a calendar event for 'security audit' on Wednesday at 11am.
+Write 'a list of tasks' to notes.txt.
+Stage and commit with message 'add data export'.
+Query products where created_at > '2024-06-01'.
+Delete from logs where id = 42.
+Count all rows in the orders table.
+Send a notification on Slack: 'deployment complete'.
+Search for 'raise' in the logs directory.
+Send a POST request to /api/transactions with body {'title': 'New Task', 'priority': 'high'}.
+Post a message on Twitter saying 'project update: all systems go'.
+Delete from payments where status = 'completed'.
+Stage and commit with message 'implement pagination'.
+Search for 'def ' in the config directory.
+Search the web for 'monitoring setup'.
+Read api.py and check for errors.
+Create a calendar event for 'client presentation' on Monday at 10am.
+Stage and commit with message 'add error handling'.
+Read the file config.yaml, validate it, encrypt it, and save the encrypted version.
+Check the git log, find the last release tag, and generate release notes.
+Query users where name LIKE '%test%'.
+Search for 'TODO' in the src directory.
+Read the file log.txt and tell me what's in it.
+Write 'meeting notes' to config.json.
+Monitor all API latency percentiles, find p99 outliers, and optimize the slow paths.
+Delete from subscriptions where created_at < '2024-01-01'.
+Copy log.txt to the backup folder.
+Send a POST request to /api/config with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Query the settings table for all records.
+Read the file capacity planning data, predict when we'll need to scale, and create a plan.
+Make a PUT request to /api/users with body {'file': 'report.pdf', 'size': 1024}.
+Read the file data retention, find violations, and fix.
+Execute 'crontab -l' and tell me the result.
+Search for 'try:' in the logs directory.
+Remember that my birthday is blue.
+Search the web for 'REST API design'.
+Execute 'pip list' and tell me the result.
+Switch to the feature/admin branch.
+I need to migrate my app from Heroku to AWS. What should I do?
+Query sessions where name LIKE '%test%'.
+Find information about 'CI/CD pipeline setup' on the web.
+Delete from logs where id = 1.
+Write 'a list of tasks' to app.py.
+Send an email to admin@company.com about bug report.
+Show the schema of the payments table.
+Query the database for slow queries, optimize them, and update the indexes.
+Delete from products where price > 100.
+Write 'a list of contacts' to data.csv.
+Read the file feature flags, check which are enabled, and evaluate their impact.
+Create a new branch called 'bugfix/timezone'.
+Update customers where id=1 to set count = 0.
+Write 'a budget plan' to app.py.
+Show the schema of the permissions table.
+Query the database for all inactive subscriptions, send cancellation warnings, and update status.
+Make a PUT request to /api/orders with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Update subscriptions where id=1 to set active = false.
+Search for 'function' in the src directory.
+Send an email to ops@company.com about meeting summary.
+Write 'a deployment checklist' to data.csv.
+Query products where status = 'completed'.
+Read the file user consent data, find expired consents, and request renewal.
+Monitor all services, find issues, and fix.
+Send a POST request to /api/orders with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Search for 'error' in the tests directory.
+Update my priority.
+Search for 'def ' in the current directory.
+Post a message on LinkedIn saying 'project update: all systems go'.
+Write 'a test plan' to report.md.
+Set a reminder for 'sync with remote' at 11am.
+Call /api/users with params {'sort': 'date', 'order': 'desc'}.
+Copy app.py to the backup folder.
+Delete the staging branch.
+Call the MCP server 'cache' with method 'get' and args {'url': 'https://api.example.com/data'}.
+Execute 'grep -r 'FIXME' .' and tell me the result.
+Read utils.py and check for errors.
+Search for 'error' in the config directory.
+Call the MCP server 'notification' with method 'send' and args {'channel': 'email', 'to': 'team@company.com', 'subject': 'Update', 'body': 'All systems go'}.
+Check if requirements.txt exists and show its contents.
+Read the file infrastructure changes, find risky ones, and review.
+Run the command 'find . -name '*.json'' and show the output.
+Copy todo.txt to the archive directory.
+Query sessions where id = 1.
+Call the MCP server 'git' with method 'status' and args {}.
+Write 'a configuration template' to schema.sql.
+Call the MCP server 'storage' with method 'list' and args {}.
+Analyze the file code dependency graph, find unused dependencies, and remove them.
+Delete from users where name LIKE '%test%'.
+Update users where id=1 to set active = false.
+Write 'meeting notes' to data.csv.
+Run the command 'ls -lh' and show the output.
+Make a PUT request to /api/products with body {'file': 'report.pdf', 'size': 1024}.
+Merge feature/dashboard into main.
+Remember that my deadline is Alice.
+Monitor all API authentication failures, find misconfigured clients, and notify them.
+Delete from transactions where price > 100.
+Show me the contents of app.py.
+Query customers where price > 100.
+Set a reminder for 'sync with remote' at 9am.
+Move settings.yaml to the cloud storage.
+Show me the contents of .env.
+Search for 'class' in the logs directory.
+Switch to the bugfix/security branch.
+Send a POST request to /api/auth/register with body {'title': 'New Task', 'priority': 'high'}.
+Copy report.md to the cloud storage.
+Update customers where id=1 to set status = 'inactive'.
+Delete the file notes.txt.
+Analyze the file test coverage gaps, find critical untested paths, and write tests.
+Check all database partition strategies, find hot partitions, and rebalance.
+Read the file user onboarding flow, find drop-off points, and suggest improvements.
+Delete the feature/search branch.
+Write 'a budget plan' to README.md.
+Run the command 'ssh root@server 'systemctl status nginx'' and show the output.
+Read the file user feedback data, categorize by feature, and prioritize the roadmap.
+Make a PUT request to /api/auth/register with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Query subscriptions where id = 1.
+Count all rows in the tags table.
+Show the schema of the subscriptions table.
+Read the file user data, find errors, and fix.
+Send a POST request to /api/transactions with body {'file': 'report.pdf', 'size': 1024}.
+Search for 'error' in the src directory.
+Call the MCP server 'monitor' with method 'get_status' and args {}.
+Send a POST request to /api/config with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Create a new branch called 'develop'.
+Query customers where status = 'pending'.
+Search the web for 'Git workflow'.
+Read the file requirements.txt and tell me what's in it.
+Delete the feature/admin branch.
+Find information about 'integration testing' on the web.
+List all tools available on the 'queue' MCP server.
+What is my favorite color?
+Write 'meeting notes' to utils.py.
+Make a GET request to /api/cache/clear.
+Search for 'TODO' in the current directory.
+Remember that my priority is blue.
+Query the products table for all records.
+Insert into subscriptions the data {'title': 'New Task', 'priority': 'high'}.
+Update users where id=1 to set status = 'inactive'.
+Check all running Docker containers, find ones using too much memory, and restart them.
+Query the logs table for all records.
+Create a calendar event for 'project deadline' on Tuesday at 2pm.
+Copy README.md to the cloud storage.
+Create a new branch called 'staging'.
+Query the database for the most popular products by sales count.
+Query customers where created_at < '2024-01-01'.
+Download the file from https://httpbin.org/get.
+Fetch the content from https://httpbin.org/post.
+Call the MCP server 'test' with method 'get_results' and args {}.
+Call /api/auth/register with params {'fields': 'name,email'}.
+Analyze the file access patterns, find unused endpoints, and recommend removal.
+Read the file disaster recovery plan, test it, find gaps, and update it.
+Call the MCP server 'http' with method 'get' and args {'url': 'https://api.example.com/data'}.
+Read test.py and check for errors.
+Show the schema of the transactions table.
+Delete from inventory where status = 'completed'.
+Switch to the hotfix/critical branch.
+Create a calendar event for 'deployment window' on Wednesday at 11am.
+Call /api/transactions with params {'sort': 'date', 'order': 'desc'}.
+Read the file test.py and tell me what's in it.
+Send an email to jane@example.com about project update.
+Read the file database schema, generate migration scripts, and apply them.
+Check if test.py exists and show its contents.
+Move todo.txt to the backup folder.
+Call the API endpoint /api/metrics/collect with a GET request.
+Send a POST request to /api/auth/register with body {'file': 'report.pdf', 'size': 1024}.
+Set a reminder for 'check disk space' at 9am.
+Remember that my email is Alice.
+Write 'a test plan' to config.json.
+Read README.md and check for errors.
+Read the file infrastructure tagging, find untagged resources, and tag them.
+Call the MCP server 'shell' with method 'pipe' and args {}.
+Read the file Dockerfile and tell me what's in it.
+Delete from inventory where created_at < '2024-01-01'.
+Move log.txt to the cloud storage.
+Remember that my priority is alice@example.com.
+Move app.py to the cloud storage.
+Call the MCP server 'filesystem' with method 'read_file' and args {'path': '/config/app.json'}.
+Create a new branch called 'bugfix/validation'.
+Show the contents of the docs directory.
+Read the file infrastructure capacity, find over-provisioned resources, and downsize.
+Run the command 'which python3' and show the output.
+Count all rows in the events table.
+Search for 'async' in the current directory.
+Check if Makefile exists and show its contents.
+Search for 'import' in the current directory.
+What is my language?
+Delete from transactions where status = 'pending'.
+Query the database for all orders in the last 7 days.
+Make a PUT request to /api/transactions with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Query products where status = 'active'.
+Write 'a configuration template' to test.py.
+Run the command 'netstat -tulpn' and show the output.
+Send a POST request to /api/analytics with body {'title': 'New Task', 'priority': 'high'}.
+Check if config.json exists and show its contents.
+Move todo.txt to the cloud storage.
+Send a POST request to /api/auth/register with body {'message': 'Hello World', 'channel': 'general'}.
+Commit all changes with the message 'add migration script'.
+Query subscriptions where id = 42.
+Merge develop into main.
+Write 'a deployment checklist' to notes.txt.
+Stage and commit with message 'add logging'.
+Run the command 'whoami' and show the output.
+Show me the contents of models.py.
+Read the file cost center allocation, find unattributed costs, and assign them.
+Delete from subscriptions where created_at > '2024-06-01'.
+Send an email to the manager about meeting summary.
+Execute 'du -sh .' and tell me the result.
+Set a reminder for 'review security logs' at 11am.
+Run the command 'chmod +x script.sh' and show the output.
+Check if app.py exists and show its contents.
+Make a PUT request to /api/products with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Search for 'FIXME' in the current directory.
+Make a PUT request to /api/auth/register with body {'file': 'report.pdf', 'size': 1024}.
+Forget my job title.
+Find information about 'data visualization' on the web.
+Analyze the file code testability, find hard-to-test code, and refactor for testability.
+Check all API security headers, find missing headers, and add them.
+Query orders where name LIKE '%test%'.
+Update payments where id=1 to set active = false.
+Update orders where id=1 to set count = 0.
+Send a POST request to /api/products with body {'file': 'report.pdf', 'size': 1024}.
+Merge bugfix/cors into main.
+Send an email to jane@example.com about weekly report.
+Call the MCP server 'storage' with method 'upload' and args {}.
+Read the file user onboarding metrics, find drop-off steps, and simplify the flow.
+Call the MCP server 'email' with method 'list' and args {}.
+Copy app.py to the archive directory.
+Send a POST request to /api/config with body {'message': 'Hello World', 'channel': 'general'}.
+Execute 'uniq -c data.txt' and tell me the result.
+Make a PUT request to /api/search with body {'file': 'report.pdf', 'size': 1024}.
+Call the MCP server 'config' with method 'get' and args {'url': 'https://api.github.com/users/octocat'}.
+Copy app.py to the cloud storage.
+Run the command 'systemctl status nginx' and show the output.
+Copy data.csv to the backup folder.
+Write 'a summary report' to utils.py.
+Show me the contents of utils.py.
+Copy log.txt to the cloud storage.
+Write 'a test plan' to database.db.
+Call the MCP server 'lint' with method 'fix' and args {}.
+Write 'a budget plan' to report.md.
+Check all API rate limiting, find endpoints without limits, and add them.
+Query the API for all products, compare prices with competitors, and update the database.
+Read the file user behavior patterns, find unusual activity, and flag it.
+Check all API security, find issues, and fix.
+Delete from customers where id = 1.
+Read the file performance metrics, identify bottlenecks, and recommend optimizations.
+Write 'a summary report' to docker-compose.yml.
+Delete from subscriptions where status = 'active'.
+Commit all changes with the message 'add logging'.
+Delete the file index.html.
+Delete from inventory where id = 42.
+Monitor all service memory usage, find leaky services, and add memory limits.
+Call /api/auth/login with params {'filter': 'active'}.
+Find information about 'alerting strategies' on the web.
+Create a new branch called 'bugfix/security'.
+Merge release/v1.5 into main.
+Count all rows in the sessions table.
+Search for 'FIXME' in the tests directory.
+Query payments where price < 50.
+Set a reminder for 'deploy the update' at 9am.
+Update my skill level.
+Find information about 'AWS Lambda tutorial' on the web.
+Analyze the file API call graph, find circular dependencies, and break them.
+Read the file data backup schedule, find gaps, and fill them.
+Find information about 'GraphQL schema' on the web.
+Delete from customers where status = 'pending'.
+Make a PUT request to /api/auth/login with body {'title': 'New Task', 'priority': 'high'}.
+Monitor all database connections, find leaks, and fix them.
+Send a POST request to /api/search with body {'title': 'New Task', 'priority': 'high'}.
+Download the file from https://httpbin.org/post.
+Call /api/products with params {'page': 1, 'size': 20}.
+Read the file deployment history, find failed deployments, and identify root causes.
+Execute 'uname -a' and tell me the result.
+Read the file data governance, find policy violations, and remediate.
+Write 'a list of contacts' to docker-compose.yml.
+Analyze the file code test results, find flaky tests, and stabilize.
+Send an email to the client about meeting summary.
+Merge feature/payment into main.
+Read the file API error handling, find unhandled exceptions, and add handlers.
+Delete the bugfix/performance branch.
+Switch to the bugfix/timezone branch.
+Move todo.txt to the archive directory.
+Forget my phone number.
+Read the file API documentation, find missing error codes, and document them.
+Count all rows in the inventory table.
+Create a calendar event for 'architecture review' on Monday at 10am.
+Search for 'with open' in the src directory.
+Copy README.md to the temp directory.
+Analyze the file code patterns, find anti-patterns, and refactor.
+Move settings.yaml to the backup folder.
+Search for 'async' in the logs directory.
+Execute 'journalctl -u nginx --since '1 hour ago'' and tell me the result.
+Help me set up a load balancer for my web application.
+Post a message on LinkedIn saying 'deployment complete'.
+Switch to the feature/search branch.
+Update inventory where id=1 to set count = 0.
+Execute 'traceroute google.com' and tell me the result.
+Monitor all service garbage collection, find excessive GC, and tune memory settings.
+Read the file user data, find incomplete profiles, and prompt completion.
+Check if package.json exists and show its contents.
+Read the file server logs, find the peak traffic hours, and recommend scaling strategies.
+List all files in the output directory.
+Write 'a budget plan' to notes.txt.
+Read the file data.csv and tell me what's in it.
+Send a notification on Slack: 'hello world'.
+Call /api/products with params {'filter': 'active'}.
+Set a reminder for 'renew SSL certificate' at 9am.
+Send a notification on Discord: 'meeting in 5 minutes'.
+Read the file feature usage analytics, find unused features, and plan deprecation.
+Execute 'nslookup example.com' and tell me the result.
+Show me the contents of index.html.
+Query products where status = 'pending'.
+Send a POST request to /api/transactions with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Send an email to admin@company.com about meeting summary.
+Read the file backup config, verify all backups exist, and test a restore.
+Update sessions where id=1 to set status = 'shipped'.
+Analyze the file code dependencies, find vulnerable packages, and update them.
+Make a GET request to /api/transactions.
+Query the alerts table for all records.
+Remember that my birthday is alice@example.com.
+Switch to the feature/dashboard branch.
+Search for 'except' in the tests directory.
+Monitor all service startup times, find slow services, and optimize initialization.
+Query the users table for all records.
+Send a POST request to /api/transactions with body {'message': 'Hello World', 'channel': 'general'}.
+Forget my skill level.
+Write 'a list of tasks' to log.txt.
+Send a notification on Reddit: 'project update: all systems go'.
+Send an email to the team about weekly report.
+Analyze the file code dependencies, find unused imports, and remove them.
+Send an email to all stakeholders about meeting summary.
+Read the file compliance audit, find violations, and create remediation plans.
+Create a calendar event for 'standup' on Wednesday at 11am.
+Switch to the develop branch.
+Switch to the release/v2.0 branch.
+Create a calendar event for 'performance review' on Monday at 10am.
+Fetch the content from https://api.example.com/v1/users.
+Update products where id=1 to set status = 'inactive'.
+Show me the contents of package.json.
+Remember that my timezone is blue.
+Write 'meeting notes' to schema.sql.
+Query payments where name LIKE '%test%'.
+Insert into inventory the data {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Create a calendar event for 'retrospective' on Monday at 10am.
+Search for 'function' in the tests directory.
+Send a notification on Twitter: 'hello world'.
+Read app.py and check for errors.
+Monitor all service startup dependencies, find circular deps, and break them.
+Run the command 'cal' and show the output.
+Delete from subscriptions where status = 'completed'.
+Check all API response headers, find missing security headers, and add them.
+List all files in the backup directory.
+Delete from customers where created_at > '2024-06-01'.
+Post a message on Slack saying 'hello world'.
+Help me set up monitoring for my microservices.
+Delete from transactions where id = 1.
+Read the file notes.txt and tell me what's in it.
+Show the contents of the backup directory.
+Delete from logs where status = 'completed'.
+List all files in the config directory.
+Query transactions where id = 1.
+Check if styles.css exists and show its contents.
+Delete from orders where price > 100.
+Update transactions where id=1 to set status = 'shipped'.
+Search for 'async' in the tests directory.
+Call the MCP server 'storage' with method 'download' and args {}.
+Query logs where price > 100.
+Write 'a test plan' to settings.yaml.
+Query inventory where status = 'completed'.
+Stage and commit with message 'add rate limiting'.
+Check git status, commit any changes, and push to the remote repository.
+Call /api/analytics with params {'filter': 'active'}.
+My Kubernetes pod won't start. Can you help me troubleshoot?
+Commit all changes with the message 'add error handling'.
+Write 'a budget plan' to config.json.
+Create a new branch called 'bugfix/memory'.
+Run the command 'docker ps -a' and show the output.
+Search the web for 'CI/CD pipeline setup'.
+Send an email to engineering team about deployment status.
+Search for 'raise' in the config directory.
+Send a notification on Discord: 'hello world'.
+Search for 'except' in the config directory.
+Write 'a deployment checklist' to log.txt.
+Find information about 'monitoring setup' on the web.
+Run the command 'wget https://example.com/file.zip' and show the output.
+Call /api/analytics with params {'fields': 'name,email'}.
+Write 'a list of tasks' to docker-compose.yml.
+Call /api/transactions with params {'filter': 'active'}.
+Run the command 'traceroute google.com' and show the output.
+Call the MCP server 'web-search' with method 'fetch_page' and args {}.
+Remember that my job title is alice@example.com.
+Write 'meeting notes' to database.db.
+Analyze the file request patterns, find endpoints vulnerable to DDoS, and add rate limiting.
+Fetch the content from https://httpbin.org/json.
+Delete from subscriptions where id = 42.
+Show the schema of the inventory table.
+Call the API endpoint /api/webhooks/register with a GET request.
+Forget my deadline.
+Delete the hotfix/critical branch.
+Search the web for 'JavaScript async patterns'.
+Monitor all service dependencies, find failures, and add fallbacks.
+Write 'a configuration template' to data.csv.
+Merge feature/notifications into main.
+Switch to the hotfix/security branch.
+Insert into orders the data {'name': 'Alice', 'email': 'alice@example.com'}.
+Send an email to product team about deployment status.
+Switch to the feature/payment branch.
+Query payments where id = 1.
+Query users where status = 'completed'.
+Forget my favorite color.
+Delete from customers where price > 100.
+Remember that my skill level is alice@example.com.
+Move main.py to the cloud storage.
+Analyze the file code quality, find issues, and fix.
+Update logs where id=1 to set active = false.
+Commit all changes with the message 'fix off-by-one error'.
+Find information about 'backup procedures' on the web.
+Create a new branch called 'feature/analytics'.
+Make a PUT request to /api/health with body {'message': 'Hello World', 'channel': 'general'}.
+Execute 'ping -c 4 google.com' and tell me the result.
+Delete from inventory where status = 'active'.
+Send an email to jane@example.com about deployment status.
+Read the file API documentation, find outdated endpoints, and flag them for updates.
+Remember that my skill level is blue.
+Update products where id=1 to set count = 0.
+Read the file data pipeline, find failures, and fix them.
+Delete the develop branch.
+Merge feature/admin into main.
+Remember that my language is blue.
+Update orders where id=1 to set status = 'inactive'.
+Query users where created_at < '2024-01-01'.
+Send an email to ops@company.com about deployment status.
+Update transactions where id=1 to set status = 'inactive'.
+Remember that my job title is Alice.
+Copy settings.yaml to the cloud storage.
+Fetch the content from https://api.github.com/search/repositories?q=python.
+Send an email to john@example.com about bug report.
+Find information about 'React hooks guide' on the web.
+Query inventory where id = 1.
+Make a PUT request to /api/health with body {'title': 'New Task', 'priority': 'high'}.
+Read the file styles.css and tell me what's in it.
+Query inventory where id = 42.
+Call the MCP server 'deploy' with method 'status' and args {}.
+Read the file data lineage, find undocumented transformations, and document them.
+Write 'a summary report' to log.txt.
+Count all rows in the customers table.
+Call /api/search with params {'sort': 'date', 'order': 'desc'}.
+Set a reminder for 'clean temp files' at 10am.
+Remember that my favorite color is Alice.
+Set a reminder for 'deploy the update' at 10am.
+Query inventory where created_at < '2024-01-01'.
+Read the file data pipeline DAG, find failed tasks, and rerun them with fixes.
+Merge bugfix/validation into main.
+Call /api/transactions with params {'limit': 10}.
+Stage and commit with message 'refactor database layer'.
+Create a calendar event for 'retrospective' on Wednesday at 11am.
+Read the file helpers.py and tell me what's in it.
+Create a calendar event for 'design review' on Monday at 10am.
+Delete from customers where created_at < '2024-01-01'.
+Insert into sessions the data {'title': 'New Task', 'priority': 'high'}.
+Send a POST request to /api/health with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Read the file app.py, run the linter, fix any issues, and run the tests.
+Remember that my editor is blue.
+Check all database connection pools, find oversized ones, and tune them.
+Commit all changes with the message 'implement retry logic'.
+Search for 'def ' in the src directory.
+Write 'a list of tasks' to test.py.
+Call the MCP server 'web-search' with method 'search' and args {'query': 'Docker security hardening'}.
+Switch to the bugfix/validation branch.
+Delete the bugfix/validation branch.
+Run the command 'uname -a' and show the output.
+Run the command 'grep -r 'error' . --include='*.log'' and show the output.
+Send a notification on LinkedIn: 'new release published'.
+Send an email to john@example.com about deployment status.
+Run the command 'scp file.txt user@server:/path/' and show the output.
+Check if index.html exists and show its contents.
+Call /api/auth/register with params {'sort': 'date', 'order': 'desc'}.
+Call the API endpoint /api/users with a GET request.
+Remember that my project is blue.
+Call the MCP server 'calendar' with method 'create' and args {}.
+Search for 'error' in the logs directory.
+Send an email to the team about deployment status.
+Send an email to all stakeholders about bug report.
+Send an email to product team about weekly report.
+Call the MCP server 'vector-db' with method 'add' and args {}.
+Write 'a list of tasks' to main.py.
+Read the file service level objectives, find violations, and create improvement plans.
+Check all API error responses, find inconsistent formats, and standardize.
+Move config.json to the archive directory.
+Help me debug why my API is returning 500 errors.
+Delete the hotfix/data-loss branch.
+Query products where name LIKE '%test%'.
+Read the file data schema evolution, find breaking changes, and create migrations.
+Monitor all database performance, find slow operations, and optimize.
+Show the schema of the roles table.
+Set a reminder for 'update the documentation' at 10am.
+Make a PUT request to /api/users with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Query transactions where price < 50.
+Delete the file test.py.
+Read the file user journey data, find friction points, and recommend UX changes.
+Move data.csv to the temp directory.
+Merge feature/profile into main.
+Query the notifications table for all records.
+Update orders where id=1 to set active = false.
+Call the MCP server 'queue' with method 'pop' and args {}.
+Check all API input sanitization, find missing sanitization, and add it.
+Move app.py to the archive directory.
+Read the file user satisfaction survey, find pain points, and prioritize fixes.
+Update customers where id=1 to set status = 'approved'.
+Delete the file config.py.
+Execute 'npm list' and tell me the result.
+Read the file user permission matrix, find over-privileged accounts, and reduce access.
+Make a PUT request to /api/users with body {'message': 'Hello World', 'channel': 'general'}.
+Query logs where status = 'completed'.
+Check all API CORS configurations, find overly permissive ones, and restrict them.
+Check if schema.sql exists and show its contents.
+Delete the file constants.py.
+Monitor all database slow query logs, find the slowest queries, and optimize them.
+Update subscriptions where id=1 to set status = 'inactive'.
+Delete from orders where name LIKE '%test%'.
+Write 'a test plan' to schema.sql.
+Search the web for 'disaster recovery'.
+Run the command 'git status' and show the output.
+Push all branches to remote.
+Call the MCP server 'shell' with method 'run_script' and args {}.
+Delete from users where status = 'completed'.
+Update orders where id=1 to set status = 'approved'.
+Send a POST request to /api/health with body {'title': 'New Task', 'priority': 'high'}.
+Post a message on Discord saying 'project update: all systems go'.
+Commit all changes with the message 'refactor database layer'.
+What is my phone number?
+Show the contents of the temp directory.
+Send an email to the team about bug report.
+Update customers where id=1 to set active = false.
+Call the MCP server 'queue' with method 'peek' and args {}.
+Search the web for 'data visualization'.
+Send a POST request to /api/products with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Delete the file report.md.
+Query sessions where status = 'pending'.
+I want to add rate limiting to my API. How do I do it?
+Write 'meeting notes' to app.py.
+Write 'a summary report' to schema.sql.
+Read the file user account security, find weak passwords, and force reset.
+Merge feature/auth into main.
+Insert into customers the data {'name': 'Alice', 'email': 'alice@example.com'}.
+Check if Dockerfile exists and show its contents.
+Find information about 'Python best practices' on the web.
+Call the MCP server 'deploy' with method 'rollback' and args {}.
+Write 'a summary report' to main.py.
+Delete the file helpers.py.
+Write 'a configuration template' to todo.txt.
+Insert into transactions the data {'name': 'Alice', 'email': 'alice@example.com'}.
+Read routes.py and check for errors.
+Set a reminder for 'review the pull request' at 10am.
+Write 'a summary report' to report.md.
+Insert into orders the data {'title': 'New Task', 'priority': 'high'}.
+Count all rows in the payments table.
+Forget my salary expectation.
+Show the schema of the tags table.
+Execute 'docker ps -a' and tell me the result.
+Read the file security incident log, find patterns, and create detection rules.
+Delete the file api.py.
+Remember that my language is alice@example.com.
+Send a POST request to /api/orders with body {'message': 'Hello World', 'channel': 'general'}.
+Stage and commit with message 'implement soft delete'.
+Post a message on Twitter saying 'new release published'.
+Search for 'await' in the config directory.
+Call the MCP server 'vector-db' with method 'search' and args {'query': 'Python async best practices'}.
+Read the file data validation rules, find missing validations, and add them.
+Read the file app.py and tell me what's in it.
+Delete from payments where status = 'active'.
+Call the MCP server 'format' with method 'configure' and args {}.
+Write 'meeting notes' to test.py.
+Call the MCP server 'database' with method 'update' and args {}.
+Delete the file todo.txt.
+Check all API endpoints, find slow ones, and cache.
+Insert into subscriptions the data {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Run the command 'git branch -a' and show the output.
+Execute 'ls -la' and tell me the result.
+Create a calendar event for 'code review' on Wednesday at 11am.
+Analyze the file user flow analytics, find conversion drop-offs, and recommend A/B tests.
+Delete from transactions where status = 'completed'.
+Create a calendar event for 'performance review' on Wednesday at 11am.
+Query logs where id = 1.
+Stage and commit with message 'fix CORS issue'.
+Post a message on Teams saying 'meeting in 5 minutes'.
+Execute 'python3 --version' and tell me the result.
+Call the MCP server 'config' with method 'set' and args {'key': 'session_42', 'value': 'abc123', 'ttl': 3600}.
+Write 'a list of contacts' to README.md.
+Query the permissions table for all records.
+Delete the file app.py.
+Post a message on Slack saying 'deployment complete'.
+Copy main.py to the temp directory.
+List all tools available on the 'vector-db' MCP server.
+Set a reminder for 'clean temp files' at 9am.
+Move report.md to the cloud storage.
+Check all API request logging, find missing logs, and add structured logging.
+Delete from products where status = 'active'.
+Check if report.md exists and show its contents.
+Query transactions where price > 100.
+Remember that my department is blue.
+Read the file deployment rollback history, find common failure causes, and prevent them.
+Show me the contents of config.py.
+Query the events table for all records.
+Stage and commit with message 'implement caching'.
+Show me the contents of report.md.
+Query products where id = 1.
+Remember that my salary expectation is blue.
+Read the file data pipeline, find issues, and fix.
+Read the file report.md and tell me what's in it.
+Monitor all API payload sizes, find oversized responses, and implement compression.
+Execute 'docker images' and tell me the result.
+Write 'a test plan' to log.txt.
+Read settings.yaml and check for errors.
+Write 'a test plan' to main.py.
+Run the command 'ls -la' and show the output.
+Run the command 'date' and show the output.
+Stage and commit with message 'optimize query performance'.
+Execute 'ip addr' and tell me the result.
+Monitor everything, find issues, and fix.
+Read the file infrastructure monitoring, find gaps, and fill them.
+Show the schema of the metrics table.
+Find information about 'concurrency patterns' on the web.
+Delete from customers where id = 42.
+Write 'a summary report' to test.py.
+Read the file data, find issues, and fix.
+Delete the file log.txt.
+List all tools available on the 'filesystem' MCP server.
+Query the database for users who haven't logged in for 30 days.
+Query the categories table for all records.
+Read the file infrastructure cost trend, find cost spikes, and investigate causes.
+Update products where id=1 to set active = false.
+Stage and commit with message 'add test coverage'.
+Call the MCP server 'lint' with method 'run' and args {}.
+Search for 'TODO' in the tests directory.
+Delete the bugfix/security branch.
+Update my email.
+Find information about 'JavaScript async patterns' on the web.
+Write 'a deployment checklist' to app.py.
+Search the vector database for similar documents, read the top result, and summarize it.
+Send a DELETE request to /api/orders.
+Execute 'curl -s http://localhost:8080/health' and tell me the result.
+Remember that my favorite color is blue.
+Send an email to devops team about project update.
+Insert into users the data {'name': 'Alice', 'email': 'alice@example.com'}.
+Delete the release/v1.5 branch.
+Read the file package.json, check for outdated dependencies, and update them.
+Send an email to engineering team about weekly report.
+Stage and commit with message 'add migration script'.
+Set a reminder for 'renew SSL certificate' at 10am.
+Send a notification on Teams: 'project update: all systems go'.
+Remember that my favorite color is alice@example.com.
+Call /api/products with params {'fields': 'name,email'}.
+Read the file .env and tell me what's in it.
+Make a PUT request to /api/users with body {'title': 'New Task', 'priority': 'high'}.
+Delete from subscriptions where id = 1.
+Insert into payments the data {'name': 'Alice', 'email': 'alice@example.com'}.
+Query payments where created_at > '2024-06-01'.
+Stage and commit with message 'fix login bug'.
+Create a new branch called 'bugfix/performance'.
+Write 'a list of tasks' to schema.sql.
+Commit all changes with the message 'add API endpoint'.
+Read the file code quality metrics, find the most complex functions, and recommend refactoring.
+Send an email to support about project update.
+Commit all changes with the message 'fix login bug'.
+Delete from orders where status = 'completed'.
+Check all SSL/TLS configurations, find weak cipher suites, and enforce stronger ones.
+Read the file data export config, find insecure exports, and secure them.
+Write 'a list of tasks' to config.json.
+Query payments where status = 'completed'.
+Create a calendar event for 'training session' on Tuesday at 2pm.
+Create a calendar event for 'performance review' on Tuesday at 2pm.
+Read the file data backup integrity, find corrupted backups, and recreate them.
+Stage and commit with message 'fix off-by-one error'.
+Stage and commit with message 'fix timezone bug'.
+Send an email to team@startup.io about bug report.
+Delete the file database.db.
+Insert into payments the data {'title': 'New Task', 'priority': 'high'}.
+Remember that my operating system is blue.
+Send a POST request to /api/search with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Update logs where id=1 to set status = 'approved'.
+Call /api/health with params {'fields': 'name,email'}.
+I need to deploy my web app. Can you help me through the steps?
+Write 'meeting notes' to main.py.
+Update payments where id=1 to set count = 0.
+Update subscriptions where id=1 to set status = 'approved'.
+Query the metrics table for all records.
+Fetch the content from https://api.example.com/v1/products.
+Send an email to support about meeting summary.
+Read the file infrastructure performance, find issues, and optimize.
+Write 'a deployment checklist' to settings.yaml.
+Delete from subscriptions where name LIKE '%test%'.
+Search for 'with open' in the logs directory.
+Monitor all API response sizes, find endpoints returning too much data, and add pagination.
+Send a POST request to /api/config with body {'title': 'New Task', 'priority': 'high'}.
+Update subscriptions where id=1 to set status = 'shipped'.
+Stage and commit with message 'add API endpoint'.
+Call /api/transactions with params {'page': 1, 'size': 20}.
+Check all API integration tests, find failing tests, and fix them.
+Execute 'ifconfig' and tell me the result.
+Call /api/orders with params {'filter': 'active'}.
+Execute 'rsync -avz src/ dest/' and tell me the result.
+Run the command 'nslookup example.com' and show the output.
+Write 'a deployment checklist' to schema.sql.
+Read the file data schema, find normalization issues, and fix them.
+Search for 'return' in the config directory.
+Read the file security scan results, find critical vulnerabilities, and create fix tickets.
+Execute 'chmod +x script.sh' and tell me the result.
+Analyze the file test flakiness data, find unreliable tests, and fix or quarantine them.
+Write 'a summary report' to todo.txt.
+Send a POST request to /api/auth/login with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Delete the file Makefile.
+Query orders where id = 42.
+Delete the file docker-compose.yml.
+Search the web for 'API versioning'.
+Check all API endpoint security, find endpoints without auth, and add authentication.
+Check if .env exists and show its contents.
+Read the file Makefile and tell me what's in it.
+Call the API endpoint /api/cache/clear with a GET request.
+Call the MCP server 'email' with method 'send' and args {'channel': 'email', 'to': 'team@company.com', 'subject': 'Update', 'body': 'All systems go'}.
+Search for 'async' in the src directory.
+Send a POST request to /api/health with body {'message': 'Hello World', 'channel': 'general'}.
+Write 'a list of tasks' to database.db.
+Call the MCP server 'deploy' with method 'deploy' and args {'app': 'web-app', 'version': 'v2.1.0', 'env': 'production'}.
+Delete from payments where id = 1.
+Delete from customers where name LIKE '%test%'.
+Switch to the bugfix/login branch.
+What is my operating system?
+Query the tasks table for all records.
+Set a reminder for 'check disk space' at 10am.
+Show the last 5 git commits.
+Send a POST request to /api/search with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Search the web for 'Python Flask tutorial', fetch the first result, and save it to a file.
+Call /api/auth/login with params {'fields': 'name,email'}.
+Copy notes.txt to the archive directory.
+Update my project.
+Move report.md to the archive directory.
+Write 'a deployment checklist' to main.py.
+Delete the file config.json.
+Show the schema of the users table.
+Send a notification on Slack: 'meeting in 5 minutes'.
+Copy report.md to the archive directory.
+Query the transactions table for all records.
+Insert into subscriptions the data {'name': 'Alice', 'email': 'alice@example.com'}.
+Delete the file README.md.
+Read the file api.py and tell me what's in it.
+Send an email to support about bug report.
+Read requirements.txt and check for errors.
+Send a DELETE request to /api/users.
+Insert into products the data {'name': 'Alice', 'email': 'alice@example.com'}.
+Show the contents of the current directory.
+Check if README.md exists and show its contents.
+Set a reminder for 'review the pull request' at 11am.
+Check all API performance, find slow endpoints, and optimize.
+Call the MCP server 'database' with method 'insert' and args {}.
+Create a calendar event for 'demo session' on Tuesday at 2pm.
+Search the web for 'data migration'.
+Make a PUT request to /api/analytics with body {'message': 'Hello World', 'channel': 'general'}.
+Delete from orders where id = 1.
+Remember that my company is blue.
+Post a message on Slack saying 'new release published'.
+Read the file infrastructure inventory, find orphaned resources, and clean them up.
+What is my deadline?
+Send a POST request to /api/search with body {'message': 'Hello World', 'channel': 'general'}.
+I need to implement a webhook system for my app. Help me plan it.
+Write 'a configuration template' to settings.yaml.
+Search for 'with open' in the config directory.
+Update inventory where id=1 to set status = 'inactive'.
+Send an email to the team about project update.
+Check all database query plans, find table scans, and add covering indexes.
+Rebase the current branch on main.
+Send a notification on Reddit: 'deployment complete'.
+I want to implement a caching layer for my API. What should I do?
+Move settings.yaml to the temp directory.
+Query sessions where created_at < '2024-01-01'.
+Query the database for the top 10 users by login count.
+Delete from inventory where name LIKE '%test%'.
+Check all API response codes, find high error rates, and investigate the causes.
+Monitor all background jobs, find long-running ones, and add timeouts.
+Query products where price < 50.
+Run the command 'grep -r 'FIXME' .' and show the output.
+Switch to the staging branch.
+Delete the bugfix/login branch.
+Read styles.css and check for errors.
+Read the file data pipeline performance, find slow stages, and optimize them.
+Send a POST request to /api/analytics with body {'file': 'report.pdf', 'size': 1024}.
+Read report.md and check for errors.
+Search for 'import' in the logs directory.
+Set a reminder for 'check the build status' at 10am.
+Read the file user segmentation, find at-risk segments, and create retention campaigns.
+Query customers where price < 50.
+Set a reminder for 'backup the database' at 11am.
+Send an email to the client about deployment status.
+Query subscriptions where name LIKE '%test%'.
+Send a notification on LinkedIn: 'hello world'.
+Search the web for 'backup procedures'.
+Read the file, find issues, and fix.
+Find information about 'security vulnerabilities' on the web.
+Write 'a list of tasks' to settings.yaml.
+Merge bugfix/security into main.
+Monitor all service logs, find errors, and fix them.
+Call the API endpoint /api/config with a GET request.
+Create a new branch called 'bugfix/cors'.
+Write 'a deployment checklist' to todo.txt.
+Run the command 'grep -r 'TODO' .' and show the output.
+Write 'a list of contacts' to test.py.
+Update orders where id=1 to set status = 'shipped'.
+Check if log.txt exists and show its contents.
+Stage and commit with message 'fix race condition'.
+Read the file infrastructure security config, find open ports, and close them.
+Send a notification on LinkedIn: 'project update: all systems go'.
+Create a new branch called 'feature/profile'.
+Query the orders table for all records.
+Check all service dependencies, find outdated versions, and plan upgrades.
+Create a calendar event for 'client presentation' on Wednesday at 11am.
+Remember that my phone number is blue.
+Query users where id = 42.
+Query users where status = 'active'.
+Write 'a budget plan' to test.py.
+Read constants.py and check for errors.
+Write 'a budget plan' to settings.yaml.
+Count all rows in the tasks table.
+Call /api/auth/login with params {'sort': 'date', 'order': 'desc'}.
+Run the command 'crontab -l' and show the output.
+Run the command 'dig example.com' and show the output.
+Run the command 'cat /etc/os-release' and show the output.
+Post a message on Teams saying 'project update: all systems go'.
+Stage and commit with message 'update dependencies'.
+Delete from payments where status = 'pending'.
+Call the API endpoint /api/tasks/schedule with a GET request.
+Search the web for 'Docker security tips'.
+Fetch the latest news from the API, filter for tech news, and save to a file.
+Query inventory where status = 'pending'.
+Query payments where created_at < '2024-01-01'.
+Query the database for all active users, send them a notification, and log the results.
+Delete from users where price < 50.
+Delete from sessions where created_at > '2024-06-01'.
+Check all database index fragmentation, find fragmented indexes, and rebuild them.
+Write 'a list of contacts' to log.txt.
+Create a calendar event for 'sprint planning' on Wednesday at 11am.
+Show me the contents of database.db.
+Check all API response caching, find cache misses, and optimize cache keys.
+Search for 'await' in the src directory.
+Call the MCP server 'http' with method 'post' and args {'url': 'https://api.example.com/orders', 'body': {'product': 'book'}}.
+Send an email to ops@company.com about bug report.
+Create a new branch called 'feature/search'.
+Copy main.py to the archive directory.
+Show me the contents of notes.txt.
+Read the file access_log.csv, detect suspicious activity, and create security alerts.
+Set a reminder for 'check server health' at 9am.
+Check if routes.py exists and show its contents.
+Stash all uncommitted changes.
+Update transactions where id=1 to set active = false.
+Switch to the bugfix/performance branch.
+Send a notification on Discord: 'project update: all systems go'.
+Delete from inventory where price < 50.
+Update users where id=1 to set count = 0.
+Send an email to ops@company.com about project update.
+Send a notification on Discord: 'deployment complete'.
+Read the file index.html and tell me what's in it.
+Call the MCP server 'shell' with method 'execute' and args {'command': 'ls -la'}.
+Run the command 'uniq -c data.txt' and show the output.
+Forget my project.
+Search the web for 'microservices patterns'.
+Make a GET request to /api/webhooks/register.
+Monitor the API error rate, detect spikes, investigate the cause, and create a postmortem.
+Make a PUT request to /api/users with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Merge feature/analytics into main.
+Send a notification on Slack: 'project update: all systems go'.
+Call the API endpoint /api/health with a GET request.
+Query the database for all pending orders, process each one, and update the status.
+Search the web for 'unit testing strategies'.
+Write 'a deployment checklist' to README.md.
+Search the web for 'memory optimization'.
+Send a notification on Teams: 'new release published'.
+Check all API security, find injection vulnerabilities, and fix them.
+Remember that my job title is blue.
+Read the file data classification, find sensitive data without encryption, and encrypt it.
+Read the file CDN config, find uncached resources, and add cache headers.
+Read the file infrastructure costs, find expensive resources, and recommend savings.
+Run the command 'journalctl -u nginx --since '1 hour ago'' and show the output.
+Show the schema of the comments table.
+Run the command 'ip addr' and show the output.
+Search for 'FIXME' in the config directory.
+Search for 'with open' in the current directory.
+Call /api/orders with params {'sort': 'date', 'order': 'desc'}.
+Call the MCP server 'deploy' with method 'deploy' and args {'app': 'api-server', 'version': 'v1.5.2', 'env': 'staging'}.
+Execute 'netstat -tulpn' and tell me the result.
+Query logs where created_at > '2024-06-01'.
+Move notes.txt to the archive directory.
+Check if notes.txt exists and show its contents.
+Send a POST request to /api/search with body {'file': 'report.pdf', 'size': 1024}.
+Read the file performance test results, find regressions, and bisect to the cause.
+Commit all changes with the message 'remove deprecated code'.
+Find information about 'Docker security tips' on the web.
+Stage and commit with message 'fix security vulnerability'.
+Delete from payments where name LIKE '%test%'.
+Write 'a list of contacts' to main.py.
+Execute 'grep -r 'error' . --include='*.log'' and tell me the result.
+Show me the contents of routes.py.
+Execute 'wc -l *.py' and tell me the result.
+Post a message on Discord saying 'new release published'.
+Make a PUT request to /api/auth/login with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Read the file API version deprecation schedule, find overdue deprecations, and execute them.
+Read the file infrastructure security, find misconfigurations, and fix.
+Download the file from https://httpbin.org/json.
+Search for 'await' in the current directory.
+Query users where status = 'pending'.
+Download the file from https://api.weather.com/today.
+Find information about 'microservices patterns' on the web.
+Write 'a summary report' to README.md.
+Post a message on Slack saying 'project update: all systems go'.
+Search the web for 'PostgreSQL optimization'.
+Send a POST request to /api/config with body {'file': 'report.pdf', 'size': 1024}.
+Make a PUT request to /api/transactions with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Commit all changes with the message 'update config format'.
+Make a PUT request to /api/health with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Remember that my timezone is alice@example.com.
+Write 'a budget plan' to database.db.
+Switch to the hotfix/data-loss branch.
+What is my job title?
+Delete from payments where created_at < '2024-01-01'.
+Send a notification on LinkedIn: 'deployment complete'.
+Monitor all database connection leaks, find leaking apps, and fix the connection handling.
+Remember that my name is alice@example.com.
+Delete the file package.json.
+Search for 'TODO' in the config directory.
+Make a PUT request to /api/config with body {'message': 'Hello World', 'channel': 'general'}.
+Run the command 'npm list' and show the output.
+Send a DELETE request to /api/transactions.
+Update users where id=1 to set status = 'shipped'.
+Call /api/orders with params {'fields': 'name,email'}.
+Query payments where status = 'pending'.
+Query payments where status = 'active'.
+Execute 'head -20 log.txt' and tell me the result.
+Read notes.txt and check for errors.
+Analyze the file user behavior data, find drop-off points, and recommend UX improvements.
+Query the posts table for all records.
+Call the API endpoint /api/files/download with a GET request.
+Read the file log rotation config, verify it's working, and fix any issues.
+Query orders where price < 50.
+Post a message on Reddit saying 'hello world'.
+Run the command 'find . -name '*.py'' and show the output.
+Send a POST request to /api/analytics with body {'message': 'Hello World', 'channel': 'general'}.
+Call the API endpoint /api/products with a GET request.
+Connect to the Redis server, check all keys, find expired ones, and clean them up.
+Search the web for 'GraphQL schema'.
+Execute 'whoami' and tell me the result.
+Create a calendar event for 'deployment window' on Monday at 10am.
+Send an email to all stakeholders about weekly report.
+Commit all changes with the message 'implement pagination'.
+Merge feature/api into main.
+Switch to the feature/profile branch.
+Read database.db and check for errors.
+I need to set up SSL for my web server. Walk me through it.
+Merge bugfix/performance into main.
+Query the API for user data, store it in the database, and cache the result.
+Run the command 'ss -tulpn' and show the output.
+Create a calendar event for 'team meeting' on Wednesday at 11am.
+Delete from products where name LIKE '%test%'.
+I want to set up a CI/CD pipeline for my project. Walk me through it.
+Write 'a test plan' to notes.txt.
+Delete from subscriptions where price > 100.
+Make a GET request to /api/users.
+Call the MCP server 'filesystem' with method 'write_file' and args {'path': '/config/settings.json', 'content': '{"debug": true}'}.
+Monitor all database transaction deadlocks, find deadlock causes, and reorder operations.
+Monitor all running processes, find zombie processes, and clean them up.
+Query transactions where status = 'active'.
+Move log.txt to the backup folder.
+Execute 'cat /etc/os-release' and tell me the result.
+Update my timezone.
+List all tools available on the 'web-search' MCP server.
+Read the file user feedback, categorize by sentiment, and create a summary report.
+Search for 'class' in the src directory.
+Make a PUT request to /api/auth/register with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Call /api/analytics with params {'sort': 'date', 'order': 'desc'}.
+Read the file user session timeout config, find inconsistent settings, and standardize.
+Update logs where id=1 to set count = 0.
+Show the schema of the notifications table.
+Query orders where id = 1.
+Download the file from https://api.example.com/v1/products.
+Execute 'grep -r 'TODO' .' and tell me the result.
+Read the file models.py and tell me what's in it.
+Forget my currency.
+Show me the contents of schema.sql.
+Check all cron jobs, find failing ones, fix the issues, and verify they work.
+Call /api/health with params {'page': 1, 'size': 20}.
+Read the file user activity log, find inactive users, and re-engage them.
+Commit all changes with the message 'fix race condition'.
+Call the MCP server 'git' with method 'branch' and args {}.
+Merge hotfix/security into main.
+Query logs where name LIKE '%test%'.
+Search for 'async' in the config directory.
+Find information about 'machine learning basics' on the web.
+Show me the contents of requirements.txt.
+Monitor all service CPU throttling, find throttled services, and increase limits.
+Update my name.
+Read the file users, find issues, and fix.
+Delete from inventory where created_at > '2024-06-01'.
+Set a reminder for 'review the pull request' at 9am.
+Analyze the file query patterns, find N+1 query issues, and suggest batch solutions.
+Query customers where name LIKE '%test%'.
+Read the file data processing pipeline, find error handling gaps, and add them.
+Find information about 'PostgreSQL optimization' on the web.
+Read the file settings.yaml and tell me what's in it.
+Read helpers.py and check for errors.
+Analyze the file test execution order, find order-dependent tests, and make them independent.
+Execute 'ps aux' and tell me the result.
+Send an email to engineering team about project update.
+Remember that my email is blue.
+Create a calendar event for 'training session' on Wednesday at 11am.
+Analyze the file API usage patterns, find deprecated endpoints with high traffic, and plan migration.
+Analyze the file code complexity metrics, find god classes, and split them.
+Monitor all service health checks, find failing ones, and set up alerts.
+Write 'a deployment checklist' to docker-compose.yml.
+Read Dockerfile and check for errors.
+Insert into customers the data {'title': 'New Task', 'priority': 'high'}.
+Delete the feature/analytics branch.
+Send a POST request to /api/users with body {'file': 'report.pdf', 'size': 1024}.
+Insert into logs the data {'title': 'New Task', 'priority': 'high'}.
+Read the file constants.py and tell me what's in it.
+Set a reminder for 'send weekly report' at 9am.
+Search the web for 'integration testing'.
+Insert into products the data {'title': 'New Task', 'priority': 'high'}.
+Create a calendar event for 'standup' on Monday at 10am.
+Read the file cache hit rates, find low-performing caches, and recommend eviction policy changes.
+Stage and commit with message 'add input validation'.
+Delete from users where id = 1.
+Query sessions where status = 'active'.
+Make a PUT request to /api/orders with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Monitor all database replication, find lag, and optimize the replication config.
+Stage and commit with message 'implement retry logic'.
+Run the command 'wc -l *.py' and show the output.
+Query the database for inactive users with pending orders.
+Delete from products where price < 50.
+Fetch the content from https://api.weather.com/today.
+Create a calendar event for 'code review' on Monday at 10am.
+Call the API endpoint /api/auth/register with a GET request.
+Call the MCP server 'http' with method 'get' and args {'url': 'https://api.github.com/users/octocat'}.
+Insert into customers the data {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+What is my company?
+Post a message on Reddit saying 'new release published'.
+Analyze the database query logs, find the slowest queries, and create optimization suggestions.
+Send an email to devops team about bug report.
+Update my department.
+List all files in the tests directory.
+Query products where created_at < '2024-01-01'.
+Call /api/orders with params {'page': 1, 'size': 20}.
+Call /api/health with params {'sort': 'date', 'order': 'desc'}.
+Monitor all service health endpoints, find unhealthy services, and restart them.
+Search the web for 'alerting strategies'.
+Forget my timezone.
+Query users where price > 100.
+Count all rows in the metrics table.
+Merge bugfix/login into main.
+Write 'a budget plan' to log.txt.
+Send an email to team@startup.io about deployment status.
+Check if config.py exists and show its contents.
+Check all API authentication methods, find insecure ones, and migrate to JWT.
+Read the file data access logs, find unauthorized access, and block it.
+Check all database triggers, find slow ones, and optimize or remove them.
+Query the database for all users with expired passwords, send them emails, and log the results.
+Make a GET request to /api/config.
+Read the file data anonymization config, find unanonymized PII, and anonymize it.
+Read the file data quality dashboard, find failing checks, and fix the data.
+Post a message on Reddit saying 'project update: all systems go'.
+Run the command 'docker ps' and show the output.
+Execute 'git branch -a' and tell me the result.
+Delete from logs where created_at > '2024-06-01'.
+Delete from users where price > 100.
+Delete from subscriptions where status = 'pending'.
+Monitor all service disk I/O, find saturated disks, and add more IOPS.
+Read the file user permissions, find excessive ones, and reduce.
+Forget my programming language.
+Search for 'await' in the tests directory.
+Copy settings.yaml to the archive directory.
+Read the file data integrity, find violations, and fix.
+Make a PUT request to /api/auth/login with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Call the MCP server 'web-search' with method 'search' and args {'query': 'Python async best practices'}.
+Forget my editor.
+Execute 'find . -name '*.json'' and tell me the result.
+Set a reminder for 'update dependencies' at 9am.
+Check all API rate limit configurations, find inconsistent limits, and standardize them.
+Delete the feature/api branch.
+Remember that my deadline is blue.
+Query the payments table for all records.
+Create a calendar event for 'architecture review' on Tuesday at 2pm.
+Execute 'cut -d, -f1 data.csv' and tell me the result.
+Make a PUT request to /api/analytics with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Remember that my currency is blue.
+Send an email to john@example.com about project update.
+What is my timezone?
+Set a reminder for 'renew SSL certificate' at 11am.
+List all files in the src directory.
+Search for 'def ' in the tests directory.
+Make a PUT request to /api/auth/login with body {'message': 'Hello World', 'channel': 'general'}.
+Stage and commit with message 'fix memory leak'.
+Delete the file settings.yaml.
+Read the file config, compare with the template, find differences, and report them.
+Post a message on Twitter saying 'deployment complete'.
+Run the command 'top -n 1' and show the output.
+Update subscriptions where id=1 to set count = 0.
+Move config.json to the temp directory.
+Scan the codebase for security vulnerabilities, generate a report, and email it.
+Make a PUT request to /api/auth/register with body {'title': 'New Task', 'priority': 'high'}.
+Commit all changes with the message 'add request logging'.
+Forget my location.
+I think there's a memory leak in my Python app. Can you investigate?
+Query logs where status = 'active'.
+Delete the release/v2.0 branch.
+List all tools available on the 'http' MCP server.
+Move app.py to the backup folder.
+Post a message on Reddit saying 'meeting in 5 minutes'.
+Run the command 'head -20 log.txt' and show the output.
+Make a PUT request to /api/config with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Delete the file .env.
+Help me implement authentication for my REST API.
+Send a POST request to /api/auth/register with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Remember that my company is alice@example.com.
+Make a PUT request to /api/auth/register with body {'message': 'Hello World', 'channel': 'general'}.
+Create a new branch called 'feature/dashboard'.
+Execute 'git status' and tell me the result.
+Delete from subscriptions where price < 50.
+Check all database indexes, find unused ones, and remove them to improve write performance.
+Monitor all service availability, find services below SLA, and improve them.
+Read .env and check for errors.
+Insert into sessions the data {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Forget my department.
+Delete from products where id = 42.
+Send a POST request to /api/users with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Check all scheduled backups, find failing ones, and fix the storage configuration.
+Show me the contents of test.py.
+Make a PUT request to /api/analytics with body {'file': 'report.pdf', 'size': 1024}.
+Write 'a list of tasks' to utils.py.
+Merge feature/search into main.
+Write 'a configuration template' to README.md.
+What is my name?
+Execute 'tail -20 log.txt' and tell me the result.
+Read the file infrastructure, find issues, and fix.
+Read the file container resource limits, find over-provisioned ones, and recommend right-sizing.
+Read the file data quality, find issues, and fix them.
+Remember that my project is alice@example.com.
+Write 'a test plan' to utils.py.
+Copy main.py to the cloud storage.
+Send a POST request to /api/users with body {'title': 'New Task', 'priority': 'high'}.
+Create a calendar event for 'training session' on Monday at 10am.
+Write 'a list of tasks' to README.md.
+Move README.md to the cloud storage.
+Check if data.csv exists and show its contents.
+Remember that my company is Alice.
+Send an email to the manager about bug report.
+Query inventory where created_at > '2024-06-01'.
+Query logs where status = 'pending'.
+Write 'meeting notes' to README.md.
+Delete from transactions where name LIKE '%test%'.
+Show me the contents of main.py.
+Write 'a list of contacts' to report.md.
+Stage and commit with message 'add user authentication'.
+Remember that my phone number is alice@example.com.
+Read the file user churn analysis, find churn predictors, and create early warning.
+Read the file config.json and tell me what's in it.
+Set a reminder for 'review security logs' at 10am.
+Search for 'import' in the src directory.
+Analyze the file code review data, find review bottlenecks, and streamline.
+Remember that my operating system is Alice.
+Set a reminder for 'check the build status' at 11am.
+Send a notification on Teams: 'deployment complete'.
+Set a reminder for 'run the tests' at 10am.
+Send an email to team@startup.io about weekly report.
+Read the file user segmentation data, find high-value users, and create targeted campaigns.
+Create a new branch called 'feature/payment'.
+Check the server health, read the error logs, and create an alert if there are critical errors.
+Update sessions where id=1 to set active = false.
+Read the file service dependencies, map the call graph, and identify circular dependencies.
+Update inventory where id=1 to set active = false.
+Send a DELETE request to /api/config.
+Move main.py to the archive directory.
+Search for 'class' in the current directory.
+Call /api/analytics with params {'page': 1, 'size': 20}.
+Delete from inventory where price > 100.
+Move notes.txt to the temp directory.
+Delete the bugfix/memory branch.
+Remember that my language is Alice.
+Insert into logs the data {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Download the file from https://jsonplaceholder.typicode.com/posts.
+Query customers where created_at > '2024-06-01'.
+Make a PUT request to /api/orders with body {'message': 'Hello World', 'channel': 'general'}.
+Check all webhook endpoints, find failing ones, and retry or disable them.
+Search the web for 'Kubernetes deployment'.
+Insert into users the data {'title': 'New Task', 'priority': 'high'}.
+Commit all changes with the message 'add rate limiting'.
+Read the file infrastructure as code, find drift from actual state, and reconcile.
+I need to analyze my server logs for errors from the last 24 hours.
+Query users where price < 50.
+Query subscriptions where status = 'active'.
+Create a calendar event for 'demo session' on Wednesday at 11am.
+Write 'a summary report' to config.json.
+Send an email to jane@example.com about meeting summary.
+Show me the contents of docker-compose.yml.
+Check all database backups, verify they can be restored, and document the procedure.
+Call /api/users with params {'filter': 'active'}.
+Call the MCP server 'calendar' with method 'update' and args {}.
+Check all API idempotency keys, find duplicate processing, and fix the dedup logic.
+Send a POST request to /api/orders with body {'title': 'New Task', 'priority': 'high'}.
+Execute 'ls -lh' and tell me the result.
+Make a GET request to /api/notifications/send.
+Write 'a summary report' to notes.txt.
+Read the file infrastructure automation, find manual tasks, and automate them.
+Read the file application logs, extract unique errors, and create a bug report for each.
+Read the file infrastructure change log, find unauthorized changes, and investigate.
+Query transactions where created_at > '2024-06-01'.
+Copy notes.txt to the temp directory.
+Make a PUT request to /api/products with body {'title': 'New Task', 'priority': 'high'}.
+Write 'a configuration template' to app.py.
+Delete from transactions where status = 'active'.
+Copy config.json to the temp directory.
+Query the database for all users, export to CSV, and upload to cloud storage.
+List all files in the temp directory.
+What is my email?
+Call /api/config with params {'sort': 'date', 'order': 'desc'}.
+Delete from logs where price > 100.
+Show me the contents of README.md.
+Write 'a test plan' to app.py.
+Analyze the file code quality, find technical debt, and create a payoff plan.
+Move log.txt to the temp directory.
+Find information about 'Kubernetes deployment' on the web.
+Analyze the file code review quality, find superficial reviews, and improve guidelines.
+Write 'a list of contacts' to schema.sql.
+Send an email to engineering team about bug report.
+Send an email to admin@company.com about weekly report.
+Check the git status of the repository.
+Commit all changes with the message 'optimize query performance'.
+Post a message on Teams saying 'hello world'.
+Create a calendar event for 'architecture review' on Wednesday at 11am.
+Post a message on Discord saying 'deployment complete'.
+Move main.py to the temp directory.
+Read the file infrastructure monitoring, find blind spots, and add checks.
+Show the contents of the tests directory.
+Merge bugfix/memory into main.
+Write 'a deployment checklist' to report.md.
+Run the command 'curl -s http://localhost:8080/health' and show the output.
+Query the database for orphaned records, clean them up, and optimize the tables.
+Read the file todo.txt and tell me what's in it.
+Read the file data sources, find unreliable ones, and add validation.
+Stage and commit with message 'update config format'.
+Make a PUT request to /api/search with body {'message': 'Hello World', 'channel': 'general'}.
+Update products where id=1 to set status = 'approved'.
+Query inventory where status = 'active'.
+Call /api/products with params {'sort': 'date', 'order': 'desc'}.
+Commit all changes with the message 'implement caching'.
+Check if constants.py exists and show its contents.
+Set a reminder for 'update dependencies' at 11am.
+Query orders where created_at < '2024-01-01'.
+Call /api/config with params {'filter': 'active'}.
+Read the file user behavior analytics, find bot traffic, and filter it out.
+Read the file user activity timeline, find suspicious patterns, and investigate.
+Commit all changes with the message 'fix timezone bug'.
+Search the web for 'logging best practices'.
+Update inventory where id=1 to set status = 'approved'.
+Send a POST request to /api/analytics with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Delete from logs where status = 'pending'.
+Delete from sessions where name LIKE '%test%'.
+Update transactions where id=1 to set count = 0.
+Read the file code review metrics, find bottlenecks in the review process, and suggest improvements.
+Call the MCP server 'git' with method 'commit' and args {}.
+Write 'a budget plan' to schema.sql.
+Read the file data retention compliance, find data past retention, and purge it.
+Set a reminder for 'update the documentation' at 9am.
+Make a GET request to /api/auth/login.
+Commit all changes with the message 'add health check endpoint'.
+Check if settings.yaml exists and show its contents.
+Check all TLS versions in use, find deprecated ones, and plan upgrades.
+Delete from customers where status = 'active'.
+Send an email to the manager about project update.
+Query customers where id = 1.
+Search the web for 'Python best practices'.
+Fetch the content from https://api.github.com/repos/python/cpython.
+Delete the feature/dashboard branch.
+Create a new branch called 'feature/admin'.
+Send a POST request to /api/orders with body {'file': 'report.pdf', 'size': 1024}.
+Remember that my department is Alice.
+Write 'a budget plan' to todo.txt.
+Send a notification on Teams: 'meeting in 5 minutes'.
+Make a PUT request to /api/config with body {'title': 'New Task', 'priority': 'high'}.
+Make a GET request to /api/reports/generate.
+Read the file user feedback, find bugs, and create tickets.
+Delete the file schema.sql.
+Show me the contents of helpers.py.
+Download the file from https://api.github.com/repos/python/cpython.
+Create a calendar event for 'project deadline' on Monday at 10am.
+Call /api/users with params {'limit': 10}.
+Write 'a configuration template' to database.db.
+Make a PUT request to /api/auth/login with body {'file': 'report.pdf', 'size': 1024}.
+What is my department?
+Make a GET request to /api/auth/register.
+Post a message on Teams saying 'deployment complete'.
+Run the command 'sed 's/old/new/g' config.txt' and show the output.
+Show the schema of the posts table.
+Run the command 'awk '{print $1}' access.log' and show the output.
+Query logs where id = 42.
+Update logs where id=1 to set status = 'inactive'.
+Show the schema of the alerts table.
+Send an email to ops@company.com about weekly report.
+Write 'meeting notes' to report.md.
+Delete from sessions where status = 'pending'.
+Create a tag 'v1.0.0' with message 'Initial release'.
+Create a calendar event for 'sprint planning' on Tuesday at 2pm.
+Delete from sessions where id = 42.
+Show me the contents of config.json.
+Create a new branch called 'hotfix/security'.
+Call the MCP server 'queue' with method 'push' and args {'queue': 'emails', 'message': 'send welcome email to user 42'}.
+Analyze the file user session data, find session hijacking indicators, and block them.
+Delete the feature/notifications branch.
+Send a POST request to /api/auth/login with body {'message': 'Hello World', 'channel': 'general'}.
+Find information about 'REST API design' on the web.
+Read the file user feature requests, find popular requests, and prioritize.
+Copy config.json to the cloud storage.
+Check if utils.py exists and show its contents.
+Check if todo.txt exists and show its contents.
+Read the file deployment config, validate it, deploy to staging, and run smoke tests.
+Search for 'def ' in the logs directory.
+Execute 'which python3' and tell me the result.
+Fetch the content from https://httpbin.org/get.
+Count all rows in the posts table.
+Make a PUT request to /api/transactions with body {'file': 'report.pdf', 'size': 1024}.
+Query the sessions table for all records.
+Show me the contents of log.txt.
+Monitor all database slow query logs, find the worst offenders, and create indexes.
+Write 'a list of contacts' to notes.txt.
+Forget my priority.
+Search for 'TODO' in the logs directory.
+Call the MCP server 'filesystem' with method 'read_file' and args {'path': '/etc/nginx/nginx.conf'}.
+Count all rows in the products table.
+Read the file utils.py and tell me what's in it.
+Monitor all service response times, find degrading services, and investigate.
+Delete from inventory where id = 1.
+Call the MCP server 'cache' with method 'delete' and args {}.
+Call the API endpoint /api/search with a GET request.
+Read the file user sessions, detect concurrent logins, and flag suspicious activity.
+Send a POST request to /api/orders with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Send a notification on Twitter: 'new release published'.
+Search for 'FIXME' in the src directory.
+Query users where created_at > '2024-06-01'.
+Send a POST request to /api/auth/login with body {'file': 'report.pdf', 'size': 1024}.
+Check all database foreign keys, find missing indexes, and add them.
+Write 'a budget plan' to utils.py.
+Query the subscriptions table for all records.
+Create a calendar event for 'sprint planning' on Monday at 10am.
+Move README.md to the temp directory.
+Check all message queue consumers, find lagging ones, and scale them up.
+Execute 'cal' and tell me the result.
+Execute 'dig example.com' and tell me the result.
+Read the file main.py and tell me what's in it.
+Make a GET request to /api/orders.
+Send an email to support about deployment status.
+Call the API endpoint /api/notifications/send with a GET request.
+Move report.md to the backup folder.
+Call /api/auth/login with params {'limit': 10}.
+Send an email to the client about project update.
+Read index.html and check for errors.
+Copy main.py to the backup folder.
+Make a PUT request to /api/transactions with body {'title': 'New Task', 'priority': 'high'}.
+Read config.py and check for errors.
+Delete from sessions where status = 'completed'.
+Delete the file Dockerfile.
+Read the file database.db and tell me what's in it.
+Switch to the feature/analytics branch.
+Read the file infrastructure cost breakdown, find expensive components, and optimize.
+Move main.py to the backup folder.
+Insert into transactions the data {'title': 'New Task', 'priority': 'high'}.
+Make a PUT request to /api/health with body {'file': 'report.pdf', 'size': 1024}.
+Execute 'wget https://example.com/file.zip' and tell me the result.
+Send a DELETE request to /api/analytics.
+Fetch the content from https://docs.python.org/3/.
+Find information about 'API versioning' on the web.
+Remember that my salary expectation is alice@example.com.
+Run the command 'unzip data.zip' and show the output.
+Remember that my birthday is Alice.
+Query orders where status = 'active'.
+Check all API authentication logs, find brute force attempts, and block the IPs.
+Post a message on Discord saying 'meeting in 5 minutes'.
+Send an email to team@startup.io about project update.
+Update my company.
+Query the database for the latest 100 log entries.
+Find information about 'data migration' on the web.
+Find information about 'error handling' on the web.
+Write 'a configuration template' to notes.txt.
+Execute 'git log --oneline -5' and tell me the result.
+Update customers where id=1 to set status = 'shipped'.
+Monitor the database replication lag, detect issues, and alert the DBA team.
+Insert into payments the data {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Merge staging into main.
+Search for 'try:' in the config directory.
+Monitor all database table sizes, find growing tables, and plan partitioning.
+Send an email to admin@company.com about deployment status.
+Search for 'request' in the config directory.
+Download the file from https://api.example.com/v1/users.
+Create a calendar event for 'design review' on Tuesday at 2pm.
+Query subscriptions where status = 'completed'.
+Show the contents of the output directory.
+Call the MCP server 'cache' with method 'get' and args {'url': 'https://api.github.com/users/octocat'}.
+Remember that my priority is Alice.
+Create a new branch called 'feature/api'.
+Remember that my deadline is alice@example.com.
+Read the file docker-compose.yml, check all services, and restart any that are down.
+Update my birthday.
+Copy todo.txt to the temp directory.
+Call the MCP server 'vector-db' with method 'update' and args {}.
+Read the file data.csv, analyze it, create a summary, and save it as a report.
+Call the MCP server 'format' with method 'run' and args {}.
+Find information about 'memory optimization' on the web.
+Search for 'return' in the tests directory.
+Check all API responses, find issues, and fix.
+Read the file metrics.json, analyze the trends, detect anomalies, and alert the team.
+Write 'a test plan' to README.md.
+Switch to the feature/api branch.
+Query subscriptions where price > 100.
+List all files in the data directory.
+Call the MCP server 'email' with method 'send' and args {'channel': 'slack', 'channel_name': '#devops', 'message': 'Deploy complete'}.
+Send a POST request to /api/auth/login with body {'title': 'New Task', 'priority': 'high'}.
+Search the web for 'concurrency patterns'.
+Call the MCP server 'config' with method 'delete' and args {}.
+Call the MCP server 'monitor' with method 'remove_check' and args {}.
+Analyze the file code complexity, find complex modules, and simplify.
+Query customers where status = 'completed'.
+Delete from orders where status = 'active'.
+Monitor all service mesh traffic, find noisy neighbors, and isolate them.
+Read docker-compose.yml and check for errors.
+Merge hotfix/critical into main.
+Show me the contents of data.csv.
+Search for 'function' in the logs directory.
+Query logs where price < 50.
+Set a reminder for 'check for updates' at 10am.
+Show the git log for today.
+Move notes.txt to the cloud storage.
+Call the API endpoint /api/orders with a GET request.
+Read the file config.py and tell me what's in it.
+Forget my operating system.
+Create a new branch called 'bugfix/login'.
+Copy data.csv to the cloud storage.
+Show the contents of the logs directory.
+Move log.txt to the archive directory.
+Delete the file utils.py.
+Execute 'ssh root@server 'systemctl status nginx'' and tell me the result.
+Call the MCP server 'lint' with method 'get_issues' and args {}.
+Delete from sessions where status = 'active'.
+Write 'a list of contacts' to settings.yaml.
+Run the command 'rsync -avz src/ dest/' and show the output.
+Update my salary expectation.
+Make a GET request to /api/health.
+Merge hotfix/data-loss into main.
+Fetch the content from https://api.github.com/users/torvalds.
+Copy app.py to the temp directory.
+Show me the contents of api.py.
+Delete from products where status = 'pending'.
+Run a query to calculate the total revenue by category.
+Read the file user engagement metrics, find declining engagement, and create campaigns.
+Find information about 'unit testing strategies' on the web.
+Remember that my location is alice@example.com.
+Post a message on LinkedIn saying 'new release published'.
+Update payments where id=1 to set status = 'shipped'.
+Delete from transactions where created_at > '2024-06-01'.
+Read the file error tracking config, verify it's capturing all errors, and test it.
+What is my project?
+Call /api/health with params {'filter': 'active'}.
+Read the file deployment manifest, find missing health checks, and add them.
+Read log.txt and check for errors.
+Send an email to devops team about weekly report.
+Send a notification on Twitter: 'project update: all systems go'.
+Check all API authentication, find weak auth methods, and upgrade them.
+Execute 'find . -name '*.py'' and tell me the result.
+Find information about 'code review checklist' on the web.
+Switch to the feature/auth branch.
+Make a GET request to /api/tasks/schedule.
+Read the file user feature adoption, find low adoption features, and improve discoverability.
+Read the file docker-compose.yml and tell me what's in it.
+Make a PUT request to /api/config with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Send an email to the client about bug report.
+Send a DELETE request to /api/health.
+Make a PUT request to /api/transactions with body {'message': 'Hello World', 'channel': 'general'}.
+Send an email to jane@example.com about bug report.
+Commit all changes with the message 'implement soft delete'.
+Search for 'except' in the current directory.
+Call the MCP server 'filesystem' with method 'list_directory' and args {'path': '/workspace'}.
+Read Makefile and check for errors.
+Analyze the file deployment success rate, find failing stages, and add retries.
+Query logs where created_at < '2024-01-01'.
+Insert into products the data {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Write 'meeting notes' to docker-compose.yml.
+Call /api/search with params {'limit': 10}.
+Call /api/auth/register with params {'page': 1, 'size': 20}.
+Execute 'sort data.csv' and tell me the result.
+Call /api/config with params {'limit': 10}.
+Read the file data pipeline, find data loss risks, and add safeguards.
+Show the contents of the data directory.
+Search for 'return' in the current directory.
+Send a POST request to /api/users with body {'message': 'Hello World', 'channel': 'general'}.
+Show me the contents of todo.txt.
+Delete from orders where status = 'pending'.
+Commit all changes with the message 'add test coverage'.
+Delete the file requirements.txt.
+Commit all changes with the message 'fix security vulnerability'.
+Send a DELETE request to /api/products.
+Download the file from https://api.github.com/search/repositories?q=python.
+Query the comments table for all records.
+Update my currency.
+Remember that my location is Alice.
+Search for 'try:' in the current directory.
+Search for 'raise' in the current directory.
+Read the file feature flag config, find stale flags, and remove them.
+Stage and commit with message 'add health check endpoint'.
+Remember that my programming language is blue.
+Create a calendar event for 'security audit' on Monday at 10am.
+Check all database connections, find idle ones, and close them to free resources.
+Execute 'scp file.txt user@server:/path/' and tell me the result.
+Find information about 'logging best practices' on the web.
+Remember that my editor is Alice.
+Remember that my phone number is Alice.
+Write 'a configuration template' to log.txt.
+What is my programming language?
+Send an email to john@example.com about weekly report.
+Count all rows in the categories table.
+Read the file data pipeline config, find bottlenecks, and suggest parallelization.
+Read the file README.md and tell me what's in it.
+Create a calendar event for 'retrospective' on Tuesday at 2pm.
+Query the database for the average order value by month.
+Create a new branch called 'hotfix/critical'.
+Insert into transactions the data {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Search for 'function' in the current directory.
+Write 'a deployment checklist' to test.py.
+Check the SSL certificates for all domains, find expiring ones, and send alerts.
+Analyze the file code metrics, find issues, and fix.
+Fetch the stock prices from an API, store in the database, and create a visualization.
+Move report.md to the temp directory.
+Query sessions where status = 'completed'.
+Create a new branch called 'feature/reports'.
+Check all database connection strings, find hardcoded credentials, and move to vault.
+Read the file user preferences, find common preferences, and personalize.
+Delete the file styles.css.
+Update my favorite color.
+Send a DELETE request to /api/search.
+Search for 'return' in the logs directory.
+Read the file deployment pipeline config, find manual steps, and automate them.
+Set a reminder for 'clean temp files' at 11am.
+Read the file data import pipeline, find validation gaps, and add checks.
+Delete the feature/payment branch.
+Find information about 'performance profiling' on the web.
+Send a notification on Reddit: 'hello world'.
+Forget my birthday.
+Call the MCP server 'http' with method 'put' and args {}.
+Search for 'try:' in the src directory.
+Analyze the file user retention data, find churn indicators, and create retention strategies.
+Create a new branch called 'hotfix/data-loss'.
+Update payments where id=1 to set status = 'inactive'.
+Set a reminder for 'check disk space' at 11am.
+Read schema.sql and check for errors.
+Write 'a budget plan' to main.py.
+Execute 'docker ps' and tell me the result.
+Search for 'class' in the tests directory.
+Search for 'error' in the current directory.
+Analyze the file code coverage, find untested critical paths, and add tests.
+Write 'a budget plan' to docker-compose.yml.
+Check all API responses, find data leaks, and fix them.
+Write 'a list of contacts' to utils.py.
+Send an email to product team about meeting summary.
+Set a reminder for 'check the build status' at 9am.
+Write 'a configuration template' to report.md.
+Run the command 'ps aux' and show the output.
+Remember that my project is Alice.
+Create a new branch called 'release/v2.0'.
+Read the file infrastructure security, find open vulnerabilities, and patch them.
+Monitor all service error rates, find services with increasing errors, and investigate.
+Move config.json to the backup folder.
+Execute 'awk '{print $1}' access.log' and tell me the result.
+What is my location?
+Move settings.yaml to the archive directory.
+Execute 'sed 's/old/new/g' config.txt' and tell me the result.
+Write 'a list of contacts' to config.json.
+Count all rows in the subscriptions table.
+Read the file log aggregation config, verify all services are logging, and fix gaps.
+Call /api/orders with params {'limit': 10}.
+Make a GET request to /api/logs/search.
+Read the file user activity log, find inactive users, and send re-engagement emails.
+Insert into users the data {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Write 'a summary report' to database.db.
+Copy report.md to the temp directory.
+Check all API authentication, find weak tokens, and strengthen.
+Call the MCP server 'auth' with method 'login' and args {}.
+Query transactions where created_at < '2024-01-01'.
+Remember that my location is blue.
+Send a notification on Twitter: 'meeting in 5 minutes'.
+Read models.py and check for errors.
+Query sessions where price > 100.
+Call the MCP server 'cache' with method 'set' and args {'key': 'session_42', 'value': 'abc123', 'ttl': 3600}.
+Search for 'await' in the logs directory.
+Call /api/search with params {'fields': 'name,email'}.
+Set a reminder for 'update dependencies' at 10am.
+Run the command 'sort data.csv' and show the output.
+Find information about 'load testing' on the web.
+Insert into inventory the data {'title': 'New Task', 'priority': 'high'}.
+Check all API endpoints, find deprecated ones, and remove them.
+Call the MCP server 'config' with method 'set' and args {'key': 'config', 'value': '{"debug": true}'}.
+Check if docker-compose.yml exists and show its contents.
+Query orders where status = 'completed'.
+Analyze the file code review turnaround, find slow reviews, and streamline the process.
+Read the file error.log, parse the errors, group by type, and create a summary chart.
+List all files in the docs directory.
+Analyze the file code deployment, find failures, and prevent.
+Call the API endpoint /api/auth/login with a GET request.
+Query transactions where id = 42.
+Check all API response times, find slow endpoints, and add caching.
+Stage and commit with message 'update documentation'.
+Check if main.py exists and show its contents.
+Switch to the bugfix/memory branch.
+Call /api/users with params {'fields': 'name,email'}.
+Run the command 'free -h' and show the output.
+Send an email to john@example.com about meeting summary.
+Execute 'systemctl status nginx' and tell me the result.
+Monitor all database queries, find expensive ones, and optimize.
+Create a calendar event for 'security audit' on Tuesday at 2pm.
+Switch to the release/v1.5 branch.
+Make a PUT request to /api/search with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Write 'a deployment checklist' to config.json.
+Update transactions where id=1 to set status = 'approved'.
+What is my editor?
+Send a POST request to /api/health with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Write 'a deployment checklist' to utils.py.
+Read the file user accounts, find dormant ones, and clean up.
+Run a query to find all transactions above $1000.
+Query inventory where price < 50.
+Find information about 'disaster recovery' on the web.
+Execute 'df -h' and tell me the result.
+Write 'a budget plan' to data.csv.
+Search for 'with open' in the tests directory.
+Read the file performance baseline, compare current metrics, and detect regressions.
+Analyze the file code metrics, find high cyclomatic complexity, and refactor.
+Switch to the feature/reports branch.
+Run the command 'ifconfig' and show the output.
+Query subscriptions where price < 50.
+Call the MCP server 'database' with method 'query' and args {'sql': 'SELECT * FROM users LIMIT 10'}.
+Copy notes.txt to the cloud storage.
+Count all rows in the settings table.
+Post a message on Slack saying 'meeting in 5 minutes'.
+Call the MCP server 'notification' with method 'unsubscribe' and args {}.
+Execute 'ss -tulpn' and tell me the result.
+Delete from payments where id = 42.
+Call /api/users with params {'page': 1, 'size': 20}.
+Analyze the file code duplication, find duplicated logic, and extract shared functions.
+Download the file from https://cdn.example.com/assets/data.json.
+Show the schema of the sessions table.
+Copy data.csv to the archive directory.
+Check all API keys, find expired ones, and rotate them.
+Execute 'unzip data.zip' and tell me the result.
+Delete from transactions where created_at < '2024-01-01'.
+Delete from users where created_at < '2024-01-01'.
+Post a message on Discord saying 'hello world'.
+Read the file data access patterns, find hot data, and cache it.
+Analyze the file service mesh latency, find slow hops, and optimize routing.
+Read the log file, find all ERROR entries, and send an email alert about them.
+Delete from customers where status = 'completed'.
+Show the contents of the config directory.
+My database is slow. Can you help me diagnose the issue?
+Show the contents of the src directory.
+Make a PUT request to /api/config with body {'file': 'report.pdf', 'size': 1024}.
+Analyze the file code, find issues, and fix.
+Make a GET request to /api/files/upload.
+Monitor all service metrics, find anomalies, and alert.
+Monitor all API dependencies, find slow third-party calls, and add circuit breakers.
+Check all database stored procedures, find unused ones, and remove them.
+Delete from orders where id = 42.
+Update my programming language.
+List all tools available on the 'git' MCP server.
+Write 'meeting notes' to todo.txt.
+Set a reminder for 'review security logs' at 9am.
+Move README.md to the archive directory.
+Read the file data quality report, find data integrity issues, and create fix scripts.
+Run the command 'ping -c 4 google.com' and show the output.
+Commit all changes with the message 'update dependencies'.
+Post a message on Teams saying 'new release published'.
+Check all microservices health, find degraded ones, and restart them with logging.
+Run the command 'cut -d, -f1 data.csv' and show the output.
+Count all rows in the alerts table.
+Send a POST request to /api/users with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Check all environment variables across services, find inconsistencies, and report them.
+Check if models.py exists and show its contents.
+Read the file schema.sql and tell me what's in it.
+Commit all changes with the message 'add user authentication'.
+Write 'a test plan' to data.csv.
+Make a PUT request to /api/orders with body {'file': 'report.pdf', 'size': 1024}.
+Remember that my currency is Alice.
+Write 'a summary report' to app.py.
+Read todo.txt and check for errors.
+Read the file API rate limits, find users exceeding limits, and send them notifications.
+Copy settings.yaml to the temp directory.
+Call /api/config with params {'fields': 'name,email'}.
+Remember that my email is alice@example.com.
+Commit all changes with the message 'add data export'.
+Set a reminder for 'check for updates' at 11am.
+Call the MCP server 'web-search' with method 'download' and args {}.
+Switch to the bugfix/cors branch.
+Forget my name.
+Switch to the feature/notifications branch.
+Merge feature/reports into main.
+Run the command 'df -h' and show the output.
+Run the command 'tar -czf backup.tar.gz .' and show the output.
+Delete from payments where created_at > '2024-06-01'.
+Analyze the file test execution times, find slow tests, and parallelize them.
+Create a calendar event for 'demo session' on Monday at 10am.
+Call the MCP server 'config' with method 'get' and args {'url': 'https://api.example.com/data'}.
+Set a reminder for 'run the tests' at 11am.
+Make a GET request to /api/auth/refresh.
+Copy todo.txt to the backup folder.
+Analyze the file error rate by endpoint, find the worst endpoints, and fix them.
+Forget my language.
+Update my phone number.
+Insert into inventory the data {'name': 'Alice', 'email': 'alice@example.com'}.
+Search for 'try:' in the tests directory.
+Read the file infrastructure inventory, find end-of-life hardware, and plan replacement.
+Send an email to support about weekly report.
+Send a POST request to /api/products with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Run a query to find duplicate email addresses in the users table.
+Read config.json and check for errors.
+Copy log.txt to the archive directory.
+Run the command 'du -sh .' and show the output.
+Update sessions where id=1 to set status = 'approved'.
+Write 'a configuration template' to utils.py.
+Read data.csv and check for errors.
+Delete from orders where created_at > '2024-06-01'.
+Show the diff between main and develop.
+Analyze the file deployment frequency, find patterns, and recommend CI/CD improvements.
+List all available MCP servers.
+Call the MCP server 'format' with method 'check' and args {}.
+Read the file user retention data, find churn reasons, and address them.
+Search the web for 'performance profiling'.
+Send a notification on Discord: 'new release published'.
+Read the file config.json, update the port to 8080, and write it back.
+Set a reminder for 'backup the database' at 10am.
+Create a calendar event for 'onboarding session' on Wednesday at 11am.
+Query transactions where status = 'completed'.
+Show the diff for the last commit.
+Make a GET request to /api/search.
+Merge bugfix/timezone into main.
+Remember that my department is alice@example.com.
+Search for 'request' in the src directory.
+Send an email to all stakeholders about project update.
+Send an email to the client about weekly report.
+Read the file API spec, generate test cases, run them, and report the results.
+Move README.md to the backup folder.
+Monitor all service uptime, find unreliable services, and improve.
+Call /api/auth/register with params {'limit': 10}.
+Send a notification on Twitter: 'deployment complete'.
+Read the file infrastructure capacity, find bottlenecks, and remove them.
+Send an email to the manager about weekly report.
+Delete the file data.csv.
+Send a DELETE request to /api/auth/login.
+Copy settings.yaml to the backup folder.
+Read the file .env, validate all environment variables, and report any missing ones.
+Read the file service configuration drift, find non-standard configs, and remediate.
+Count all rows in the roles table.
+Copy README.md to the archive directory.
+Query sessions where price < 50.
+Post a message on LinkedIn saying 'meeting in 5 minutes'.
+Send an email to the manager about deployment status.
+Delete the feature/profile branch.
+List all tools available on the 'database' MCP server.
+Stage and commit with message 'add request logging'.
+Read the file cost allocation data, find expensive services, and optimize spending.
+Read the file data lineage graph, find undocumented sources, and document them.
+Query the roles table for all records.
+Call /api/transactions with params {'fields': 'name,email'}.
+Search for 'return' in the src directory.
+Delete the feature/auth branch.
+Call the MCP server 'filesystem' with method 'list_directory' and args {'path': '/src'}.
+Pull the latest changes from origin.
+Delete from products where created_at > '2024-06-01'.
+Call /api/search with params {'page': 1, 'size': 20}.
+Help me create a backup strategy for my PostgreSQL database.
+Delete from logs where price < 50.
+Call the API endpoint /api/transactions with a GET request.
+Read the file test coverage report, find untested modules, and generate test stubs.
+Analyze the file resource utilization, find waste, and recommend auto-scaling rules.
+List all files in the current directory.
+Execute 'free -h' and tell me the result.
+Query subscriptions where created_at > '2024-06-01'.
+Forget my company.
+Make a PUT request to /api/analytics with body {'title': 'New Task', 'priority': 'high'}.
+Read the file test_results.json, analyze pass/fail rates, and send a report via email.
+Send an email to admin@company.com about project update.
+Read the file security audit log, find failed login attempts, and block suspicious IPs.
+Call /api/auth/login with params {'page': 1, 'size': 20}.
+Insert into sessions the data {'name': 'Alice', 'email': 'alice@example.com'}.
+Write 'a configuration template' to config.json.
+Make a GET request to /api/products.
+Check all scheduled tasks, find ones that never ran, and investigate why.
+Delete from transactions where price < 50.
+Delete from sessions where created_at < '2024-01-01'.
+My tests are flaky and sometimes fail. Can you help me debug?
+Write 'a list of tasks' to report.md.
+Set a reminder for 'check server health' at 11am.
+Query sessions where created_at > '2024-06-01'.
+Analyze the file code churn, find unstable modules, and stabilize them.
+Query users where id = 1.
+Fetch the content from https://cdn.example.com/assets/data.json.
+Read the file user feedback sentiment, find negative trends, and investigate causes.
+Send an email to devops team about deployment status.
+Post a message on LinkedIn saying 'hello world'.
+Remember that my salary expectation is Alice.
+Read the file user onboarding data, find friction points, and smooth them.
+Search the web for 'AWS Lambda tutorial'.
+Send a POST request to /api/transactions with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Send a notification on Reddit: 'new release published'.
+Send an email to team@startup.io about meeting summary.
+Check the disk usage, find large files, and move old ones to backup storage.
+Write 'a list of contacts' to app.py.
+Make a PUT request to /api/products with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Send a notification on Reddit: 'meeting in 5 minutes'.
+Merge release/v2.0 into main.
+Find information about 'Git workflow' on the web.
+Create a new branch called 'release/v1.5'.
+Call the MCP server 'monitor' with method 'add_check' and args {}.
+Send a POST request to /api/products with body {'message': 'Hello World', 'channel': 'general'}.
+Search the web for 'security vulnerabilities'.
+Query customers where status = 'active'.
+Read the file database query patterns, find full table scans, and add indexes.
+Delete from orders where created_at < '2024-01-01'.
+Call the MCP server 'test' with method 'run' and args {}.
+Create a calendar event for 'team meeting' on Monday at 10am.
+Show the schema of the tasks table.
+Read the file infrastructure inventory, find unused resources, and remove.
+Show me the contents of Dockerfile.
+I need to refactor a large monolith into microservices. Where do I start?
+Move notes.txt to the backup folder.
+Write 'meeting notes' to settings.yaml.
+Execute 'top -n 1' and tell me the result.
+Count all rows in the notifications table.
+What is my skill level?
+Delete from transactions where id = 42.
+Delete from users where status = 'active'.
+Check all API pagination implementations, find missing pagination, and add it.
+Remember that my skill level is Alice.
+Monitor all database query timeouts, find slow queries, and add query hints.
+Make a PUT request to /api/search with body {'title': 'New Task', 'priority': 'high'}.
+Monitor all database queries, find slow ones, and optimize.
+Show the schema of the categories table.
+Search the web for 'React hooks guide'.
+Make a PUT request to /api/search with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Read package.json and check for errors.
+Call the MCP server 'shell' with method 'execute' and args {'command': 'git status'}.
+Stage and commit with message 'remove deprecated code'.
+Read main.py and check for errors.
+Call /api/health with params {'limit': 10}.
+Update sessions where id=1 to set status = 'inactive'.
+Write 'a list of tasks' to data.csv.
+Send an email to product team about bug report.
+Copy report.md to the backup folder.
+Query the inventory table for all records.
+What is my priority?
+Call the MCP server 'test' with method 'run_suite' and args {}.
+Write 'a list of contacts' to database.db.
+Read the file infrastructure logs, find anomalies, and investigate.
+Call the MCP server 'email' with method 'read' and args {}.
+Search the web for 'error handling'.
+Remember that my operating system is alice@example.com.
+Insert into logs the data {'name': 'Alice', 'email': 'alice@example.com'}.
+Forget my email.
+Send a POST request to /api/analytics with body {'name': 'Alice', 'email': 'alice@example.com'}.
+Execute 'tar -czf backup.tar.gz .' and tell me the result.
+My Docker container keeps crashing. Can you help me figure out why?
+Move todo.txt to the temp directory.
+Analyze the file code reviews, find missed issues, and improve.
+Search for 'import' in the config directory.
+Query products where price > 100.
+Move data.csv to the backup folder.
+Copy config.json to the backup folder.
+Call /api/auth/register with params {'filter': 'active'}.
+Search for 'FIXME' in the logs directory.
+Write 'a deployment checklist' to database.db.
+Write 'meeting notes' to log.txt.
+Write 'a configuration template' to docker-compose.yml.
+Delete from products where created_at < '2024-01-01'.
+Check all API documentation, find outdated docs, and update them.
+Stage and commit with message 'add audit trail'.
+Search for 'class' in the config directory.
+Set a reminder for 'update the documentation' at 11am.
+Update my job title.
+Commit all changes with the message 'add search feature'.
+Post a message on Reddit saying 'deployment complete'.
+List all tools available on the 'shell' MCP server.
+Create a calendar event for 'design review' on Wednesday at 11am.
+List all files in the logs directory.
+Check if api.py exists and show its contents.
+Analyze the file error distribution, find the most common errors, and fix the root causes.
+Query subscriptions where created_at < '2024-01-01'.
+Post a message on Twitter saying 'meeting in 5 minutes'.
+Read the file capacity forecast, find upcoming bottlenecks, and pre-scale resources.
+Show the schema of the orders table.
+Write 'a test plan' to docker-compose.yml.
+Set a reminder for 'check for updates' at 9am.
+Call the MCP server 'filesystem' with method 'write_file' and args {'path': '/tmp/output.txt', 'content': 'Hello World'}.
+Query products where id = 42.
+Run the command 'docker images' and show the output.
+Call the API endpoint /api/analytics with a GET request.
+Query customers where id = 42.
+Move app.py to the temp directory.
+Delete the bugfix/timezone branch.
+Write 'a test plan' to test.py.
+Delete from orders where price < 50.
+What is my salary expectation?
+Make a GET request to /api/metrics/collect.
+Show all branches including remote.
+Set a reminder for 'send weekly report' at 11am.
+Delete the file main.py.
+Create a new branch called 'feature/notifications'.
+Call /api/config with params {'page': 1, 'size': 20}.
+Search for 'request' in the tests directory.
+Call the MCP server 'auth' with method 'verify' and args {}.
+Search for 'raise' in the tests directory.
+Call the MCP server 'cache' with method 'set' and args {'key': 'config', 'value': '{"debug": true}'}.
+Analyze the file error correlation data, find related errors, and fix the root cause.
+Send a POST request to /api/auth/login with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Read the file package.json and tell me what's in it.
+Search the web for 'machine learning basics'.
+Write 'a summary report' to data.csv.
+Count all rows in the users table.
+Read the file infrastructure health, find degraded components, and repair.
+Show the schema of the products table.
+Help me optimize my database queries that are running slow.
+Make a PUT request to /api/analytics with body {'product': 'laptop', 'quantity': 2, 'price': 999.99}.
+Delete from logs where name LIKE '%test%'.
+Make a GET request to /api/analytics.
+Send a notification on LinkedIn: 'meeting in 5 minutes'.
+Write 'a test plan' to todo.txt.
+Read the file API gateway config, find misconfigured routes, and fix them.
+Query orders where status = 'pending'.
+Monitor all service dependencies, find single points of failure, and add redundancy.
+Search for 'raise' in the src directory.
+Create a calendar event for 'code review' on Tuesday at 2pm.
+Delete from products where status = 'completed'.
+Call the MCP server 'auth' with method 'logout' and args {}.
+Show me the contents of settings.yaml.
+Run the command 'python3 --version' and show the output.
+Write 'a configuration template' to main.py.
+Update my language.
+Delete the bugfix/cors branch.
+Read the file error budget, find services exceeding it, and create action plans.
+Move config.json to the cloud storage.
+Search for 'except' in the logs directory.
+Send an email to product team about project update.
+Show the schema of the logs table.
+Check all API versioning, find deprecated versions still in use, and notify users.
+Make a PUT request to /api/orders with body {'title': 'New Task', 'priority': 'high'}.
+Delete from logs where status = 'active'.
+Update my location.
+Set a reminder for 'run the tests' at 9am.
+Query sessions where id = 42.
+Call the MCP server 'notification' with method 'send' and args {'channel': 'slack', 'channel_name': '#devops', 'message': 'Deploy complete'}.
+Query orders where created_at > '2024-06-01'.
+Read the file user feedback trends, find declining satisfaction, and investigate.
+Move data.csv to the cloud storage.
+Remember that my name is blue.
+Update sessions where id=1 to set count = 0.
+Search for 'request' in the logs directory.
+Call the API endpoint /api/reports/generate with a GET request.
+Update logs where id=1 to set status = 'shipped'.
+Query inventory where name LIKE '%test%'.
+Count all rows in the logs table.
+Query orders where price > 100.
+Set a reminder for 'send weekly report' at 10am.
+What is my currency?

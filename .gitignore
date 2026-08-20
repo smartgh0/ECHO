@@ -27,3 +27,14 @@ Thumbs.db
 pipeline/input/benchmark_booster_train.txt
 pipeline/input/processed/prompts.txt
 pipeline/input/processed/benchmark_booster_train.txt
+pipeline/input/distill_only/converted_datasets*.txt
+pipeline/input/distill_only/openhermes*.json
+pipeline/input/distill_only/*.parquet
+pipeline/input/distill_only/agent_data*.txt
+pipeline/input/distill_only/domain_data_glm.txt
+pipeline/input/distill_only/tool_calling_data.txt
+pipeline/input/distill_only/distilled_data*.txt
+pipeline/input/prompts.txt
+brain/model.pt
+*.pdf
+.~lock.*

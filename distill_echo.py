@@ -145,7 +145,7 @@ def query_ollama(prompt, model, api, temperature=0.7, max_tokens=300, timeout=30
             {"role": "user", "content": prompt},
         ],
         "stream": False,
-        "options": {"temperature": temperature, "num_predict": max_tokens},
+        "options": {"temperature": temperature, "num_predict": max_tokens, "top_p": 0.9, "top_k": 40},
     }
     for attempt in range(retries):
         try:
@@ -156,7 +156,12 @@ def query_ollama(prompt, model, api, temperature=0.7, max_tokens=300, timeout=30
             )
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 data = json.loads(response.read().decode("utf-8"))
-            return data.get("message", {}).get("content", "").strip()
+            content = data.get("message", {}).get("content", "").strip()
+            if content and len(content) > 10:
+                return content
+            # Empty or too short response — retry
+            if attempt < retries - 1:
+                time.sleep(2 * (attempt + 1))
         except Exception as exc:
             if attempt < retries - 1:
                 time.sleep(2 * (attempt + 1))

@@ -1,0 +1,275 @@
+Delete the cache key 'temp_data'.
+Create a new file called notes.txt with the content 'Meeting at 3pm'.
+Query the database for slow queries, optimize them, and update the indexes.
+Add a new embedding to the 'products' collection with metadata {'category': 'electronics'}.
+Uninstall the package 'old-package' using pip.
+Remember that my favorite editor is VS Code.
+Create a tag called 'v1.2.0' with message 'Release 1.2.0'.
+Count the number of lines in data.csv.
+Read the file app.py and check for any syntax errors.
+Get the remaining TTL for the cache key 'session_token'.
+Increment the cache counter 'page_views' by 1.
+Run this code: import os; print(os.listdir('.'))
+Search the vector database for documents similar to 'how to deploy a web app'.
+Install the package 'pandas' with version 2.0.0.
+List all available MCP servers.
+Call the MCP server 'shell' with method 'execute' and args {'command': 'ls -la'}.
+Post on Twitter: 'Excited to announce our new AI model is now open source!'
+Run a JOIN query between users and orders tables.
+I need to deploy my web app. Can you help me through the steps?
+I want to implement a caching layer for my API. What should I do?
+Set up a health check endpoint for the web service.
+My tests are flaky and sometimes fail. Can you help me debug?
+Create a backup of the database.
+Query the database for the average order value in the last 30 days.
+Call the MCP server 'cache' with method 'get' and args {'key': 'user_session_42'}.
+Search the documentation index for 'authentication setup'.
+Backup all log files to the backup directory.
+Run the security scanner on the project dependencies.
+Execute this SQL query: SELECT COUNT(*) FROM users WHERE active = true
+List all installed npm packages.
+Query the database for all users, export to CSV, and upload to cloud storage.
+Generate a JWT token for user_id=42 with admin role.
+Find similar code snippets to 'def quicksort(arr): ...' in the code collection.
+Execute 'curl -s http://localhost:8080/health' and check the response.
+Update the orders table where id=42 to set status='shipped'.
+I need to set up SSL for my web server. Walk me through it.
+Monitor the response time of the /api/users endpoint.
+Post a message on Slack saying 'Deployment complete, all systems go'.
+Search the web for 'best practices for Docker security'.
+Call the MCP server 'web-search' with method 'fetch_page' and args {'url': 'https://docs.python.org/3/'}.
+Add a monitoring alert for CPU usage above 80%.
+Clear all messages from the 'temp' queue.
+Roll back the deployment to the previous version.
+Call the API /api/products?category=electronics&limit=10.
+Notify the team that the build has passed.
+Merge 'feature/payment' into develop.
+Generate documentation for the project.
+Read the file package.json, check for outdated dependencies, and update them.
+Merge the branch 'feature/api' into main.
+Search for all Python files containing 'import torch' in the src directory.
+Run this shell command and show the output: echo 'Hello' | tr a-z A-Z
+Query the database for the top 10 products by sales.
+Execute 'git log --oneline -5' and show recent commits.
+Send a notification about the new comment on the pull request.
+Run 'git diff' and show what changed since last commit.
+My Docker container keeps crashing. Can you help me figure out why?
+Install the package 'torch' with CUDA support.
+Set the environment variable DATABASE_URL to postgresql://localhost/mydb.
+Send a webhook to https://hooks.slack.com/services/xxx with payload {'text': 'Build passed'}.
+Register a webhook for GitHub push events.
+List all scheduled tasks.
+Delete the file temp_data.csv.
+Help me set up a load balancer for my web application.
+Schedule a backup to run every Sunday at 2am.
+Read the file config.yaml, validate it, encrypt it, and save the encrypted version.
+Read the file access_log.csv, detect suspicious activity, and create security alerts.
+Push a message 'process order 1234' to the 'orders' queue.
+Call the MCP server 'git' with method 'status' and args {'repo': '/workspace/myproject'}.
+Query the database schema for the users table.
+Run the linter on the src directory.
+Call the MCP server 'http' with method 'get' and args {'url': 'https://api.example.com/data'}.
+Call the MCP server 'filesystem' with method 'read_file' and args {'path': '/config/app.json'}.
+Call the API /api/health and check if the service is up.
+Check if the package 'numpy' is installed.
+Install the package 'requests' using pip.
+Generate an SSH key pair.
+Fetch the content from https://api.github.com/users/torvalds.
+Check the git status of the repository.
+Run 'pip list' and show all installed packages.
+Help me set up monitoring for my microservices.
+Get all cache keys matching the pattern 'user_*'.
+Update all pip packages to their latest versions.
+Send a notification to the #alerts channel about the high CPU usage.
+Create a compressed backup of the config directory.
+Create a calendar event for 'Team Meeting' on Monday at 10am.
+Find all .json files in the config directory.
+Create a new branch called 'feature/user-auth'.
+Create a recurring event for 'Weekly Standup' every Monday at 9am.
+Append 'TODO: fix login' to the file todo.txt.
+Search for 'React vs Vue performance comparison'.
+Read the file test_results.json, analyze pass/fail rates, and send a report via email.
+Insert a new order with product_id=5, quantity=3, total=99.99.
+Load the data from inventory.json and find items with stock below 10.
+My Kubernetes pod won't start. Can you help me troubleshoot?
+Verify the integrity of the file data.csv using a checksum.
+Encrypt the file config.json.
+Commit only the file app.py with message 'refactor: clean up app module'.
+Help me implement authentication for my REST API.
+Scale the api-server to 5 instances.
+Forget my name.
+Create an incremental backup of the data directory.
+Check the disk usage, find large files, and move old ones to backup storage.
+Check code coverage for the test suite.
+Fetch the weather data, store it in the database, and send a notification if it's raining.
+Write a list of 5 tasks to tasks.txt, one per line.
+Generate a test file for the module utils.py.
+Show the diff between main and develop branches.
+Read the file users.csv, validate the emails, and insert valid ones into the database.
+Send an email to john@example.com with subject 'Meeting Tomorrow' and body 'Don't forget the meeting at 10am'.
+Call the MCP server 'queue' with method 'push' and args {'queue': 'tasks', 'message': 'process order 1234'}.
+Search for 'how to optimize PostgreSQL queries'.
+Monitor the disk space on the database server.
+Read the file app.py, run the linter, fix any issues, and run the tests.
+Check git status, commit any changes, and push to the remote repository.
+Push 5 messages to the 'emails' queue.
+Call the API endpoint /api/users with a GET request.
+Run this Python code: print([x**2 for x in range(10)])
+I need to implement a webhook system for my app. Help me plan it.
+Download a file from https://cdn.example.com/assets/logo.png.
+I think there's a memory leak in my Python app. Can you investigate?
+Search the web for 'Python Flask tutorial', fetch the first result, and save it to a file.
+Set the configuration parameter 'max_connections' to 100 for the database service.
+I need to refactor a large monolith into microservices. Where do I start?
+Read the file config.json and tell me what's in it.
+Read the file survey_results.csv and calculate the satisfaction score.
+Read the file config.json, update the 'port' field to 8080, and write it back.
+Search for similar images to the uploaded file.
+Schedule a task to run every 5 minutes.
+Schedule a task to run at midnight tonight.
+Index the document 'API Reference v2.0' into the search engine.
+Analyze the log file app.log and find the most common error.
+Send a DELETE request to /api/posts/123.
+List all files in the current directory.
+Run 'cat /etc/os-release' and tell me the OS version.
+Query the API for user data, store it in the database, and cache the result.
+Check if the password 'abc123' meets security requirements.
+What editor do I use?
+Load the data from orders.csv and find the top 5 customers by total spending.
+Send a notification to the user about their order being shipped.
+Send a push notification to device 'device_123' with message 'Your package has arrived'.
+Find the most relevant FAQ entries for the question 'how to reset password'.
+Make a PUT request to /api/users/42 with body {'name': 'Alice'}.
+Query the API for all products, compare prices with competitors, and update the database.
+Search the 'knowledge_base' collection for 'machine learning basics'.
+Help me create a backup strategy for my PostgreSQL database.
+Help me optimize my database queries that are running slow.
+Check the logs of the web-app for any errors in the last hour.
+Register a webhook for the event 'order.created' pointing to https://myapp.com/webhook.
+Set the cache key 'feature_flags' to {'new_ui': true, 'dark_mode': false}.
+Create a snapshot of the current system state.
+Check the deployment status of the web-app service.
+Call the MCP server 'notification' with method 'send' and args {'channel': 'email', 'recipient': 'team@company.com', 'subject': 'Alert', 'body': 'Server down'}.
+Deploy the application to the staging environment.
+Check the length of the 'notifications' queue.
+Set the cache key 'user_session_42' to {'user_id': 42, 'role': 'admin'} with a 1 hour expiration.
+Write a function that sorts a list and test it with [3, 1, 4, 1, 5, 9, 2, 6].
+Execute 'top -n 1' and show system resources.
+Fetch the latest release info from https://api.github.com/repos/python/cpython/releases.
+Set the cache key 'api_response' to {'status': 'ok'} with 5 minute expiration.
+Call the API /api/analytics with params {'start': '2024-01-01', 'end': '2024-12-31'}.
+Get the value of the cache key 'user_session_42'.
+Read the file data.csv, analyze it, create a visualization, and save it as a PNG.
+I want to add rate limiting to my API. How do I do it?
+Read the file users.json and count how many users are active.
+Load data.csv, group by category, and show the average price per category.
+Get the current configuration of the api-server service.
+Query for users who haven't logged in for 90 days.
+Search the vector database for similar documents, read the top result, and summarize it.
+Install the development dependencies from requirements-dev.txt.
+Call the MCP server 'web-search' with method 'search' and args {'query': 'Python tutorials'}.
+Send an email to the team about the project update.
+Show me the first 10 lines of the file log.txt.
+Restore the configuration from the backup config_backup.tar.gz.
+Copy the file database.db to backup_database.db.
+Send a notification to the #devops channel about the build failure.
+Encrypt the string 'Hello World' using AES.
+Run 'git status' and tell me what changed.
+Execute this Python code and check for errors: def add(a, b): return a + b; print(add(1, 2))
+Decrypt this encrypted message: U2FsdGVkX1+abc123...
+Check the error rate of the api-server in the last 24 hours.
+Execute 'ps aux | grep python' and show Python processes.
+Format the file main.py using autopep8.
+My database is slow. Can you help me diagnose the issue?
+Run the tests in the file test_app.py.
+Run 'df -h' and check disk usage.
+Execute this code and tell me the output: import json; print(json.dumps({'a': 1, 'b': 2}, indent=2))
+Delete from the logs table where created_at < '2024-01-01'.
+Run the type checker on the codebase.
+Check the health of the api-server service.
+Read the file requirements.txt and list all packages.
+Analyze the data in sales.csv and give me a summary.
+Analyze the file access_log.csv and find the peak traffic hours.
+Hash the password 'mypassword123' using bcrypt.
+Run 'grep -r "TODO" .' and find all TODO comments.
+Analyze the file transactions.csv and detect any anomalies.
+Update the products table where category='electronics' to set discount=0.15.
+Remember that my name is Alice.
+What programming language do I prefer?
+Insert a new user with name 'John', email 'john@example.com' into the users table.
+Remember that I work at TechCorp as a software engineer.
+Create an alert for failed login attempts above 10 per minute.
+Help me debug why my API is returning 500 errors.
+Search the 'articles' collection for 'climate change impact' and return top 5.
+Add a document to the vector database with content 'Python is great for data science'.
+Search the web for 'how to implement JWT authentication'.
+Execute 'npm install' and show the output.
+Send an SMS notification to +1234567890 with message 'Your code is 123456'.
+Show the last 5 git commits.
+Format the code in the project using black.
+Run 'docker ps' and list all running containers.
+Read the file metrics.json and create a summary of the key metrics.
+Clear all cache entries matching the pattern 'session_*'.
+Create a directory called logs if it doesn't exist.
+Generate a random API key of 32 characters.
+Delete duplicate rows from the products table.
+Get the value of the API_KEY environment variable.
+What is my name?
+Create an alert for high memory usage on the database server.
+Check the status of all running services.
+Restore the application from the last known good backup.
+Create a new branch called 'hotfix/security-patch' and switch to it.
+Run this JavaScript code: console.log(Array.from({length: 5}, (_, i) => i * 2))
+Search the web for 'Python async best practices'.
+What do I do for work?
+Fetch the weather data from https://api.weather.com/today.
+Write a Python function to calculate fibonacci numbers and run it to verify it works.
+I want to set up a CI/CD pipeline for my project. Walk me through it.
+Install the packages 'flask' and 'sqlalchemy' using pip.
+Read the file package.json and tell me the dependencies.
+Notify all admins about the system maintenance window.
+Execute 'find . -name "*.py" -type f' and list all Python files.
+Get the configuration of the nginx service.
+Set a reminder for 'deploy to production' tomorrow at 9am.
+Check the server health, read the error logs, and create an alert if there are critical errors.
+Remember that I prefer Python over JavaScript.
+Download the file from https://example.com/data.csv.
+Remember that I'm learning machine learning.
+Send a POST request to /api/orders with body {'product': 'laptop', 'qty': 2}.
+Fetch the README from https://github.com/pytorch/pytorch.
+Set a reminder for 'review the pull request' at 3pm today.
+Run the test suite and show the results.
+Run the command 'ls -la' and show the output.
+Fetch the content of https://httpbin.org/json and parse it.
+Register a webhook for Stripe payment events.
+Create a calendar event for 'Sprint Planning' on Friday at 2pm for 1 hour.
+Call the MCP server 'vector-db' with method 'search' and args {'collection': 'docs', 'query': 'how to deploy', 'limit': 5}.
+Verify this JWT token: eyJhbGciOiJIUzI1NiIs...
+Query the database for all users where status is 'active'.
+Create a backup of the /workspace directory.
+Create a requirements.txt from the currently installed packages.
+Write 'Hello World' to a file called output.txt.
+Cancel the scheduled task with ID 'task_42'.
+Restore the database from the backup file backup_20240115.sql.
+Fetch the latest news from the API, filter for tech news, and save to a file.
+Deploy version 2.1.0 to production with a rolling update.
+Check if the cache key 'config' exists.
+Call the MCP server 'database' with method 'insert' and args {'table': 'logs', 'data': {'level': 'INFO', 'message': 'Server started'}}.
+Verify the integrity of the backup file.
+Call the MCP server 'database' with method 'query' and args {'sql': 'SELECT * FROM users LIMIT 5'}.
+Move the file old_config.yaml to config.yaml.
+Read the log file, find all ERROR entries, and send an email alert about them.
+I need to migrate my app from Heroku to AWS. What should I do?
+Call the MCP server 'filesystem' with method 'list_directory' and args {'path': '/workspace'}.
+Update all users where last_login < '2024-01-01' to set status='inactive'.
+Check if the file .env exists and show its contents.
+Read the file Dockerfile and explain what it does.
+Pop the next message from the 'tasks' queue.
+Run a query to count total orders by status.
+Insert multiple records into the tags table: ['python', 'ai', 'ml'].
+Commit all changes with the message 'fix: resolve login bug'.
+Call the MCP server 'git' with method 'log' and args {'repo': '/workspace/myproject', 'limit': 10}.
+I need to analyze my server logs for errors from the last 24 hours.
+Write and execute a Python script that reads a CSV file and prints the first 5 rows.
+Write a Python dictionary to a file called settings.json.
+Execute 'python -m pytest' and show the test results.
