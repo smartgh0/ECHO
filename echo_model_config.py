@@ -58,9 +58,8 @@ TRANSFORMER_PROFILES = {
         "optimizer": "adamw",
         "gradient_checkpointing": True,
     },
-    # A Gemma-2B-shaped target profile. It is intentionally opt-in: training
-    # it requires substantially more memory and data than the local profile.
-    # A Gemma-2B-shaped target profile for 96GB GPU (e.g. RTX 6000 Pro / H100)
+    # A Gemma-2B-shaped target profile for A100 80GB.
+    # Checkpointing is off so activations fill VRAM instead of being recomputed.
     "echo-2b": {
         "d_model": 2048,
         "n_layers": 18,
@@ -72,7 +71,7 @@ TRANSFORMER_PROFILES = {
         "batch_size": 32,
         "gradient_accumulation_steps": 1,
         "optimizer": "adamw",
-        "gradient_checkpointing": True,
+        "gradient_checkpointing": False,
     },
 }
 
