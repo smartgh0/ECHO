@@ -3,6 +3,7 @@
 
 import os
 import sys
+import argparse
 
 import torch
 
@@ -14,8 +15,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DOMAIN_DIR = os.environ.get("ECHO_DOMAIN_DIR", os.path.join(ROOT, "domain_brain"))
 
 
-def load_domain_model():
-    checkpoint_path = os.path.join(DOMAIN_DIR, "model.pt")
+def load_domain_model(checkpoint_path):
     tokenizer_path = os.path.join(DOMAIN_DIR, "echo_domain.model")
     if not os.path.exists(checkpoint_path) or not os.path.exists(tokenizer_path):
         print("Domain model not found.")
@@ -48,8 +48,15 @@ def generate(model, tokenizer, prompt, length=120, temperature=0.7):
 
 
 def main():
-    model, tokenizer = load_domain_model()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--checkpoint", default=None,
+                        help="checkpoint path; defaults to the latest model.pt")
+    args = parser.parse_args()
+    checkpoint_path = args.checkpoint or os.path.join(DOMAIN_DIR, "model.pt")
+    model, tokenizer = load_domain_model(checkpoint_path)
     print("ECHO DOMAIN MODEL")
+    print(f"  checkpoint:  {checkpoint_path}")
+    print(f"  trained at:  step {model.total_epochs:,}")
     print(f"  parameters: {sum(parameter.numel() for parameter in model.parameters()):,}")
     print(f"  tokenizer:  {tokenizer.vocab_size:,} subword pieces")
     print(f"  device:     {model.device}")

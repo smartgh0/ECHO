@@ -73,6 +73,8 @@ def main():
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--save-every", type=int, default=1000,
                         help="save a checkpoint every N steps (0 disables periodic saving)")
+    parser.add_argument("--snapshot-every", type=int, default=5000,
+                        help="save a compact chat snapshot every N steps (0 disables snapshots)")
     args = parser.parse_args()
 
     files = collect_files(args.input_dir)
@@ -133,7 +135,7 @@ def main():
     print(model.info())
     print(f"Training on {model.device} for {args.steps:,} steps...")
 
-    def save_checkpoint():
+    def save_checkpoint(snapshot_step=None, write_latest=True):
         config = {
             "vocab_size": model.vocab_size,
             "d_model": model.d_model,
@@ -155,15 +157,26 @@ def main():
             "total_chars_seen": model.total_chars_seen,
             "smooth_loss": model.smooth_loss,
         }
-        checkpoint_tmp = checkpoint_path + ".tmp"
-        torch.save({
-            "state_dict": {key: value.detach().cpu() for key, value in model.state_dict().items()},
-            "config": config,
-            "optimizer": model.optimizer.state_dict(),
-        }, checkpoint_tmp)
-        os.replace(checkpoint_tmp, checkpoint_path)
-        with open(os.path.join(args.output_dir, "training.json"), "w", encoding="utf-8") as handle:
-            json.dump({"steps": model.total_epochs, "tokens": int(token_count), "seq_len": args.seq_len}, handle, indent=2)
+        if write_latest:
+            checkpoint_tmp = checkpoint_path + ".tmp"
+            torch.save({
+                "state_dict": {key: value.detach().cpu() for key, value in model.state_dict().items()},
+                "config": config,
+                "optimizer": model.optimizer.state_dict(),
+            }, checkpoint_tmp)
+            os.replace(checkpoint_tmp, checkpoint_path)
+            with open(os.path.join(args.output_dir, "training.json"), "w", encoding="utf-8") as handle:
+                json.dump({"steps": model.total_epochs, "tokens": int(token_count), "seq_len": args.seq_len}, handle, indent=2)
+        if snapshot_step is not None:
+            snapshot_dir = os.path.join(args.output_dir, "snapshots")
+            os.makedirs(snapshot_dir, exist_ok=True)
+            snapshot_path = os.path.join(snapshot_dir, f"step-{snapshot_step:06d}.pt")
+            snapshot_state = {
+                key: value.detach().cpu().to(torch.bfloat16)
+                for key, value in model.state_dict().items()
+            }
+            torch.save({"state_dict": snapshot_state, "config": config}, snapshot_path)
+            print(f"Chat snapshot saved at step {snapshot_step:,}", flush=True)
 
     def handle_signal(signum, _frame):
         print(f"\nReceived signal {signum}, saving checkpoint before exit...", flush=True)
@@ -200,6 +213,8 @@ def main():
         if args.save_every and (step + 1) % args.save_every == 0:
             save_checkpoint()
             print(f"Checkpoint saved at step {step + 1:,}", flush=True)
+        if args.snapshot_every and (step + 1) % args.snapshot_every == 0:
+            save_checkpoint(snapshot_step=step + 1, write_latest=False)
 
     save_checkpoint()
     print(f"Saved domain checkpoint to {args.output_dir}")
