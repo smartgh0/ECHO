@@ -68,7 +68,7 @@ TRANSFORMER_PROFILES = {
         "ff_multiplier": 4,
         "max_context": 2048,
         "learning_rate": 0.0003,
-        "batch_size": 32,
+        "batch_size": 48,
         "gradient_accumulation_steps": 1,
         "optimizer": "adamw",
         "gradient_checkpointing": False,
