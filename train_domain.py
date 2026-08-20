@@ -210,11 +210,12 @@ def main():
         if step % 50 == 0 or step == args.steps - 1:
             current_lr = model.optimizer.param_groups[0]["lr"]
             print(f"step {step + 1}/{args.steps} loss={loss:.4f} smooth={model.smooth_loss:.4f} lr={current_lr:.6f}", flush=True)
-        if args.save_every and (step + 1) % args.save_every == 0:
+        current_step = model.total_epochs
+        if args.save_every and current_step % args.save_every == 0:
             save_checkpoint()
-            print(f"Checkpoint saved at step {step + 1:,}", flush=True)
-        if args.snapshot_every and (step + 1) % args.snapshot_every == 0:
-            save_checkpoint(snapshot_step=step + 1, write_latest=False)
+            print(f"Checkpoint saved at step {current_step:,}", flush=True)
+        if args.snapshot_every and current_step % args.snapshot_every == 0:
+            save_checkpoint(snapshot_step=current_step, write_latest=False)
 
     save_checkpoint()
     print(f"Saved domain checkpoint to {args.output_dir}")
