@@ -30,27 +30,61 @@ def load_domain_model(checkpoint_path):
     return model, EchoTokenizer(tokenizer_path)
 
 
-def generate(model, tokenizer, prompt, length=120, temperature=0.7):
+# Stop when the model starts hallucinating the next training turn.
+STOP_MARKERS = ("\nuser:", "\nuser :", "\necho:", "\necho :")
+
+
+def _truncate_at_stop(text):
+    """Cut generated text at the first fake next-turn marker, if any."""
+    cut = len(text)
+    for marker in STOP_MARKERS:
+        index = text.find(marker)
+        if index != -1:
+            cut = min(cut, index)
+    return text[:cut].rstrip()
+
+
+def generate(model, tokenizer, prompt, length=400, temperature=0.3):
+    """Yield text chunks as tokens are sampled, so callers can print incrementally."""
     token_ids = tokenizer.encode(prompt)
     generated = []
+    previous_text = ""
     model.eval()
     with torch.no_grad():
         for _ in range(length):
             context = torch.tensor(token_ids[-model.max_context:], dtype=torch.long, device=model.device)
-            logits = model(context)[0, -1] / max(temperature, 0.05)
-            probabilities = torch.softmax(logits, dim=-1)
-            next_id = int(torch.multinomial(probabilities, 1).item())
+            logits = model(context)[0, -1]
+            if temperature <= 1e-5:
+                next_id = int(torch.argmax(logits).item())
+            else:
+                logits = logits / max(temperature, 0.05)
+                next_id = int(torch.multinomial(torch.softmax(logits, dim=-1), 1).item())
             generated.append(next_id)
             token_ids.append(next_id)
             if next_id == 2:
                 break
-    return tokenizer.decode(generated).strip()
+            # Re-decode the whole run so far; SentencePiece needs full context to place spaces correctly.
+            full_text = tokenizer.decode(generated)
+            stopped = _truncate_at_stop(full_text)
+            if len(stopped) < len(full_text):
+                chunk = stopped[len(previous_text):]
+                if chunk:
+                    yield chunk
+                break
+            chunk = full_text[len(previous_text):]
+            if chunk:
+                yield chunk
+                previous_text = full_text
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--checkpoint", default=None,
                         help="checkpoint path; defaults to the latest model.pt")
+    parser.add_argument("--max-new-tokens", type=int, default=200,
+                        help="maximum tokens to generate per reply")
+    parser.add_argument("--temperature", type=float, default=0.3,
+                        help="sampling temperature (lower = more deterministic; 0 = greedy)")
     args = parser.parse_args()
     checkpoint_path = args.checkpoint or os.path.join(DOMAIN_DIR, "model.pt")
     model, tokenizer = load_domain_model(checkpoint_path)
@@ -60,6 +94,7 @@ def main():
     print(f"  parameters: {sum(parameter.numel() for parameter in model.parameters()):,}")
     print(f"  tokenizer:  {tokenizer.vocab_size:,} subword pieces")
     print(f"  device:     {model.device}")
+    print(f"  temperature:{args.temperature}")
     print("Type a message. Commands: :info, :quit")
     while True:
         try:
@@ -74,8 +109,19 @@ def main():
         if text == ":info":
             print(model.info())
             continue
-        answer = generate(model, tokenizer, f"user: {text}\necho:")
-        print(f"echo> {answer or '...'}")
+        answer = generate(
+            model,
+            tokenizer,
+            f"user: {text}\necho:",
+            length=args.max_new_tokens,
+            temperature=args.temperature,
+        )
+        print("echo> ", end="", flush=True)
+        got_output = False
+        for chunk in answer:
+            got_output = True
+            print(chunk, end="", flush=True)
+        print("..." if not got_output else "")
 
 
 if __name__ == "__main__":
