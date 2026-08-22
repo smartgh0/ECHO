@@ -52,12 +52,37 @@ MASTERY_CATEGORY_WEIGHTS = {
     "identity": 0.025,
     "identity_boost": 0.025,
 }
-CATEGORY_IDS = {name: index for index, name in enumerate(CATEGORY_WEIGHTS)}
+CAPABILITY_CATEGORY_WEIGHTS = {
+    "general": 0.27,
+    "code": 0.23,
+    "math": 0.15,
+    "science": 0.15,
+    "reasoning": 0.10,
+    "summary": 0.08,
+    "tools": 0.019,
+    "identity": 0.001,
+}
+ALL_CATEGORIES = (
+    "code",
+    "tools",
+    "math",
+    "science",
+    "reasoning",
+    "summary",
+    "general",
+    "identity",
+    "identity_boost",
+)
+CATEGORY_IDS = {name: index for index, name in enumerate(ALL_CATEGORIES)}
 ID_TO_CATEGORY = {index: name for name, index in CATEGORY_IDS.items()}
-# Quantum branch A (1) = coding/tools; branch B (0) = general/identity.
+# Quantum branch A (1) = symbolic/action; branch B (0) = knowledge/prose.
 BRANCH_TARGET = {
     "code": 1.0,
     "tools": 1.0,
+    "math": 1.0,
+    "reasoning": 1.0,
+    "science": 0.0,
+    "summary": 0.0,
     "general": 0.0,
     "identity": 0.0,
     "identity_boost": 0.0,
@@ -77,11 +102,24 @@ def categorize_file(path):
         return "identity_boost"
     if "identity" in name:
         return "identity"
-    if name.startswith("agent_") or name.startswith("tool_"):
+    if "summary" in name or "govreport" in name or "billsum" in name:
+        return "summary"
+    if "science" in name or "pes2o" in name:
+        return "science"
+    if "math" in name or "finemath" in name or "megamath" in name:
+        return "math"
+    if "reasoning" in name or "thought" in name:
+        return "reasoning"
+    if (
+        name.startswith("agent_")
+        or name.startswith("tool_")
+        or "_tools_" in name
+        or "function_call" in name
+    ):
         return "tools"
     code_markers = (
         "code", "stackoverflow", "gpt4_coding", "alpaca",
-        "converted_datasets", "reasoning",
+        "converted_datasets",
     )
     if any(marker in name for marker in code_markers):
         return "code"
@@ -120,6 +158,10 @@ def encode_corpus(files, tokenizer, token_path, mask_path, segment_path):
             category_id = CATEGORY_IDS[category]
             with open(path, "r", encoding="utf-8", errors="ignore") as source:
                 for line in source:
+                    if line.strip() == "@@DOC@@":
+                        append_eos()
+                        flush_segment()
+                        continue
                     tokens = tokenizer.encode(line)
                     if not tokens:
                         continue
@@ -172,7 +214,7 @@ def build_category_segments(segment_path, seq_len):
     starts = data["starts"]
     lengths = data["lengths"]
     categories = data["categories"]
-    by_cat = {name: [] for name in CATEGORY_WEIGHTS}
+    by_cat = {name: [] for name in ALL_CATEGORIES}
     # Keep short turns too (identity/tools); sampler will pad up to seq_len.
     min_len = 8
     for start, length, category_id in zip(starts, lengths, categories):
@@ -271,10 +313,24 @@ def main():
                         help="use SFT category weights (more tools, less general dump)")
     parser.add_argument("--sft-mastery-mix", action="store_true",
                         help="SFT weights with heavier general/wiki while keeping code+tools dominant")
+    parser.add_argument("--capability-mix", action="store_true",
+                        help="use the general/code/STEM/reasoning/summary/tool CPT profile")
     parser.add_argument("--reset-lr-schedule", action="store_true",
                         help="decay LR over this run only, ignoring resumed absolute step")
+    parser.add_argument("--fresh-optimizer", action="store_true",
+                        help="retain checkpoint weights/routers but discard optimizer state")
+    parser.add_argument("--max-train-tokens", type=int, default=0,
+                        help="hard cap on sampled training tokens for this invocation (0 disables)")
+    parser.add_argument("--checkpoint-only", action="store_true",
+                        help="disable compact snapshots; write only the rolling full checkpoint")
     args = parser.parse_args()
-    if args.sft_mastery_mix:
+    if args.checkpoint_only:
+        args.snapshot_every = 0
+    if args.capability_mix:
+        CATEGORY_WEIGHTS.clear()
+        CATEGORY_WEIGHTS.update(CAPABILITY_CATEGORY_WEIGHTS)
+        print("Using capability CPT category weights:", dict(CATEGORY_WEIGHTS))
+    elif args.sft_mastery_mix:
         CATEGORY_WEIGHTS.clear()
         CATEGORY_WEIGHTS.update(MASTERY_CATEGORY_WEIGHTS)
         print("Using mastery SFT category weights:", dict(CATEGORY_WEIGHTS))
@@ -345,7 +401,7 @@ def main():
             "state_dict": checkpoint["state_dict"],
         })
         has_gate_proj = any("gate_proj" in key for key in checkpoint["state_dict"])
-        if has_gate_proj and "optimizer" in checkpoint:
+        if has_gate_proj and "optimizer" in checkpoint and not args.fresh_optimizer:
             try:
                 model.optimizer.load_state_dict(checkpoint["optimizer"])
             except (ValueError, RuntimeError) as exc:
@@ -354,6 +410,8 @@ def main():
         else:
             if not has_gate_proj:
                 print("Checkpoint pre-dates conditional quantum gates; routers zero-init, fresh optimizer")
+            elif args.fresh_optimizer:
+                print("Retaining checkpoint weights and quantum routers with a fresh optimizer")
             model._build_optimizer()
         if args.lr is not None:
             model.learning_rate = args.lr
@@ -380,6 +438,7 @@ def main():
     mask_mode = "mask-user" if args.mask_user_tokens else "all-tokens"
     print(f"Training on {model.device} for {args.steps:,} steps "
           f"(sample={mode}, loss={mask_mode}, seq_len={args.seq_len})...")
+    sampled_train_tokens = 0
 
     def save_checkpoint(snapshot_step=None, write_latest=True):
         config = {
@@ -418,6 +477,9 @@ def main():
                     "seq_len": args.seq_len,
                     "weighted_sampling": args.weighted_sampling,
                     "mask_user_tokens": args.mask_user_tokens,
+                    "sampled_train_tokens": sampled_train_tokens,
+                    "max_train_tokens": args.max_train_tokens,
+                    "category_weights": dict(CATEGORY_WEIGHTS),
                 }, handle, indent=2)
         if snapshot_step is not None:
             snapshot_dir = os.path.join(args.output_dir, "snapshots")
@@ -447,6 +509,15 @@ def main():
     if args.reset_lr_schedule:
         print(f"LR schedule reset over this run ({args.steps} steps), resume_offset={resume_offset}")
     for step in range(args.steps):
+        batch_count = model.batch_size * model.gradient_accumulation_steps
+        next_train_tokens = batch_count * args.seq_len
+        if args.max_train_tokens and sampled_train_tokens + next_train_tokens > args.max_train_tokens:
+            print(
+                f"Reached hard sampled-token budget: {sampled_train_tokens:,}/"
+                f"{args.max_train_tokens:,}",
+                flush=True,
+            )
+            break
         absolute_step = resume_offset + step
         schedule_step = step if args.reset_lr_schedule else absolute_step
         schedule_total = args.steps if args.reset_lr_schedule else total_steps
@@ -458,7 +529,6 @@ def main():
             current_lr = base_lr * 0.5 * (1.0 + math.cos(math.pi * min(progress, 1.0)))
         for group in model.optimizer.param_groups:
             group["lr"] = current_lr * group.get("lr_scale", 1.0)
-        batch_count = model.batch_size * model.gradient_accumulation_steps
         if args.weighted_sampling:
             inputs, targets, target_masks, branch_targets = sample_batch_weighted(
                 tokens, masks, by_cat, batch_count, args.seq_len, rng, args.boundary_prob,
@@ -479,6 +549,7 @@ def main():
             inputs, targets, _ = sample_batch(tokens, batch_count, args.seq_len, rng)
             loss, _ = model.train_step_batch(inputs, targets)
         model.total_epochs += 1
+        sampled_train_tokens += next_train_tokens
         if step % 50 == 0 or step == args.steps - 1:
             current_lr = model.optimizer.param_groups[0]["lr"]
             qs = model.quantum_stats()
