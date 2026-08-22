@@ -17,6 +17,14 @@ class EchoTokenizer:
     def vocab_size(self):
         return self.processor.get_piece_size()
 
+    @property
+    def eos_id(self):
+        return int(self.processor.eos_id())
+
+    @property
+    def bos_id(self):
+        return int(self.processor.bos_id())
+
     def encode(self, text):
         return self.processor.encode(text, out_type=int)
 

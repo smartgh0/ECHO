@@ -9,6 +9,7 @@ import torch
 
 from echo_tokenizer import EchoTokenizer
 from echo_transformer import QuantumTransformerLM
+from echo_format import truncate_format_bleed
 
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -30,21 +31,7 @@ def load_domain_model(checkpoint_path):
     return model, EchoTokenizer(tokenizer_path)
 
 
-# Stop when the model starts hallucinating the next training turn.
-STOP_MARKERS = ("\nuser:", "\nuser :", "\necho:", "\necho :")
-
-
-def _truncate_at_stop(text):
-    """Cut generated text at the first fake next-turn marker, if any."""
-    cut = len(text)
-    for marker in STOP_MARKERS:
-        index = text.find(marker)
-        if index != -1:
-            cut = min(cut, index)
-    return text[:cut].rstrip()
-
-
-def generate(model, tokenizer, prompt, length=400, temperature=0.3):
+def generate(model, tokenizer, prompt, length=400, temperature=0.3, stop_after_first_tool=False):
     """Yield text chunks as tokens are sampled, so callers can print incrementally."""
     token_ids = tokenizer.encode(prompt)
     generated = []
@@ -61,11 +48,13 @@ def generate(model, tokenizer, prompt, length=400, temperature=0.3):
                 next_id = int(torch.multinomial(torch.softmax(logits, dim=-1), 1).item())
             generated.append(next_id)
             token_ids.append(next_id)
-            if next_id == 2:
+            if next_id == getattr(tokenizer, "eos_id", 2):
                 break
             # Re-decode the whole run so far; SentencePiece needs full context to place spaces correctly.
             full_text = tokenizer.decode(generated)
-            stopped = _truncate_at_stop(full_text)
+            stopped = truncate_format_bleed(
+                full_text, stop_after_first_tool=stop_after_first_tool
+            )
             if len(stopped) < len(full_text):
                 chunk = stopped[len(previous_text):]
                 if chunk:
@@ -81,7 +70,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--checkpoint", default=None,
                         help="checkpoint path; defaults to the latest model.pt")
-    parser.add_argument("--max-new-tokens", type=int, default=200,
+    parser.add_argument("--max-new-tokens", type=int, default=512,
                         help="maximum tokens to generate per reply")
     parser.add_argument("--temperature", type=float, default=0.3,
                         help="sampling temperature (lower = more deterministic; 0 = greedy)")
