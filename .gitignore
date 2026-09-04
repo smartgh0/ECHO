@@ -38,3 +38,18 @@ pipeline/input/prompts.txt
 brain/model.pt
 *.pdf
 .~lock.*
+
+# Intelligence-transfer experiment artifacts (weights are multi-GB)
+Qwen1_5b/
+echo_Q_ft/
+echo_Q_blank/
+echo_Q_local/
+echo_Q_release/
+echo_intel/*.npz
+domain_brain_moe/
+domain_brain_2b/
+nova_brain*/
+snapshots/
+*.pt
+*.u32
+*.u8
